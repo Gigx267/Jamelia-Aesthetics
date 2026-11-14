@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23F5EAE2'/%3E%3Cpath d='M32 43C19 43 13 36 13 36c9-2 15 0 19 7Zm0 0c0-14 8-21 8-21 4 9 2 16-8 21Zm0 0c13 0 19-7 19-7-9-2-15 0-19 7Z' fill='%23D7B89A' stroke='%232D1F1A' stroke-width='2' stroke-linejoin='round'/%3E%3Cpath d='M19 49h26M24 54h16' fill='none' stroke='%232D1F1A' stroke-width='2.5' stroke-linecap='round'/%3E%3C/svg%3E" />
   
   <!-- Primary SEO Meta Tags -->
   <title>Jamelia Aesthetics | Bespoke Facial Spa, Holistic Skincare & Aesthetic Sanctuary</title>
@@ -217,6 +218,162 @@
     }
     ::-webkit-scrollbar-thumb:hover {
       background: #A4907C;
+    }
+
+    /* Luxury boutique polish for select sections */
+    body {
+      background:
+        radial-gradient(circle at top left, rgba(212, 196, 183, 0.22), transparent 22%),
+        radial-gradient(circle at bottom right, rgba(181, 158, 138, 0.11), transparent 18%),
+        #FAF7F2;
+    }
+
+    #main-header {
+      background: rgba(250, 247, 242, 0.88);
+      border-bottom: 1px solid rgba(200, 182, 166, 0.7);
+      box-shadow: 0 20px 45px rgba(44, 38, 35, 0.06);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+    }
+
+    #main-header nav a,
+    #main-header .rounded-full,
+    #main-header .border,
+    #main-header button {
+      transition: transform 240ms ease, box-shadow 240ms ease, border-color 240ms ease, background-color 240ms ease;
+    }
+
+    #main-header nav a:hover,
+    #main-header .rounded-full:hover,
+    #main-header button:hover {
+      transform: translateY(-1px);
+    }
+
+    #sanctuary article,
+    #sanctuary .group,
+    #brand-crest .reveal-up > div,
+    #brand-crest .group,
+    #reviews blockquote,
+    #booking .reveal-up,
+    #booking form,
+    #booking-confirmation,
+    #treatments-grid > div,
+    #booking .bg-cream-100,
+    footer {
+      background: linear-gradient(180deg, rgba(255, 255, 255, 0.82), rgba(243, 237, 226, 0.95));
+      border: 1px solid rgba(164, 144, 124, 0.35);
+      box-shadow: 0 18px 38px rgba(44, 38, 35, 0.06), inset 0 1px 0 rgba(255, 255, 255, 0.5);
+    }
+
+    #sanctuary article,
+    #brand-crest .group,
+    #reviews blockquote,
+    #treatments-grid > div,
+    #booking .reveal-up,
+    #booking form,
+    #booking-confirmation {
+      border-radius: 2rem;
+    }
+
+    #brand-crest .reveal-up > div {
+      background: linear-gradient(145deg, rgba(255, 255, 255, 0.8), rgba(242, 234, 224, 0.96));
+      border-radius: 2.25rem;
+    }
+
+    .treatment-tab {
+      border: 1px solid rgba(164, 144, 124, 0.28);
+      box-shadow: 0 8px 18px rgba(44, 38, 35, 0.04);
+      letter-spacing: 0.18em;
+    }
+
+    .treatment-tab.active {
+      box-shadow: 0 16px 35px rgba(44, 38, 35, 0.12);
+      border-color: rgba(44, 38, 35, 0.2);
+    }
+
+    .treatment-tab:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 12px 24px rgba(44, 38, 35, 0.08);
+    }
+
+    #treatments-grid > div {
+      position: relative;
+      overflow: hidden;
+      border-radius: 1.8rem;
+      transition: transform 220ms ease, box-shadow 220ms ease;
+    }
+
+    #treatments-grid > div:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 22px 46px rgba(44, 38, 35, 0.09);
+    }
+
+    #treatments-grid > div::before {
+      content: "";
+      position: absolute;
+      inset: 0 auto auto 0;
+      width: 100%;
+      height: 4px;
+      background: linear-gradient(90deg, rgba(133, 114, 95, 0.9), rgba(200, 182, 166, 0.8), rgba(255,255,255,0));
+      opacity: 0.9;
+    }
+
+    #reviews blockquote {
+      position: relative;
+      overflow: hidden;
+      background: linear-gradient(180deg, rgba(255,255,255,0.75), rgba(243,237,226,0.9));
+    }
+
+    #reviews blockquote::before {
+      content: "“";
+      position: absolute;
+      top: 12px;
+      right: 22px;
+      font-family: Georgia, serif;
+      font-size: 5rem;
+      line-height: 1;
+      color: rgba(133, 114, 95, 0.14);
+    }
+
+    #booking .reveal-up {
+      background: linear-gradient(180deg, rgba(255,255,255,0.9), rgba(243,237,226,0.94));
+    }
+
+    #appointment-form input,
+    #appointment-form select,
+    #appointment-form textarea {
+      background: rgba(243, 237, 226, 0.9);
+      border: 1px solid rgba(164, 144, 124, 0.4);
+      box-shadow: inset 0 1px 1px rgba(255,255,255,0.8);
+      transition: border-color 200ms ease, box-shadow 200ms ease, transform 200ms ease, background 200ms ease;
+    }
+
+    #appointment-form input:focus,
+    #appointment-form select:focus,
+    #appointment-form textarea:focus {
+      border-color: rgba(133, 114, 95, 0.9);
+      box-shadow: 0 0 0 4px rgba(200, 182, 166, 0.18);
+      background: rgba(255,255,255,0.95);
+      transform: translateY(-1px);
+    }
+
+    #booking-confirmation {
+      border-radius: 1.8rem;
+    }
+
+    footer {
+      border-top: 1px solid rgba(200, 182, 166, 0.6) !important;
+      box-shadow: inset 0 1px 0 rgba(255,255,255,0.6);
+    }
+
+    @media (max-width: 640px) {
+      #sanctuary article,
+      #reviews blockquote,
+      #treatments-grid > div,
+      #booking form,
+      #booking-confirmation {
+        border-radius: 1.5rem;
+      }
     }
   </style>
 </head>
@@ -452,6 +609,7 @@
         </div>
       </div>
     </section>
+
     <!-- 4. THE SANCTUARY VISUAL GALLERY & INSTAGRAM FEED PREVIEW -->
     <section id="sanctuary" class="py-20 md:py-28 bg-cream-200/60 border-y border-cream-300/80">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-10">
@@ -472,12 +630,12 @@
         </div>
 
         <!-- Editorial Bento / Masonry Visual Grid -->
-        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-12 gap-5 lg:gap-6">
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-12 gap-4 sm:gap-5 lg:gap-6">
           
           <!-- Large Feature Card -->
-          <article class="reveal-up lg:col-span-6 group relative rounded-4xl overflow-hidden bg-cream-300 aspect-[4/3] lg:aspect-auto lg:h-[460px]">
+          <article class="reveal-up lg:col-span-6 group relative isolate rounded-[1.75rem] overflow-hidden bg-cream-300 aspect-[4/3] lg:aspect-auto lg:h-[460px] border border-white/70 shadow-[0_20px_55px_rgba(66,45,35,0.12)] ring-1 ring-espresso-900/5">
             <video
-              class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+              class="w-full h-full object-cover transition-transform duration-1000 ease-out group-hover:scale-[1.03]"
               autoplay
               muted
               loop
@@ -486,18 +644,14 @@
             >
             <source src="./ft (1).mp4" type="video/mp4" />
             </video>
-            <div class="absolute inset-0 bg-gradient-to-t from-espresso-900/55 via-espresso-900/10 to-transparent"></div>
-            <div class="absolute bottom-6 left-6 right-6 text-cream-50">
-              <span class="text-[10px] uppercase tracking-[0.24em] text-cream-200">Private Treatment Suite</span>
-              <h3 class="font-serif text-2xl mt-1">Warm Alabaster &amp; Organic Linens</h3>
-            </div>
+            <div class="absolute inset-0 bg-gradient-to-t from-espresso-900/45 via-espresso-900/5 to-transparent pointer-events-none"></div>
           </article>
 
           <!-- Center Stacked Cards -->
           <div class="lg:col-span-3 flex flex-col gap-5 lg:gap-6">
-            <article class="reveal-up delay-100 group relative rounded-4xl overflow-hidden bg-cream-300 h-[218px]">
+            <article class="reveal-up delay-100 group relative isolate rounded-[1.65rem] overflow-hidden bg-cream-300 h-[218px] border border-white/70 shadow-[0_16px_40px_rgba(66,45,35,0.10)] ring-1 ring-espresso-900/5">
               <video
-                class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                class="w-full h-full object-cover transition-transform duration-1000 ease-out group-hover:scale-[1.04]"
                 autoplay
                 muted
                 loop
@@ -506,13 +660,12 @@
               >
                 <source src="./hj (1).mp4" type="video/mp4" />
               </video>
-              <div class="absolute inset-0 bg-gradient-to-t from-espresso-900/50 to-transparent"></div>
-              <p class="absolute bottom-4 left-5 font-serif text-lg text-cream-50">Silk Barrier Elixirs</p>
+              <div class="absolute inset-0 bg-gradient-to-t from-espresso-900/35 to-transparent pointer-events-none"></div>
             </article>
 
-            <article class="reveal-up delay-200 group relative rounded-4xl overflow-hidden bg-cream-300 h-[218px]">
+            <article class="reveal-up delay-200 group relative isolate rounded-[1.65rem] overflow-hidden bg-cream-300 h-[218px] border border-white/70 shadow-[0_16px_40px_rgba(66,45,35,0.10)] ring-1 ring-espresso-900/5">
               <video
-                class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                class="w-full h-full object-cover transition-transform duration-1000 ease-out group-hover:scale-[1.04]"
                 autoplay
                 muted
                 loop
@@ -521,15 +674,14 @@
               >
                 <source src="./hj (2).mp4" type="video/mp4" />
               </video>
-              <div class="absolute inset-0 bg-gradient-to-t from-espresso-900/50 to-transparent"></div>
-              <p class="absolute bottom-4 left-5 font-serif text-lg text-cream-50">Sculptural Touch</p>
+              <div class="absolute inset-0 bg-gradient-to-t from-espresso-900/35 to-transparent pointer-events-none"></div>
             </article>
           </div>
 
           <!-- Right Vertical Card -->
-          <article class="reveal-up delay-300 sm:col-span-2 lg:col-span-3 group relative rounded-4xl overflow-hidden bg-cream-300 h-[340px] lg:h-[460px]">
+          <article class="reveal-up delay-300 sm:col-span-2 lg:col-span-3 group relative isolate rounded-[1.75rem] overflow-hidden bg-cream-300 h-[340px] lg:h-[460px] border border-white/70 shadow-[0_20px_55px_rgba(66,45,35,0.12)] ring-1 ring-espresso-900/5">
             <video
-              class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+              class="w-full h-full object-cover transition-transform duration-1000 ease-out group-hover:scale-[1.03]"
               autoplay
               muted
               loop
@@ -538,313 +690,69 @@
             >
               <source src="./ft (1).mp4" type="video/mp4" />
             </video>
-            <div class="absolute inset-0 bg-gradient-to-t from-espresso-900/60 via-transparent to-transparent"></div>
+            <div class="absolute inset-0 bg-gradient-to-t from-espresso-900/55 via-transparent to-transparent pointer-events-none"></div>
             <div class="absolute bottom-6 left-6 right-6 text-cream-50">
-              <span class="text-[10px] uppercase tracking-[0.24em] text-cream-200">Post-Treatment Lounge</span>
-              <h3 class="font-serif text-xl mt-1">Chamomile &amp; White Lotus Infusion</h3>
+              <span class="inline-flex rounded-full border border-white/25 bg-cream-50/10 px-3.5 py-2 text-[10px] uppercase tracking-[0.24em] text-cream-100 backdrop-blur-md">Balance • Enhance</span>
             </div>
           </article>
 
         </div>
       </div>
     </section>
+
     <!-- 2. BRAND LOGO SHOWCASE & PHILOSOPHY SECTION -->
-    <section id="brand-crest" class="py-20 md:py-28 bg-cream-200/65 border-y border-cream-300/80 relative">
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-10">
-        
-        <!-- Dedicated Brand Logo & Crest Showcase Card -->
-        <div class="reveal-up bg-cream-100 rounded-4xl border border-clay-400/40 p-8 sm:p-12 lg:p-16 shadow-sm">
-          <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-12 items-center">
-            
-            <!-- Left: Bento Video -->
-            <div class="lg:col-span-5">
-              <article class="group relative overflow-hidden rounded-[2rem] border border-cream-300 bg-cream-300 shadow-sm h-[420px] sm:h-[470px]">
-                <video
-                  class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
-                  autoplay
-                  muted
-                  loop
-                  playsinline
-                  poster="./logo.jpg"
-                >
-                  <source src="./hj (2).mp4" type="video/mp4" />
-                </video>
-                <div class="absolute inset-0 bg-gradient-to-t from-espresso-900/60 via-espresso-900/10 to-transparent"></div>
-                <div class="absolute inset-x-5 bottom-5 text-cream-50">
-                  <span class="text-[10px] uppercase tracking-[0.28em] text-cream-200">Jamelia Ritual</span>
-                  <h3 class="font-serif text-2xl sm:text-3xl mt-2">Quiet Luxury, In Motion</h3>
-                </div>
-              </article>
-            </div>
-
-            <!-- Right: Philosophy & Core Sanctuary Pillars -->
-            <div id="philosophy" class="lg:col-span-7 space-y-6">
-              <p class="text-xs uppercase tracking-[0.28em] text-clay-700 font-medium">The Jamelia Philosophy</p>
-              <h2 class="font-serif text-3xl sm:text-4xl lg:text-5xl text-espresso-900 leading-tight font-normal">
-                Where Quiet Luxury Meets <span class="italic text-clay-700">Intentional Skin Artistry</span>
-              </h2>
-              <p class="text-espresso-700 leading-relaxed font-light text-base sm:text-lg">
-                At <strong class="font-medium text-espresso-900">Jamelia Aesthetics</strong>, we believe radiant skin flourishes when the nervous system is at rest. Every ritual begins with an unhurried skin consultation, warm aromatherapy compresses, and bespoke formulations tailored exclusively to your barrier's needs.
-              </p>
-
-              <!-- 3 Core Pillars -->
-              <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 pt-4">
-                <div class="p-5 rounded-3xl bg-cream-200/75 border border-cream-300">
-                  <span class="font-serif italic text-xl text-clay-700">01.</span>
-                  <h3 class="font-serif text-xl text-espresso-900 mt-1">Bespoke Therapy</h3>
-                  <p class="text-xs text-espresso-700/90 leading-relaxed mt-2">Custom-blended serums, enzymes, and modalities calibrated to your skin's exact cycle.</p>
-                </div>
-                <div class="p-5 rounded-3xl bg-cream-200/75 border border-cream-300">
-                  <span class="font-serif italic text-xl text-clay-700">02.</span>
-                  <h3 class="font-serif text-xl text-espresso-900 mt-1">Holistic Calm</h3>
-                  <p class="text-xs text-espresso-700/90 leading-relaxed mt-2">Warm cream linens, gentle lymphatic touch, and harmonic frequencies that melt tension.</p>
-                </div>
-                <div class="p-5 rounded-3xl bg-cream-200/75 border border-cream-300">
-                  <span class="font-serif italic text-xl text-clay-700">03.</span>
-                  <h3 class="font-serif text-xl text-espresso-900 mt-1">Clinical Precision</h3>
-                  <p class="text-xs text-espresso-700/90 leading-relaxed mt-2">Results-driven barrier restoration, LED phototherapy, and sculptural facial lifting.</p>
-                </div>
-              </div>
-            </div>
-
-          </div>
-        </div>
-
-      </div>
-    </section>
+  
 
     <!-- 3. CURATED TREATMENTS & INTERACTIVE SERVICES MENU -->
     <section id="treatments" class="py-20 md:py-28 relative">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-10">
         
         <!-- Section Header -->
-        <div class="reveal-up text-center max-w-2xl mx-auto">
-          <p class="text-xs uppercase tracking-[0.28em] text-clay-700 font-medium">Curated Spa Menu</p>
-          <h2 class="font-serif text-3xl sm:text-5xl text-espresso-900 mt-3 font-normal">
-            Bespoke Rituals &amp; <span class="italic text-clay-700">Treatments</span>
+        <div class="reveal-up text-center max-w-3xl mx-auto">
+          <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-[linear-gradient(135deg,rgba(178,151,142,0.14),rgba(255,255,255,0.8))] border border-[#d7c4b1]/80 shadow-[0_10px_24px_rgba(74,52,48,0.08)] mb-4">
+            <span class="w-1.5 h-1.5 rounded-full bg-clay-700 animate-pulse"></span>
+            <span class="text-[11px] uppercase tracking-[0.22em] text-clay-800 font-semibold">End of Year Promo — 20% Off Until Dec 31</span>
+          </div>
+          <h2 class="font-serif text-3xl sm:text-5xl text-espresso-900 mt-1 font-normal tracking-[-0.04em] leading-none">
+            Aesthetic Menu &amp; <span class="italic text-clay-700">Treatments</span>
           </h2>
-          <p class="mt-4 text-sm sm:text-base text-espresso-700 font-light">
-            Select a category below to explore our signature facials, sculpting bodywork, and radiant aesthetic enhancements.
+          <p class="mt-4 text-sm sm:text-base text-espresso-700 font-light max-w-2xl mx-auto">
+            Signature UK-trained aesthetics and luxury skin rituals. Select a category below to explore treatments and limited-time promotional pricing.
           </p>
         </div>
 
         <!-- Category Filter Tabs -->
         <div class="reveal-up delay-100 mt-10 flex flex-wrap items-center justify-center gap-2.5 sm:gap-3" role="tablist" aria-label="Treatment Categories">
-          <button type="button" data-category="facials" class="treatment-tab active px-5 sm:px-6 py-3 rounded-full text-xs uppercase tracking-[0.18em] font-medium transition-all duration-300 bg-espresso-900 text-cream-50 shadow-sm">
-            Facials &amp; Skin Rituals
+          <button type="button" data-category="fillers" class="treatment-tab active px-5 sm:px-6 py-3 rounded-full text-xs uppercase tracking-[0.18em] font-medium transition-all duration-300 bg-espresso-900 text-cream-50 shadow-sm">
+            Fillers &amp; Collagen
           </button>
-          <button type="button" data-category="sculpting" class="treatment-tab px-5 sm:px-6 py-3 rounded-full text-xs uppercase tracking-[0.18em] font-medium transition-all duration-300 bg-cream-200 text-espresso-800 hover:bg-cream-300">
-            Body Sculpting &amp; Massage
+          <button type="button" data-category="antiwrinkle" class="treatment-tab px-5 sm:px-6 py-3 rounded-full text-xs uppercase tracking-[0.18em] font-medium transition-all duration-300 bg-cream-200 text-espresso-800 hover:bg-cream-300">
+            Anti-Wrinkle &amp; Threads
           </button>
-          <button type="button" data-category="aesthetics" class="treatment-tab px-5 sm:px-6 py-3 rounded-full text-xs uppercase tracking-[0.18em] font-medium transition-all duration-300 bg-cream-200 text-espresso-800 hover:bg-cream-300">
-            Aesthetic Enhancements
+          <button type="button" data-category="skin" class="treatment-tab px-5 sm:px-6 py-3 rounded-full text-xs uppercase tracking-[0.18em] font-medium transition-all duration-300 bg-cream-200 text-espresso-800 hover:bg-cream-300">
+            Facials, Peels &amp; Boosters
           </button>
-          <button type="button" data-category="bridal" class="treatment-tab px-5 sm:px-6 py-3 rounded-full text-xs uppercase tracking-[0.18em] font-medium transition-all duration-300 bg-cream-200 text-espresso-800 hover:bg-cream-300">
-            Bridal &amp; Glow Packages
+          <button type="button" data-category="body" class="treatment-tab px-5 sm:px-6 py-3 rounded-full text-xs uppercase tracking-[0.18em] font-medium transition-all duration-300 bg-cream-200 text-espresso-800 hover:bg-cream-300">
+            Body Sculpting &amp; Wellness
+          </button>
+          <button type="button" data-category="spmu" class="treatment-tab px-5 sm:px-6 py-3 rounded-full text-xs uppercase tracking-[0.18em] font-medium transition-all duration-300 bg-cream-200 text-espresso-800 hover:bg-cream-300">
+            Semi-Permanent Makeup
           </button>
         </div>
 
         <!-- Dynamic Treatments Grid -->
         <div id="treatments-grid" class="mt-12 grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8">
-          <!-- Cards populated cleanly via JavaScript for seamless category switching and booking prefill -->
+          <!-- Cards populated cleanly via JavaScript -->
         </div>
 
       </div>
     </section>
 
+    
 
+   
 
-    <!-- 5. CLIENT TESTIMONIALS & REFLECTIONS -->
-    <section id="reviews" class="py-20 md:py-28">
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-10">
-        <div class="reveal-up text-center max-w-2xl mx-auto mb-14">
-          <p class="text-xs uppercase tracking-[0.28em] text-clay-700 font-medium">Guest Reflections</p>
-          <h2 class="font-serif text-3xl sm:text-5xl text-espresso-900 mt-3 font-normal">
-            Words From Our <span class="italic text-clay-700">Sanctuary</span>
-          </h2>
-        </div>
-
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8">
-          <blockquote class="reveal-up bg-cream-200/70 border border-cream-300 rounded-4xl p-8 flex flex-col justify-between">
-            <div>
-              <div class="flex items-center gap-1 text-clay-600 mb-4" aria-label="5 out of 5 stars">
-                <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
-              </div>
-              <p class="font-serif italic text-xl text-espresso-900 leading-relaxed">
-                “From the moment you step through the doors, the soft cream aesthetic and gentle scent instantly calm your mind. My skin has never looked more luminous.”
-              </p>
-            </div>
-            <footer class="mt-6 pt-4 border-t border-cream-300 flex items-center justify-between">
-              <span class="text-xs uppercase tracking-[0.18em] font-medium text-espresso-900">Amara O.</span>
-              <span class="text-xs text-clay-700">Signature Glass Skin Facial</span>
-            </footer>
-          </blockquote>
-
-          <blockquote class="reveal-up delay-100 bg-cream-200/70 border border-cream-300 rounded-4xl p-8 flex flex-col justify-between">
-            <div>
-              <div class="flex items-center gap-1 text-clay-600 mb-4" aria-label="5 out of 5 stars">
-                <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
-              </div>
-              <p class="font-serif italic text-xl text-espresso-900 leading-relaxed">
-                “The Sculptural Buccal &amp; Lymphatic Lift is pure magic. My cheekbones felt visibly lifted, and I drifted into the deepest, most peaceful sleep.”
-              </p>
-            </div>
-            <footer class="mt-6 pt-4 border-t border-cream-300 flex items-center justify-between">
-              <span class="text-xs uppercase tracking-[0.18em] font-medium text-espresso-900">Chidinma K.</span>
-              <span class="text-xs text-clay-700">Lymphatic Lift Ritual</span>
-            </footer>
-          </blockquote>
-
-          <blockquote class="reveal-up delay-200 bg-cream-200/70 border border-cream-300 rounded-4xl p-8 flex flex-col justify-between">
-            <div>
-              <div class="flex items-center gap-1 text-clay-600 mb-4" aria-label="5 out of 5 stars">
-                <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
-              </div>
-              <p class="font-serif italic text-xl text-espresso-900 leading-relaxed">
-                “I booked the Bridal Radiance Series leading up to my wedding. Every visit felt like a warm hug, and my makeup artist raved about my skin texture.”
-              </p>
-            </div>
-            <footer class="mt-6 pt-4 border-t border-cream-300 flex items-center justify-between">
-              <span class="text-xs uppercase tracking-[0.18em] font-medium text-espresso-900">Zainab M.</span>
-              <span class="text-xs text-clay-700">Bridal Glow Package</span>
-            </footer>
-          </blockquote>
-        </div>
-      </div>
-    </section>
-
-    <!-- 6. APPOINTMENT RESERVATION & CONSULTATION SECTION -->
-    <section id="booking" class="py-20 md:py-28 bg-cream-200/75 border-t border-cream-300">
-      <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-10">
-        <div class="reveal-up bg-cream-100 rounded-4xl border border-clay-400/50 shadow-sm overflow-hidden">
-          <div class="grid grid-cols-1 lg:grid-cols-12">
-            
-            <!-- Left Studio Details Panel -->
-            <div class="lg:col-span-5 bg-cream-300/65 p-8 sm:p-10 lg:p-12 flex flex-col justify-between border-b lg:border-b-0 lg:border-r border-clay-400/30">
-              <div>
-                <p class="text-xs uppercase tracking-[0.26em] text-clay-700 font-medium">Reservations</p>
-                <h2 class="font-serif text-3xl sm:text-4xl text-espresso-900 mt-2 leading-tight font-normal">
-                  Reserve Your <span class="italic text-clay-700">Sanctuary</span> Experience
-                </h2>
-                <p class="mt-4 text-sm text-espresso-700 leading-relaxed font-light">
-                  Complete your appointment request below. Our aesthetic concierge will confirm your private suite and customize your pre-ritual consultation.
-                </p>
-
-                <div class="mt-8 space-y-5 text-sm">
-                  <div class="flex items-start gap-3.5">
-                    <div class="w-9 h-9 rounded-full bg-cream-100 flex items-center justify-center shrink-0 text-clay-700">
-                      <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="1.6" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z" />
-                      </svg>
-                    </div>
-                    <div>
-                      <p class="font-medium text-espresso-900">Sanctuary Hours</p>
-                      <p class="text-xs text-espresso-700 mt-0.5">Tue – Sat: 9:30 AM – 7:30 PM<br/>Sun – Mon: Private Bridal Bookings</p>
-                    </div>
-                  </div>
-
-                  <div class="flex items-start gap-3.5">
-                    <div class="w-9 h-9 rounded-full bg-cream-100 flex items-center justify-center shrink-0 text-clay-700">
-                      <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="1.6" viewBox="0 0 24 24">
-                        <rect x="2" y="2" width="20" height="20" rx="5"></rect>
-                        <circle cx="12" cy="12" r="4"></circle>
-                      </svg>
-                    </div>
-                    <div>
-                      <p class="font-medium text-espresso-900">Direct Concierge &amp; DM</p>
-                      <a href="https://www.instagram.com/jamelia_aesthetics/" target="_blank" rel="noopener noreferrer" class="text-xs text-clay-700 hover:text-espresso-900 underline mt-0.5 inline-block">
-                        @jamelia_aesthetics on Instagram
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="mt-10 pt-6 border-t border-clay-400/30">
-                <p class="font-serif italic text-base text-espresso-800">“Arrive 10 minutes early to enjoy warm herbal tea in our relaxation lounge.”</p>
-              </div>
-            </div>
-
-            <!-- Right Interactive Booking Form -->
-            <div class="lg:col-span-7 p-8 sm:p-10 lg:p-12">
-              <form id="appointment-form" class="space-y-5">
-                <div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
-                  <div>
-                    <label for="client-name" class="block text-xs uppercase tracking-[0.16em] text-espresso-800 mb-2">Full Name *</label>
-                    <input type="text" id="client-name" name="clientName" required placeholder="e.g. Sophia Adeyemi" class="w-full px-4 py-3.5 rounded-2xl bg-cream-200/70 border border-cream-300 text-sm text-espresso-900 placeholder-clay-600 focus:outline-none focus:border-clay-600 focus:bg-cream-50 transition-colors" />
-                  </div>
-                  <div>
-                    <label for="client-phone" class="block text-xs uppercase tracking-[0.16em] text-espresso-800 mb-2">Phone / WhatsApp *</label>
-                    <input type="tel" id="client-phone" name="clientPhone" required placeholder="+234 800 000 0000" class="w-full px-4 py-3.5 rounded-2xl bg-cream-200/70 border border-cream-300 text-sm text-espresso-900 placeholder-clay-600 focus:outline-none focus:border-clay-600 focus:bg-cream-50 transition-colors" />
-                  </div>
-                </div>
-
-                <div>
-                  <label for="service-select" class="block text-xs uppercase tracking-[0.16em] text-espresso-800 mb-2">Select Treatment Ritual *</label>
-                  <select id="service-select" name="service" required class="w-full px-4 py-3.5 rounded-2xl bg-cream-200/70 border border-cream-300 text-sm text-espresso-900 focus:outline-none focus:border-clay-600 focus:bg-cream-50 transition-colors">
-                    <option value="The Jamelia Signature Silk & Glass Skin Facial">The Jamelia Signature Silk &amp; Glass Skin Facial (75 min)</option>
-                    <option value="Sculptural Buccal & Lymphatic Lift Ritual">Sculptural Buccal &amp; Lymphatic Lift Ritual (60 min)</option>
-                    <option value="Calming Oat & Ceramide Barrier Recovery">Calming Oat &amp; Ceramide Barrier Recovery (60 min)</option>
-                    <option value="Warm Botanical Body Contour & Lymphatic Detox">Warm Botanical Body Contour &amp; Lymphatic Detox (90 min)</option>
-                    <option value="Velvet Cream Full-Body Aromatherapy Ritual">Velvet Cream Full-Body Aromatherapy Ritual (75 min)</option>
-                    <option value="Nano-Infusion & Bio-Cellulose Luminosity">Nano-Infusion &amp; Bio-Cellulose Luminosity (60 min)</option>
-                    <option value="The Jamelia Bridal Radiance Series">The Jamelia Bridal Radiance Series (3-Session Package)</option>
-                  </select>
-                </div>
-
-                <div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
-                  <div>
-                    <label for="preferred-date" class="block text-xs uppercase tracking-[0.16em] text-espresso-800 mb-2">Preferred Date *</label>
-                    <input type="date" id="preferred-date" name="preferredDate" required class="w-full px-4 py-3.5 rounded-2xl bg-cream-200/70 border border-cream-300 text-sm text-espresso-900 focus:outline-none focus:border-clay-600 focus:bg-cream-50 transition-colors" />
-                  </div>
-                  <div>
-                    <label for="preferred-time" class="block text-xs uppercase tracking-[0.16em] text-espresso-800 mb-2">Preferred Time *</label>
-                    <select id="preferred-time" name="preferredTime" required class="w-full px-4 py-3.5 rounded-2xl bg-cream-200/70 border border-cream-300 text-sm text-espresso-900 focus:outline-none focus:border-clay-600 focus:bg-cream-50 transition-colors">
-                      <option value="10:00 AM">10:00 AM — Morning Calm</option>
-                      <option value="12:30 PM">12:30 PM — Midday Escape</option>
-                      <option value="03:00 PM">03:00 PM — Afternoon Glow</option>
-                      <option value="05:30 PM">05:30 PM — Evening Unwind</option>
-                    </select>
-                  </div>
-                </div>
-
-                <div>
-                  <label for="skin-notes" class="block text-xs uppercase tracking-[0.16em] text-espresso-800 mb-2">Skin Goals or Sensitivities (Optional)</label>
-                  <textarea id="skin-notes" name="notes" rows="3" placeholder="Tell us about your skin goals, pregnancy, or preferred pressure..." class="w-full px-4 py-3 rounded-2xl bg-cream-200/70 border border-cream-300 text-sm text-espresso-900 placeholder-clay-600 focus:outline-none focus:border-clay-600 focus:bg-cream-50 transition-colors"></textarea>
-                </div>
-
-                <button type="submit" class="w-full py-4 px-8 rounded-full bg-espresso-900 text-cream-50 text-xs uppercase tracking-[0.22em] font-medium hover:bg-clay-700 transition-all duration-300 shadow-md hover:shadow-lg">
-                  Confirm Sanctuary Request
-                </button>
-              </form>
-
-              <!-- Instant Booking Confirmation Message Box (Replaces any alert()) -->
-              <div id="booking-confirmation" class="hidden text-center py-8 px-4 space-y-4">
-                <div class="w-14 h-14 rounded-full bg-cream-200 border border-clay-400 flex items-center justify-center mx-auto text-espresso-900">
-                  <svg class="w-7 h-7" fill="none" stroke="currentColor" stroke-width="1.6" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
-                  </svg>
-                </div>
-                <h3 class="font-serif text-3xl text-espresso-900">Your Ritual Request is Received</h3>
-                <p id="confirmation-summary" class="text-sm text-espresso-700 max-w-md mx-auto leading-relaxed"></p>
-                <div class="pt-3 flex flex-wrap justify-center gap-3">
-                  <button id="book-another-btn" type="button" class="px-6 py-2.5 rounded-full border border-clay-400 text-xs uppercase tracking-[0.18em] text-espresso-900 hover:bg-cream-200 transition-colors">
-                    Book Another Ritual
-                  </button>
-                  <a href="https://www.instagram.com/jamelia_aesthetics/" target="_blank" rel="noopener noreferrer" class="px-6 py-2.5 rounded-full bg-espresso-900 text-cream-50 text-xs uppercase tracking-[0.18em]">
-                    Message on Instagram
-                  </a>
-                </div>
-              </div>
-            </div>
-
-          </div>
-        </div>
-      </div>
-    </section>
-  </main>
-
-  <!-- FOOTER (Extra bottom padding ensures floating spa audio player never obscures links) -->
+  <!-- FOOTER -->
   <footer class="bg-cream-100 border-t border-cream-300 pt-16 pb-28 md:pb-24">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-10">
       <div class="flex flex-col md:flex-row items-center justify-between gap-8 pb-10 border-b border-cream-300">
@@ -864,10 +772,10 @@
 
         <!-- Footer Navigation -->
         <div class="flex flex-wrap justify-center gap-6 text-xs uppercase tracking-[0.18em] text-espresso-800">
-          <a href="#philosophy" class="hover:text-clay-700 transition-colors">Philosophy</a>
-          <a href="#brand-crest" class="hover:text-clay-700 transition-colors">Brand Crest</a>
-          <a href="#treatments" class="hover:text-clay-700 transition-colors">Treatments</a>
-          <a href="#booking" class="hover:text-clay-700 transition-colors">Book Now</a>
+          <a href="about.html" class="hover:text-clay-700 transition-colors">Philosophy</a>
+         
+          <a href="treatments.html" class="hover:text-clay-700 transition-colors">Treatments</a>
+          <a href="booking.html" class="hover:text-clay-700 transition-colors">Book Now</a>
           <a href="https://www.instagram.com/jamelia_aesthetics/" target="_blank" rel="noopener noreferrer" class="hover:text-clay-700 transition-colors">Instagram</a>
         </div>
       </div>
@@ -879,10 +787,13 @@
     </div>
   </footer>
 
-  <!-- FLOATING PILL-SHAPED AMBIENT SPA MUSIC PLAYER (Synthesized via Web Audio API — Zero Broken Links) -->
+  <!-- FLOATING PILL-SHAPED AMBIENT SPA MUSIC PLAYER (Uses m.mp3) -->
   <aside id="spa-audio-player" aria-label="Ambient Spa Music Player" class="fixed bottom-4 right-4 left-4 sm:left-auto sm:right-6 sm:bottom-6 z-40">
     <div class="max-w-md mx-auto sm:mx-0 bg-cream-100/95 backdrop-blur-xl border border-clay-400/70 rounded-full px-4 py-2.5 shadow-xl flex items-center justify-between gap-3.5 transition-all duration-300">
       
+      <!-- Hidden native audio element (source of truth for playback) -->
+      <audio id="spa-audio" src="m.mp3" autoplay loop preload="auto"></audio>
+
       <!-- Play / Pause Toggle Button -->
       <button id="audio-toggle-btn" type="button" class="w-10 h-10 rounded-full bg-espresso-900 text-cream-50 hover:bg-clay-700 flex items-center justify-center shrink-0 transition-colors focus:outline-none" aria-label="Play or Pause Ambient Spa Soundscape">
         <!-- Play Icon -->
@@ -904,8 +815,8 @@
           <span class="bar-4 w-[2.5px] h-2.5 bg-clay-700 rounded-full transition-all"></span>
         </div>
         <div class="truncate">
-          <p class="text-[11px] font-medium text-espresso-900 truncate">Jamelia Sanctuary — Warm Silk &amp; Lotus</p>
-          <p id="audio-status-text" class="text-[10px] text-clay-700 truncate">Tap play for ambient spa soundscape</p>
+          <p class="text-[11px] font-medium text-espresso-900 truncate">Jamelia Sanctuary — Music &amp; Player</p>
+          <p id="audio-status-text" class="text-[10px] text-clay-700 truncate">Tap play for ambient soundscape</p>
         </div>
       </div>
 
@@ -1011,202 +922,241 @@
         }
       });
 
-      // 3. CUSTOM BRAND LOGO LIVE PREVIEWER
-      const logoInput = document.getElementById('logo-upload-input');
-      const resetLogoBtn = document.getElementById('reset-logo-btn');
-      const defaultNavSvg = document.getElementById('default-nav-svg');
-      const customNavImg = document.getElementById('custom-nav-logo-img');
-      const defaultCrestEl = document.getElementById('default-crest-emblem');
-      const customShowcaseImg = document.getElementById('custom-showcase-logo-img');
-
-      logoInput.addEventListener('change', (event) => {
-        const file = event.target.files && event.target.files[0];
-        if (!file) return;
-
-        const reader = new FileReader();
-        reader.onload = (e) => {
-          const dataUrl = e.target.result;
-          customNavImg.src = dataUrl;
-          customShowcaseImg.src = dataUrl;
-
-          defaultNavSvg.classList.add('hidden');
-          customNavImg.classList.remove('hidden');
-
-          defaultCrestEl.classList.add('hidden');
-          customShowcaseImg.classList.remove('hidden');
-          resetLogoBtn.classList.remove('hidden');
-        };
-        reader.readAsDataURL(file);
-      });
-
-      resetLogoBtn.addEventListener('click', () => {
-        logoInput.value = '';
-        customNavImg.classList.add('hidden');
-        defaultNavSvg.classList.remove('hidden');
-        customShowcaseImg.classList.add('hidden');
-        defaultCrestEl.classList.remove('hidden');
-        resetLogoBtn.classList.add('hidden');
-      });
-
-      // 4. CURATED TREATMENTS MENU & INTERACTIVE CATEGORY TABS
+      // 3. CURATED TREATMENTS MENU & INTERACTIVE CATEGORY TABS
       const treatmentsData = {
-        facials: [
+        fillers: [
           {
-            title: 'The Jamelia Signature Silk & Glass Skin Facial',
-            duration: '75 Mins',
-            price: 'Bespoke Tier',
-            tag: 'Most Requested',
-            description: 'Our hallmark multi-step radiance ritual combining gentle enzyme resurfacing, ultrasonic pore refinement, cold-globe lymphatic drainage, and a peptide-rich silk mask.',
-            bookingValue: 'The Jamelia Signature Silk & Glass Skin Facial'
+            title: "Dermal Fillers",
+            subtitle: "Precision facial contouring & volume restoration",
+            badge: "20% Off",
+            items: [
+              { name: "Lip Filler (1ml)", oldPrice: "₦200,000", price: "₦160,000" },
+              { name: "Chin Filler", oldPrice: "₦200,000", price: "₦160,000" },
+              { name: "Liquid Rhinoplasty", oldPrice: "₦220,000", price: "₦176,000" },
+              { name: "Jaw Filler", oldPrice: "₦220,000", price: "₦176,000" },
+              { name: "Cheek Filler", oldPrice: "₦220,000", price: "₦176,000" },
+              { name: "Tear Trough", oldPrice: "₦250,000", price: "₦200,000" }
+            ]
           },
           {
-            title: 'Sculptural Buccal & Lymphatic Lift Ritual',
-            duration: '60 Mins',
-            price: 'Holistic Lift',
-            tag: 'Tension Release',
-            description: 'Deep intra-oral and external myofascial sculpting designed to release jaw tension, de-puff contours, and naturally elevate cheekbones without downtime.',
-            bookingValue: 'Sculptural Buccal & Lymphatic Lift Ritual'
+            title: "Glow Filler Packages",
+            subtitle: "Multi-syringe full-face harmonization bundles",
+            badge: "20% Off",
+            items: [
+              { name: "3ML Package", oldPrice: "₦550,000", price: "₦440,000" },
+              { name: "4ML Package", oldPrice: "₦700,000", price: "₦560,000" },
+              { name: "5ML Package", oldPrice: "₦850,000", price: "₦680,000" }
+            ]
           },
           {
-            title: 'Calming Oat & Ceramide Barrier Recovery',
-            duration: '60 Mins',
-            price: 'Sensitive Care',
-            tag: 'Restorative',
-            description: 'A cocooning cream-infused treatment formulated for compromised, dry, or reactive complexions using colloidal oat, squalane, and soothing red LED light.',
-            bookingValue: 'Calming Oat & Ceramide Barrier Recovery'
-          },
-          {
-            title: 'Oxygen & Botanical Enzyme Luminosity',
-            duration: '60 Mins',
-            price: 'Instant Glow',
-            tag: 'Event Prep',
-            description: 'Revitalizes dull, fatigued skin with whipped oxygenating botanicals and gentle fruit enzymes for an immediate lit-from-within clarity.',
-            bookingValue: 'The Jamelia Signature Silk & Glass Skin Facial'
+            title: "Poly-L-Lactic Acid (PLLA)",
+            subtitle: "Deep biostimulatory collagen regeneration",
+            badge: "20% Off",
+            items: [
+              { name: "Face", oldPrice: "₦450,000", price: "₦360,000" },
+              { name: "Neck", oldPrice: "₦450,000", price: "₦360,000" }
+            ]
           }
         ],
-        sculpting: [
+        antiwrinkle: [
           {
-            title: 'Warm Botanical Body Contour & Lymphatic Detox',
-            duration: '90 Mins',
-            price: 'Full Silhouette',
-            tag: 'Signature Body',
-            description: 'Rhythmic Brazilian-inspired lymphatic drainage paired with warm wood-therapy tools and organic shea-ginger oil to reduce fluid retention and smooth skin tone.',
-            bookingValue: 'Warm Botanical Body Contour & Lymphatic Detox'
+            title: "Anti-Wrinkle (Botox) — Upper Face",
+            subtitle: "Smooth fine lines across frown, forehead & crow's feet",
+            badge: "20% Off",
+            items: [
+              { name: "1 Area (Any 1 Area)", oldPrice: "₦100,000", price: "₦80,000" },
+              { name: "2 Areas (Any 2 Areas)", oldPrice: "₦150,000", price: "₦120,000" },
+              { name: "3 Areas (Frown, Forehead & Crow's Feet)", oldPrice: "₦200,000", price: "₦160,000" }
+            ]
           },
           {
-            title: 'Velvet Cream Full-Body Aromatherapy Ritual',
-            duration: '75 Mins',
-            price: 'Deep Serenity',
-            tag: 'Relaxation',
-            description: 'Slow, enveloping massage strokes using warm whipped vanilla-sandalwood cream butter, hot basalt stones along the spine, and scalp acupressure.',
-            bookingValue: 'Velvet Cream Full-Body Aromatherapy Ritual'
+            title: "Targeted Botox & Slimming",
+            subtitle: "Refined contouring & tension relief",
+            badge: "20% Off",
+            items: [
+              { name: "Nose Slimming", oldPrice: "₦150,000", price: "₦120,000" },
+              { name: "Jaw Slimming", oldPrice: "₦200,000", price: "₦160,000" },
+              { name: "Neck Bands", oldPrice: "₦200,000", price: "₦160,000" },
+              { name: "TrapTox", oldPrice: "₦300,000", price: "₦240,000" }
+            ]
+          },
+          {
+            title: "PDO Thread Lift",
+            subtitle: "Non-surgical lifting & structural tightening",
+            badge: "20% Off",
+            items: [
+              { name: "Jowls / Cheeks / Jawline / Neck", oldPrice: "₦200,000", price: "₦160,000" },
+              { name: "Mono Facial Threads", oldPrice: "₦200,000", price: "₦160,000" }
+            ]
           }
         ],
-        aesthetics: [
+        skin: [
           {
-            title: 'Nano-Infusion & Bio-Cellulose Luminosity',
-            duration: '60 Mins',
-            price: 'Clinical Glow',
-            tag: 'Zero Downtime',
-            description: 'Micro-channeling nano-tip infusion drives hyaluronic acid, niacinamide, and brightening antioxidants deep into the epidermis for glass-like smoothness.',
-            bookingValue: 'Nano-Infusion & Bio-Cellulose Luminosity'
+            title: "Facials",
+            subtitle: "Deep cellular renewal & hydrating radiance",
+            badge: "20% Off",
+            items: [
+              { name: "Hydra Facial", oldPrice: "₦80,000", price: "₦64,000" },
+              { name: "Microneedling Facial", oldPrice: "₦100,000", price: "₦80,000" }
+            ]
           },
           {
-            title: 'Dermaplaning & LED Phototherapy Polish',
-            duration: '50 Mins',
-            price: 'Velvet Finish',
-            tag: 'Smooth Texture',
-            description: 'Delicate removal of vellus peach fuzz and surface buildup followed by medical-grade dermal LED light therapy to stimulate collagen renewal.',
-            bookingValue: 'Nano-Infusion & Bio-Cellulose Luminosity'
+            title: "Chemical Peels",
+            subtitle: "Resurfacing treatments for tone & texture",
+            badge: "20% Off",
+            items: [
+              { name: "Algae Peel", oldPrice: "₦150,000", price: "₦120,000" },
+              { name: "Bio Peel", oldPrice: "₦150,000", price: "₦120,000" },
+              { name: "Body Peel", oldPrice: "From ₦250,000", price: "From ₦200,000" }
+            ]
+          },
+          {
+            title: "Skin Boosters",
+            subtitle: "Polynucleotide & hyaluronic bio-revitalization",
+            badge: "20% Off",
+            items: [
+              { name: "Lumi Eyes", oldPrice: "₦180,000", price: "₦144,000" },
+              { name: "Plinest Eyes", oldPrice: "₦180,000", price: "₦144,000" },
+              { name: "Polynucleotide Face", oldPrice: "₦180,000", price: "₦144,000" }
+            ]
+          },
+          {
+            title: "PRP (Platelet-Rich Plasma)",
+            subtitle: "Autologous growth-factor rejuvenation",
+            badge: "20% Off",
+            items: [
+              { name: "Hair Loss (Scalp PRP)", oldPrice: "₦180,000", price: "₦144,000" },
+              { name: "PRP Facial", oldPrice: "₦180,000", price: "₦144,000" }
+            ]
           }
         ],
-        bridal: [
+        body: [
           {
-            title: 'The Jamelia Bridal Radiance Series',
-            duration: '3 Bespoke Sessions',
-            price: 'Bridal Concierge',
-            tag: 'For Brides',
-            description: 'A curated 6-week countdown combining barrier strengthening, sculptural facial lifting, and a final pre-wedding silk hydration ritual.',
-            bookingValue: 'The Jamelia Bridal Radiance Series'
+            title: "Liquid BBL",
+            subtitle: "Non-surgical volume enhancement & hip dip sculpting",
+            badge: "20% Off",
+            items: [
+              { name: "200mls", oldPrice: "₦700,000", price: "₦560,000" },
+              { name: "300mls", oldPrice: "₦900,000", price: "₦720,000" },
+              { name: "400mls", oldPrice: "₦1,100,000", price: "₦880,000" },
+              { name: "500mls", oldPrice: "₦1,300,000", price: "₦1,040,000" }
+            ]
           },
           {
-            title: 'Sanctuary Duet — Head-to-Toe Renewal',
-            duration: '135 Mins',
-            price: 'Half-Day Retreat',
-            tag: 'Complete Escape',
-            description: 'Our signature Glass Skin Facial seamlessly paired with a Velvet Cream Full-Body Aromatherapy Massage and private herbal tea service.',
-            bookingValue: 'Velvet Cream Full-Body Aromatherapy Ritual'
+            title: "Fat Dissolving",
+            subtitle: "Targeted stubborn fat reduction",
+            badge: "20% Off",
+            items: [
+              { name: "Lemon Bottle", oldPrice: "From ₦120,000", price: "From ₦96,000" },
+              { name: "Aqualyx / Lipolab", oldPrice: "From ₦150,000", price: "From ₦120,000" }
+            ]
+          },
+          {
+            title: "IV Drips & Wellness",
+            subtitle: "Intravenous brightening & metabolic support",
+            badge: "20% Off",
+            items: [
+              { name: "IV Brightening Drips", oldPrice: "₦225,000", price: "₦180,000" },
+              { name: "IV Brightening Booster", oldPrice: "₦225,000", price: "₦180,000" },
+              { name: "Retatrutide Pen 40mg", oldPrice: "₦200,000", price: "₦160,000" }
+            ]
+          }
+        ],
+        spmu: [
+          {
+            title: "Semi-Permanent Makeup",
+            subtitle: "Effortless, natural daily definition",
+            badge: "20% Off",
+            items: [
+              { name: "Fine Line Tattoo", oldPrice: "From ₦120,000", price: "From ₦96,000" },
+              { name: "Semi-Permanent Eyebrows", oldPrice: "₦180,000", price: "₦144,000" },
+              { name: "Lip Blush", oldPrice: "₦180,000", price: "₦144,000" }
+            ]
           }
         ]
       };
 
-      const treatmentsGrid = document.getElementById('treatments-grid');
-      const tabButtons = document.querySelectorAll('.treatment-tab');
-      const serviceSelect = document.getElementById('service-select');
+      const gridEl = document.getElementById("treatments-grid");
+      const tabButtons = document.querySelectorAll(".treatment-tab");
 
-      function renderTreatments(categoryKey) {
-        const items = treatmentsData[categoryKey] || treatmentsData.facials;
-        treatmentsGrid.innerHTML = items.map((item, index) => `
-          <article class="bg-cream-100 border border-clay-400/40 rounded-4xl p-7 sm:p-8 flex flex-col justify-between transition-all duration-300 hover:border-clay-500 hover:shadow-md" style="animation: fadeIn 0.45s ease ${index * 0.08}s both;">
+      function renderTreatments(category) {
+        const groups = treatmentsData[category] || [];
+        gridEl.innerHTML = groups.map(group => `
+          <div class="bg-cream-50/90 border border-espresso-900/10 rounded-2xl p-6 sm:p-8 shadow-sm hover:shadow-md transition-all duration-300 flex flex-col justify-between">
             <div>
-              <div class="flex flex-wrap items-center justify-between gap-2 mb-3">
-                <span class="px-3 py-1 rounded-full bg-cream-200 text-[10px] uppercase tracking-[0.2em] text-clay-700 font-medium">
-                  ${item.tag}
+              <div class="flex items-start justify-between gap-4 border-b border-espresso-900/10 pb-4">
+                <div>
+                  <h3 class="font-serif text-2xl text-espresso-900">${group.title}</h3>
+                  <p class="text-xs sm:text-sm text-espresso-700/80 font-light mt-1">${group.subtitle}</p>
+                </div>
+                <span class="shrink-0 px-3 py-1 rounded-full text-[10px] uppercase tracking-[0.16em] font-semibold bg-clay-700 text-cream-50">
+                  ${group.badge}
                 </span>
-                <span class="text-xs text-espresso-700 font-medium">${item.duration} • ${item.price}</span>
               </div>
-              <h3 class="font-serif text-2xl sm:text-[1.65rem] text-espresso-900 leading-snug">
-                ${item.title}
-              </h3>
-              <p class="mt-3 text-sm text-espresso-700/90 font-light leading-relaxed">
-                ${item.description}
-              </p>
-            </div>
-            <div class="mt-7 pt-5 border-t border-cream-300/80 flex items-center justify-between">
-              <a href="#booking" data-book-service="${item.bookingValue}" class="reserve-treatment-link inline-flex items-center gap-2 text-xs uppercase tracking-[0.2em] font-medium text-espresso-900 hover:text-clay-700 transition-colors">
-                <span>Reserve Treatment</span>
-                <span aria-hidden="true">→</span>
-              </a>
-            </div>
-          </article>
-        `).join('');
 
-        // Attach quick-select booking behavior
-        document.querySelectorAll('.reserve-treatment-link').forEach(btn => {
-          btn.addEventListener('click', () => {
-            const chosenService = btn.getAttribute('data-book-service');
-            if (serviceSelect && chosenService) {
-              serviceSelect.value = chosenService;
-            }
-          });
-        });
+              <ul class="mt-5 divide-y divide-espresso-900/10">
+                ${group.items.map(item => `
+                  <li class="py-3.5 flex items-center justify-between gap-4 group">
+                    <span class="text-sm sm:text-base text-espresso-900 font-normal">${item.name}</span>
+                    <div class="flex items-center gap-3 shrink-0">
+                      <div class="text-right">
+                        <span class="block text-xs text-espresso-700/60 line-through">${item.oldPrice}</span>
+                        <span class="block text-sm sm:text-base font-semibold text-clay-800">${item.price}</span>
+                      </div>
+                      <a href="#booking"
+                         data-treatment="${group.title} — ${item.name} (${item.price})"
+                         onclick="prefillBooking(this)"
+                         class="px-3 py-1.5 rounded-full text-[11px] uppercase tracking-[0.14em] font-medium border border-espresso-900/20 text-espresso-900 hover:bg-espresso-900 hover:text-cream-50 transition-colors">
+                        Book
+                      </a>
+                    </div>
+                  </li>
+                `).join("")}
+              </ul>
+            </div>
+          </div>
+        `).join("");
       }
 
-      tabButtons.forEach(btn => {
-        btn.addEventListener('click', () => {
-          tabButtons.forEach(b => {
-            b.classList.remove('bg-espresso-900', 'text-cream-50', 'shadow-sm');
-            b.classList.add('bg-cream-200', 'text-espresso-800');
-          });
-          btn.classList.remove('bg-cream-200', 'text-espresso-800');
-          btn.classList.add('bg-espresso-900', 'text-cream-50', 'shadow-sm');
+      window.prefillBooking = function(el) {
+        const treatmentName = el.getAttribute("data-treatment");
+        const serviceInput = document.querySelector('#booking select, #booking input[name="service"]');
+        if (serviceInput) {
+          if (serviceInput.tagName === "SELECT") {
+            let option = Array.from(serviceInput.options).find(o => o.value === treatmentName);
+            if (!option) {
+              option = new Option(treatmentName, treatmentName, true, true);
+              serviceInput.add(option);
+            }
+            serviceInput.value = treatmentName;
+          } else {
+            serviceInput.value = treatmentName;
+          }
+        }
+      };
 
-          const category = btn.getAttribute('data-category');
-          renderTreatments(category);
+      tabButtons.forEach(btn => {
+        btn.addEventListener("click", () => {
+          tabButtons.forEach(b => {
+            b.classList.remove("active", "bg-espresso-900", "text-cream-50", "shadow-sm");
+            b.classList.add("bg-cream-200", "text-espresso-800", "hover:bg-cream-300");
+          });
+          btn.classList.add("active", "bg-espresso-900", "text-cream-50", "shadow-sm");
+          btn.classList.remove("bg-cream-200", "text-espresso-800", "hover:bg-cream-300");
+          renderTreatments(btn.dataset.category);
         });
       });
 
       // Initial render
-      renderTreatments('facials');
+      renderTreatments("fillers");
 
-      // 5. APPOINTMENT RESERVATION FORM HANDLER
+      // 4. APPOINTMENT RESERVATION FORM HANDLER
       const bookingForm = document.getElementById('appointment-form');
       const confirmationBox = document.getElementById('booking-confirmation');
       const confirmationSummary = document.getElementById('confirmation-summary');
       const bookAnotherBtn = document.getElementById('book-another-btn');
       const dateInput = document.getElementById('preferred-date');
 
-      // Set minimum selectable date to today
       if (dateInput) {
         const todayStr = new Date().toISOString().split('T')[0];
         dateInput.setAttribute('min', todayStr);
@@ -1231,13 +1181,8 @@
         bookingForm.classList.remove('hidden');
       });
 
-      // 6. AMBIENT SPA SOUNDSCAPE SYNTHESIZER (Web Audio API — Lush Warm Harmonic Pad & Soft Chimes)
-      let audioCtx = null;
-      let masterGain = null;
-      let isPlaying = false;
-      let chimeInterval = null;
-      let activeNodes = [];
-
+      // 5. AMBIENT SPA SOUNDSCAPE PLAYER — plays m.mp3 reliably
+      const audioEl = document.getElementById('spa-audio');
       const audioToggleBtn = document.getElementById('audio-toggle-btn');
       const playIcon = document.getElementById('audio-icon-play');
       const pauseIcon = document.getElementById('audio-icon-pause');
@@ -1245,115 +1190,362 @@
       const statusText = document.getElementById('audio-status-text');
       const volumeSlider = document.getElementById('audio-volume-slider');
 
-      function startSpaAudio() {
-        try {
-          const AudioContextClass = window.AudioContext || window.webkitAudioContext;
-          if (!audioCtx) {
-            audioCtx = new AudioContextClass();
-          }
-          if (audioCtx.state === 'suspended') {
-            audioCtx.resume();
-          }
+      // Ensure the audio starts muted=False but at a gentle volume
+      audioEl.volume = Number(volumeSlider.value) / 100;
 
-          masterGain = audioCtx.createGain();
-          const initialVol = (Number(volumeSlider.value) / 100) * 0.22;
-          masterGain.gain.setValueAtTime(0.001, audioCtx.currentTime);
-          masterGain.gain.exponentialRampToValueAtTime(Math.max(0.001, initialVol), audioCtx.currentTime + 2.2);
-          masterGain.connect(audioCtx.destination);
-
-          // Warm low-pass filter for velvety cream acoustic warmth
-          const filter = audioCtx.createBiquadFilter();
-          filter.type = 'lowpass';
-          filter.frequency.setValueAtTime(520, audioCtx.currentTime);
-          filter.connect(masterGain);
-
-          // Serene Fmaj9 / Cmaj9 Spa Drone Frequencies (432Hz-inspired warm harmonics)
-          const padFrequencies = [174.61, 220.00, 261.63, 329.63, 392.00];
-          padFrequencies.forEach((freq, idx) => {
-            const osc = audioCtx.createOscillator();
-            const oscGain = audioCtx.createGain();
-            osc.type = idx % 2 === 0 ? 'sine' : 'triangle';
-            osc.frequency.setValueAtTime(freq, audioCtx.currentTime);
-            // Gentle micro-detune for organic warmth
-            osc.detune.setValueAtTime((idx - 2) * 3.5, audioCtx.currentTime);
-
-            oscGain.gain.setValueAtTime(0.14 / (idx + 1), audioCtx.currentTime);
-            osc.connect(oscGain);
-            oscGain.connect(filter);
-            osc.start();
-            activeNodes.push(osc);
-          });
-
-          // Occasional delicate singing-bowl / water-drop harmonic chime
-          const chimeNotes = [523.25, 587.33, 659.25, 783.99, 880.00];
-          chimeInterval = setInterval(() => {
-            if (!isPlaying || !audioCtx) return;
-            const now = audioCtx.currentTime;
-            const note = chimeNotes[Math.floor(Math.random() * chimeNotes.length)];
-            const chimeOsc = audioCtx.createOscillator();
-            const chimeGain = audioCtx.createGain();
-
-            chimeOsc.type = 'sine';
-            chimeOsc.frequency.setValueAtTime(note, now);
-
-            chimeGain.gain.setValueAtTime(0.0001, now);
-            chimeGain.gain.exponentialRampToValueAtTime(0.06, now + 0.15);
-            chimeGain.gain.exponentialRampToValueAtTime(0.0001, now + 4.5);
-
-            chimeOsc.connect(chimeGain);
-            chimeGain.connect(masterGain);
-
-            chimeOsc.start(now);
-            chimeOsc.stop(now + 4.6);
-          }, 4200);
-
-          isPlaying = true;
+      function setPlayingUI(playing) {
+        if (playing) {
           playIcon.classList.add('hidden');
           pauseIcon.classList.remove('hidden');
           soundwaveBars.classList.add('visualizer-playing');
-          statusText.textContent = 'Playing soothing spa frequencies';
-        } catch (err) {
-          statusText.textContent = 'Audio unavailable in this browser';
+          statusText.textContent = 'Playing ambient spa soundscape';
+        } else {
+          playIcon.classList.remove('hidden');
+          pauseIcon.classList.add('hidden');
+          soundwaveBars.classList.remove('visualizer-playing');
+          statusText.textContent = 'Soundscape paused';
         }
-      }
-
-      function stopSpaAudio() {
-        isPlaying = false;
-        if (chimeInterval) {
-          clearInterval(chimeInterval);
-          chimeInterval = null;
-        }
-        if (masterGain && audioCtx) {
-          masterGain.gain.setTargetAtTime(0.0001, audioCtx.currentTime, 0.35);
-        }
-        setTimeout(() => {
-          activeNodes.forEach(osc => {
-            try { osc.stop(); osc.disconnect(); } catch (e) {}
-          });
-          activeNodes = [];
-        }, 500);
-
-        playIcon.classList.remove('hidden');
-        pauseIcon.classList.add('hidden');
-        soundwaveBars.classList.remove('visualizer-playing');
-        statusText.textContent = 'Soundscape paused';
       }
 
       audioToggleBtn.addEventListener('click', () => {
-        if (isPlaying) {
-          stopSpaAudio();
+        if (audioEl.paused) {
+          const playPromise = audioEl.play();
+          if (playPromise && typeof playPromise.then === 'function') {
+            playPromise
+              .then(() => setPlayingUI(true))
+              .catch(() => {
+                statusText.textContent = 'Please tap again to allow audio';
+                setPlayingUI(false);
+              });
+          } else {
+            setPlayingUI(true);
+          }
         } else {
-          startSpaAudio();
+          audioEl.pause();
+          setPlayingUI(false);
         }
       });
 
+      // Keep UI in sync if playback is interrupted (e.g., tab hidden, error)
+      audioEl.addEventListener('play', () => setPlayingUI(true));
+      audioEl.addEventListener('pause', () => setPlayingUI(false));
+      audioEl.addEventListener('ended', () => setPlayingUI(false));
+      audioEl.addEventListener('error', () => {
+        statusText.textContent = 'Audio file m.mp3 could not be loaded';
+        setPlayingUI(false);
+      });
+
       volumeSlider.addEventListener('input', (e) => {
-        if (masterGain && audioCtx && isPlaying) {
-          const newVol = (Number(e.target.value) / 100) * 0.22;
-          masterGain.gain.setTargetAtTime(Math.max(0.0001, newVol), audioCtx.currentTime, 0.1);
-        }
+        audioEl.volume = Number(e.target.value) / 100;
+      });
+
+      // Attempt autoplay; browsers may block sound until the visitor interacts.
+      audioEl.play().catch(() => {
+        statusText.textContent = 'Tap play to start the ambient spa soundscape';
+        setPlayingUI(false);
       });
     });
   </script>
 </body>
 </html>
+
+ <!-- 3. CURATED TREATMENTS & INTERACTIVE SERVICES MENU -->
+    <section id="treatments" class="py-16 md:py-24 relative">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-10">
+
+        <!-- Section Header -->
+        <div class="reveal-up text-center max-w-3xl mx-auto">
+          <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-rose-50/90 border border-rose-200/80 shadow-sm mb-4">
+            <span class="w-1.5 h-1.5 rounded-full bg-rose-600 animate-pulse"></span>
+            <span class="text-[11px] uppercase tracking-[0.22em] text-rose-700 font-semibold">End of Year Promo — 20% Off Selected Rituals</span>
+          </div>
+          <h2 class="font-serif text-3xl sm:text-5xl text-espresso-900 mt-1 font-normal tracking-tight leading-tight">
+            Aesthetic Menu &amp; <span class="italic text-clay-700">Treatments</span>
+          </h2>
+          <p class="mt-3 text-sm sm:text-base text-espresso-700 font-light max-w-2xl mx-auto">
+            Signature UK-trained aesthetics and luxury skin rituals. Select a category below to explore treatments, pricing, and direct booking.
+          </p>
+        </div>
+
+        <!-- Category Filter Tabs -->
+        <div class="reveal-up delay-100 mt-9 flex flex-wrap items-center justify-center gap-2 sm:gap-3" role="tablist" aria-label="Treatment Categories">
+          <button type="button" data-category="fillers" role="tab" aria-selected="true" class="treatment-tab active px-5 sm:px-6 py-3 rounded-full text-[11px] uppercase tracking-[0.16em] font-medium transition-all duration-300 bg-espresso-900 text-cream-50 shadow-sm">
+            Fillers &amp; Collagen
+          </button>
+          <button type="button" data-category="antiwrinkle" role="tab" aria-selected="false" class="treatment-tab px-5 sm:px-6 py-3 rounded-full text-[11px] uppercase tracking-[0.16em] font-medium transition-all duration-300 bg-cream-50 border border-clay-400/45 text-espresso-800 hover:bg-cream-200">
+            Anti-Wrinkle &amp; Threads
+          </button>
+          <button type="button" data-category="skin" role="tab" aria-selected="false" class="treatment-tab px-5 sm:px-6 py-3 rounded-full text-[11px] uppercase tracking-[0.16em] font-medium transition-all duration-300 bg-cream-50 border border-clay-400/45 text-espresso-800 hover:bg-cream-200">
+            Facials, Peels &amp; Boosters
+          </button>
+          <button type="button" data-category="body" role="tab" aria-selected="false" class="treatment-tab px-5 sm:px-6 py-3 rounded-full text-[11px] uppercase tracking-[0.16em] font-medium transition-all duration-300 bg-cream-50 border border-clay-400/45 text-espresso-800 hover:bg-cream-200">
+            Body Sculpting &amp; Wellness
+          </button>
+          <button type="button" data-category="spmu" role="tab" aria-selected="false" class="treatment-tab px-5 sm:px-6 py-3 rounded-full text-[11px] uppercase tracking-[0.16em] font-medium transition-all duration-300 bg-cream-50 border border-clay-400/45 text-espresso-800 hover:bg-cream-200">
+            Semi-Permanent Makeup
+          </button>
+        </div>
+
+        <!-- Dynamic Treatments Grid -->
+        <div id="treatments-grid" class="mt-10 grid grid-cols-1 md:grid-cols-2 gap-5 lg:gap-7">
+          <!-- Cards populated cleanly via JavaScript -->
+        </div>
+
+        <!-- Full Price List Link -->
+        <div class="mt-10 text-center">
+          <a href="./prices.html" class="inline-flex items-center justify-center gap-2.5 px-7 py-3.5 rounded-full border border-espresso-900/80 bg-cream-50/90 text-espresso-900 text-xs uppercase tracking-[0.2em] font-medium hover:bg-espresso-900 hover:text-cream-50 transition-all duration-300">
+            <span>View Complete 12-Category Brand Price Menu</span>
+            <span aria-hidden="true">→</span>
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 4. THE SANCTUARY VISUAL GALLERY & INSTAGRAM FEED PREVIEW -->
+    <section id="sanctuary" class="py-16 md:py-24 bg-cream-200/55 border-y border-cream-300/80">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-10">
+
+        <div class="reveal-up flex flex-col md:flex-row md:items-end justify-between gap-6 mb-10">
+          <div>
+            <p class="text-[11px] uppercase tracking-[0.28em] text-rose-700 font-semibold">Inside The Studio</p>
+            <h2 class="font-serif text-3xl sm:text-5xl text-espresso-900 mt-2 font-normal">
+              A Soft Cream <span class="italic text-clay-700">Sanctuary</span>
+            </h2>
+          </div>
+          <a href="https://www.instagram.com/jamelia_aesthetics/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2.5 self-start md:self-auto px-6 py-3 rounded-full bg-cream-50 border border-clay-400/60 text-xs uppercase tracking-[0.18em] text-espresso-900 hover:bg-espresso-900 hover:text-cream-50 transition-all duration-300 shadow-sm">
+            <span>Follow @jamelia_aesthetics</span>
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="1.6" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+            </svg>
+          </a>
+        </div>
+
+        <!-- Editorial Bento / Masonry Visual Grid -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-12 gap-4 sm:gap-5 lg:gap-6">
+
+          <!-- Large Feature Card -->
+          <article class="reveal-up lg:col-span-6 group relative isolate rounded-[1.75rem] overflow-hidden bg-cream-300 aspect-[4/3] lg:aspect-auto lg:h-[460px] border border-white/70 shadow-lg ring-1 ring-espresso-900/5">
+            <img
+              src="https://images.unsplash.com/photo-1519823551278-64ac92734fb1?auto=format&fit=crop&w=1000&q=80"
+              alt="Serene treatment room inside Jamelia Aesthetics Wuse 2 studio"
+              class="absolute inset-0 w-full h-full object-cover"
+            />
+            <video
+              class="relative z-10 w-full h-full object-cover transition-transform duration-1000 ease-out group-hover:scale-[1.03]"
+              autoplay
+              muted
+              loop
+              playsinline
+              poster="https://images.unsplash.com/photo-1519823551278-64ac92734fb1?auto=format&fit=crop&w=1000&q=80"
+            >
+              <source src="./ft (1).mp4" type="video/mp4" />
+            </video>
+            <div class="absolute inset-0 z-20 bg-gradient-to-t from-espresso-900/55 via-espresso-900/10 to-transparent pointer-events-none"></div>
+            <div class="absolute bottom-5 left-5 right-5 z-30 flex items-center justify-between text-cream-50">
+              <span class="text-xs uppercase tracking-[0.2em] text-cream-100">Private Treatment Suite</span>
+              <span class="px-3 py-1 rounded-full bg-cream-50/15 backdrop-blur-md text-[10px] uppercase tracking-[0.18em]">Wuse 2</span>
+            </div>
+          </article>
+
+          <!-- Center Stacked Cards -->
+          <div class="lg:col-span-3 flex flex-col gap-4 sm:gap-5 lg:gap-6">
+            <article class="reveal-up delay-100 group relative isolate rounded-[1.65rem] overflow-hidden bg-cream-300 h-[218px] border border-white/70 shadow-md ring-1 ring-espresso-900/5">
+              <img
+                src="https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?auto=format&fit=crop&w=700&q=80"
+                alt="Precision dermal filler and lip artistry"
+                class="absolute inset-0 w-full h-full object-cover"
+              />
+              <video
+                class="relative z-10 w-full h-full object-cover transition-transform duration-1000 ease-out group-hover:scale-[1.04]"
+                autoplay
+                muted
+                loop
+                playsinline
+                poster="https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?auto=format&fit=crop&w=700&q=80"
+              >
+                <source src="./hj (1).mp4" type="video/mp4" />
+              </video>
+              <div class="absolute inset-0 z-20 bg-gradient-to-t from-espresso-900/40 to-transparent pointer-events-none"></div>
+              <span class="absolute bottom-3.5 left-4 z-30 text-[10px] uppercase tracking-[0.2em] text-cream-50">Lip &amp; Facial Balance</span>
+            </article>
+
+            <article class="reveal-up delay-200 group relative isolate rounded-[1.65rem] overflow-hidden bg-cream-300 h-[218px] border border-white/70 shadow-md ring-1 ring-espresso-900/5">
+              <img
+                src="https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?auto=format&fit=crop&w=700&q=80"
+                alt="Clinical skin booster and Hydra facial glow ritual"
+                class="absolute inset-0 w-full h-full object-cover"
+              />
+              <video
+                class="relative z-10 w-full h-full object-cover transition-transform duration-1000 ease-out group-hover:scale-[1.04]"
+                autoplay
+                muted
+                loop
+                playsinline
+                poster="https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?auto=format&fit=crop&w=700&q=80"
+              >
+                <source src="./hj (2).mp4" type="video/mp4" />
+              </video>
+              <div class="absolute inset-0 z-20 bg-gradient-to-t from-espresso-900/40 to-transparent pointer-events-none"></div>
+              <span class="absolute bottom-3.5 left-4 z-30 text-[10px] uppercase tracking-[0.2em] text-cream-50">Skin Boosters &amp; Glow</span>
+            </article>
+          </div>
+
+          <!-- Right Vertical Card -->
+          <article class="reveal-up delay-300 sm:col-span-2 lg:col-span-3 group relative isolate rounded-[1.75rem] overflow-hidden bg-cream-300 h-[340px] lg:h-[460px] border border-white/70 shadow-lg ring-1 ring-espresso-900/5">
+            <img
+              src="https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=800&q=80"
+              alt="Holistic body and aesthetic harmony at Jamelia Aesthetics"
+              class="absolute inset-0 w-full h-full object-cover"
+            />
+            <video
+              class="relative z-10 w-full h-full object-cover transition-transform duration-1000 ease-out group-hover:scale-[1.03]"
+              autoplay
+              muted
+              loop
+              playsinline
+              poster="https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=800&q=80"
+            >
+              <source src="./ft (1).mp4" type="video/mp4" />
+            </video>
+            <div class="absolute inset-0 z-20 bg-gradient-to-t from-espresso-900/60 via-transparent to-transparent pointer-events-none"></div>
+            <div class="absolute bottom-5 left-5 right-5 z-30 text-cream-50">
+              <span class="inline-flex rounded-full border border-white/25 bg-cream-50/15 px-3.5 py-2 text-[10px] uppercase tracking-[0.24em] text-cream-100 backdrop-blur-md">
+                Balance • Enhance
+              </span>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. CLIENT REFLECTIONS & SANCTUARY RESERVATION BANNER -->
+    <section class="py-16 md:py-24">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-10">
+
+        <div class="flex flex-col sm:flex-row sm:items-end justify-between gap-4 mb-10">
+          <div>
+            <span class="block text-[11px] uppercase tracking-[0.26em] text-rose-700 font-semibold mb-2">Client Reflections</span>
+            <h2 class="font-serif text-3xl sm:text-4xl text-espresso-900">Trusted Across Abuja</h2>
+          </div>
+          <a href="./reviews.html" class="text-xs uppercase tracking-[0.2em] font-semibold text-espresso-900 hover:text-rose-700 transition-colors">
+            Read More Client Stories →
+          </a>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-16">
+          <blockquote class="editorial-surface p-6 sm:p-7 flex flex-col justify-between">
+            <p class="font-serif italic text-xl text-espresso-900 leading-relaxed">
+              “My lip filler and Profhilo session felt so calm and unrushed. The UK medical standards are evident in every detail—nobody can tell I had work done, I just look rested.”
+            </p>
+            <footer class="mt-5 pt-4 border-t border-clay-400/25 flex items-center justify-between text-xs bg-transparent border-t">
+              <span class="font-semibold text-espresso-900">Zainab M. — Maitama</span>
+              <span class="text-rose-700">★★★★★</span>
+            </footer>
+          </blockquote>
+
+          <blockquote class="editorial-surface p-6 sm:p-7 flex flex-col justify-between">
+            <p class="font-serif italic text-xl text-espresso-900 leading-relaxed">
+              “The Hydra Facial paired with a Bio Peel cleared my hyperpigmentation without irritation. Easily the most serene aesthetic sanctuary in Wuse 2.”
+            </p>
+            <footer class="mt-5 pt-4 border-t border-clay-400/25 flex items-center justify-between text-xs bg-transparent border-t">
+              <span class="font-semibold text-espresso-900">Chidinma E. — Wuse 2</span>
+              <span class="text-rose-700">★★★★★</span>
+            </footer>
+          </blockquote>
+
+          <blockquote class="editorial-surface p-6 sm:p-7 flex flex-col justify-between">
+            <p class="font-serif italic text-xl text-espresso-900 leading-relaxed">
+              “From the initial consultation to my anti-wrinkle follow-up, the practitioners listened carefully to my goals. Soft, natural, and deeply confidence-boosting.”
+            </p>
+            <footer class="mt-5 pt-4 border-t border-clay-400/25 flex items-center justify-between text-xs bg-transparent border-t">
+              <span class="font-semibold text-espresso-900">Amina K. — Asokoro</span>
+              <span class="text-rose-700">★★★★★</span>
+            </footer>
+          </blockquote>
+        </div>
+
+        <!-- Final Editorial Booking Callout -->
+        <div class="rounded-4xl bg-espresso-900 text-cream-50 p-8 sm:p-12 lg:p-14 relative overflow-hidden shadow-2xl">
+          <div class="pointer-events-none absolute -right-16 -top-16 w-72 h-72 rounded-full bg-rose-700/25 blur-3xl" aria-hidden="true"></div>
+          <div class="relative z-10 flex flex-col lg:flex-row lg:items-center justify-between gap-8">
+            <div class="max-w-2xl">
+              <span class="inline-block text-[10px] uppercase tracking-[0.28em] text-rose-300 font-semibold mb-3">
+                Begin Your Transformation
+              </span>
+              <h2 class="font-serif text-3xl sm:text-5xl text-cream-50 leading-tight font-normal">
+                Reserve Your Private Suite in <span class="italic text-clay-300">Wuse 2, Abuja</span>
+              </h2>
+              <p class="mt-3 text-sm sm:text-base text-cream-200/90 font-light leading-relaxed">
+                Unsure which ritual suits your goals? Book a redeemable medical consultation with our UK-trained practitioners to design your bespoke aesthetic roadmap.
+              </p>
+            </div>
+            <div class="flex flex-col sm:flex-row gap-3.5 shrink-0">
+              <a href="./booking.html" class="inline-flex items-center justify-center px-8 py-4 rounded-full bg-rose-700 text-cream-50 text-xs uppercase tracking-[0.2em] font-semibold hover:bg-rose-600 transition-colors shadow-lg">
+                Reserve Appointment
+              </a>
+              <a href="./contact.html" class="inline-flex items-center justify-center px-7 py-4 rounded-full border border-cream-50/35 text-cream-50 text-xs uppercase tracking-[0.2em] font-medium hover:bg-cream-50/10 transition-colors">
+                Speak to Concierge
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- LUXURY EDITORIAL FOOTER -->
+  <footer class="pt-14 pb-14">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-10">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 pb-12 border-b border-clay-400/35">
+
+        <!-- Brand Column -->
+        <div class="lg:col-span-2">
+          <div class="flex items-center gap-3 mb-4">
+            <img src="./logo.jpg" alt="Jamelia Aesthetics logo" class="w-10 h-10 rounded-full object-contain" />
+            <div>
+              <span class="font-serif text-xl uppercase tracking-[0.16em] text-espresso-900 block leading-none">Jamelia</span>
+              <span class="text-[10px] uppercase tracking-[0.3em] text-clay-700">Aesthetics • Abuja</span>
+            </div>
+          </div>
+          <p class="text-sm text-espresso-700/90 font-light leading-relaxed max-w-md">
+            Bringing skin authenticity to Wuse 2, Abuja. Medical-grade aesthetic enhancements performed by UK-trained professionals with an unwavering commitment to safety and natural beauty.
+          </p>
+        </div>
+
+        <!-- Navigation Links -->
+        <div>
+          <h3 class="text-[11px] uppercase tracking-[0.22em] text-espresso-900 font-semibold mb-4">Menu &amp; Clinic</h3>
+          <ul class="space-y-2.5 text-sm text-espresso-700">
+            <li><a href="./about.html" class="hover:text-rose-700 transition-colors">Our Philosophy</a></li>
+            <li><a href="./prices.html" class="hover:text-rose-700 transition-colors">Brand Prices</a></li>
+            <li><a href="./treatments.html" class="hover:text-rose-700 transition-colors">Treatments</a></li>
+            <li><a href="./reviews.html" class="hover:text-rose-700 transition-colors">Client Reflections</a></li>
+            <li><a href="./booking.html" class="text-rose-700 font-medium">Book Appointment</a></li>
+          </ul>
+        </div>
+
+        <!-- Clinic Hours & Location -->
+        <div>
+          <h3 class="text-[11px] uppercase tracking-[0.22em] text-espresso-900 font-semibold mb-4">Wuse 2 Sanctuary</h3>
+          <ul class="space-y-2.5 text-sm text-espresso-700">
+            <li>Wuse 2, Abuja, FCT, Nigeria</li>
+            <li>Mon – Sat: 10:00 AM – 6:30 PM</li>
+            <li>
+              <a href="https://www.instagram.com/jamelia_aesthetics/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1.5 text-rose-700 font-medium hover:underline">
+                <span>Instagram: @jamelia_aesthetics</span>
+              </a>
+            </li>
+            <li><a href="./contact.html" class="hover:text-rose-700 transition-colors">Contact &amp; Directions →</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="pt-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-clay-700">
+        <p>&copy; <span id="current-year"></span> Jamelia Aesthetics Abuja. All rights reserved.</p>
+        <p>Medical consultation required prior to injectable procedures.</p>
+      </div>
+    </div>
+  </footer>
