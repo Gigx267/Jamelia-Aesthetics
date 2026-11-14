@@ -1,0 +1,1199 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Primary SEO Meta Tags -->
+  <title>Book Appointment | Jamelia Aesthetics — Abuja</title>
+  <meta name="title" content="Book Appointment | Jamelia Aesthetics — Abuja" />
+  <meta name="description" content="Reserve your private aesthetic consultation or treatment ritual at Jamelia Aesthetics in Abuja. UK-trained medical professionals specializing in dermal fillers, anti-wrinkle injections, skin boosters, and bespoke facials." />
+  <meta name="keywords" content="Book Jamelia Aesthetics Abuja, Abuja aesthetic clinic appointment, dermal fillers booking Abuja, botox appointment Abuja, facials booking Abuja" />
+  <meta name="author" content="Jamelia Aesthetics" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://www.instagram.com/jamelia_aesthetics/" />
+
+  <!-- Open Graph Meta Tags -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.instagram.com/jamelia_aesthetics/" />
+  <meta property="og:title" content="Reserve Your Aesthetic Ritual | Jamelia Aesthetics — Abuja" />
+  <meta property="og:description" content="Private consultation and treatment reservation with UK-trained medical aesthetic professionals in Abuja." />
+  <meta property="og:image" content="https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=1200&q=80" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Plus+Jakarta+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            cream: {
+              50: '#FDFBF8',
+              100: '#FAF7F2',
+              200: '#F3EDE2',
+              300: '#EBE2D3',
+              400: '#DFD2BE',
+            },
+            clay: {
+              300: '#D8C8B8',
+              400: '#C8B6A6',
+              500: '#B59E8A',
+              600: '#A4907C',
+              700: '#85725F',
+            },
+            espresso: {
+              700: '#4A413C',
+              800: '#38312D',
+              900: '#2C2623',
+            },
+            rose: {
+              50: '#FDF2F8',
+              100: '#FCE7F3',
+              400: '#F472B6',
+              500: '#EC4899',
+              600: '#DB2777',
+              700: '#BE185D',
+            }
+          },
+          fontFamily: {
+            serif: ['"Cormorant Garamond"', 'Georgia', 'serif'],
+            sans: ['"Plus Jakarta Sans"', 'system-ui', 'sans-serif'],
+          },
+          borderRadius: {
+            '4xl': '2rem',
+          }
+        }
+      }
+    };
+  </script>
+
+  <!-- Bespoke Editorial Styles -->
+  <style>
+    :root {
+      --bg-alabaster: #FAF7F2;
+      --ink-espresso: #2C2623;
+      --accent-rose: #BE185D;
+      --border-clay: rgba(164, 144, 124, 0.28);
+    }
+
+    body {
+      background-color: var(--bg-alabaster);
+      color: var(--ink-espresso);
+      overflow-x: hidden;
+      background-image:
+        radial-gradient(circle at 8% 4%, rgba(216, 200, 184, 0.32), transparent 28%),
+        radial-gradient(circle at 92% 18%, rgba(252, 231, 243, 0.42), transparent 26%),
+        radial-gradient(circle at 50% 88%, rgba(181, 158, 138, 0.14), transparent 35%);
+    }
+
+    .paper-grain {
+      background-image: radial-gradient(rgba(44, 38, 35, 0.04) 1px, transparent 0);
+      background-size: 24px 24px;
+    }
+
+    /* Smart Sticky Header */
+    #main-header {
+      background: rgba(250, 247, 242, 0.86);
+      border-bottom: 1px solid rgba(200, 182, 166, 0.55);
+      box-shadow: 0 18px 40px rgba(44, 38, 35, 0.045);
+      backdrop-filter: blur(18px);
+      -webkit-backdrop-filter: blur(18px);
+      transition: transform 420ms cubic-bezier(0.22, 1, 0.36, 1), background-color 300ms ease;
+    }
+    #main-header.nav-hidden {
+      transform: translateY(-105%);
+    }
+
+    /* Scroll Reveal */
+    .reveal-up {
+      opacity: 0;
+      transform: translateY(22px);
+      transition: opacity 0.8s cubic-bezier(0.22, 1, 0.36, 1), transform 0.8s cubic-bezier(0.22, 1, 0.36, 1);
+    }
+    .reveal-up.is-visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    .delay-100 { transition-delay: 80ms; }
+    .delay-200 { transition-delay: 160ms; }
+    .delay-300 { transition-delay: 240ms; }
+
+    /* Editorial Cards */
+    .editorial-surface {
+      border-radius: 1.75rem;
+      border: 1px solid var(--border-clay);
+      background:
+        radial-gradient(circle at 100% 0%, rgba(252, 231, 243, 0.42), transparent 46%),
+        linear-gradient(155deg, rgba(255, 255, 255, 0.96), rgba(243, 237, 226, 0.88));
+      box-shadow: 0 16px 42px rgba(44, 38, 35, 0.045), inset 0 1px 0 rgba(255, 255, 255, 0.95);
+    }
+
+    /* Selectable Treatment Option Card */
+    .treatment-option {
+      border: 1px solid rgba(164, 144, 124, 0.32);
+      background: rgba(253, 251, 248, 0.88);
+      transition: all 240ms cubic-bezier(0.2, 0.8, 0.2, 1);
+    }
+    .treatment-option:hover {
+      border-color: rgba(190, 24, 93, 0.42);
+      background: #FFFFFF;
+      transform: translateY(-2px);
+    }
+    .treatment-option.selected {
+      border-color: #BE185D;
+      background: linear-gradient(145deg, rgba(253, 242, 248, 0.92), rgba(255, 255, 255, 0.98));
+      box-shadow: 0 10px 26px rgba(190, 24, 93, 0.1);
+    }
+
+    /* Pill / Slot Buttons */
+    .slot-pill {
+      border: 1px solid rgba(164, 144, 124, 0.38);
+      background: rgba(253, 251, 248, 0.9);
+      transition: all 200ms ease;
+    }
+    .slot-pill:hover:not(:disabled) {
+      border-color: #2C2623;
+      background: #FFFFFF;
+    }
+    .slot-pill.active {
+      background: #2C2623;
+      color: #FDFBF8;
+      border-color: #2C2623;
+      box-shadow: 0 8px 20px rgba(44, 38, 35, 0.18);
+    }
+    .slot-pill:disabled {
+      opacity: 0.42;
+      cursor: not-allowed;
+      background: rgba(235, 226, 211, 0.5);
+    }
+
+    /* Hide Scrollbars */
+    .no-scrollbar::-webkit-scrollbar { display: none; }
+    .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+
+    /* Custom Form Focus */
+    .editorial-input {
+      background: rgba(253, 251, 248, 0.95);
+      border: 1px solid rgba(164, 144, 124, 0.45);
+      transition: border-color 200ms ease, box-shadow 200ms ease, background-color 200ms ease;
+    }
+    .editorial-input:focus {
+      outline: none;
+      background: #FFFFFF;
+      border-color: #BE185D;
+      box-shadow: 0 0 0 3px rgba(190, 24, 93, 0.12);
+    }
+
+    /* Footer */
+    footer {
+      background: linear-gradient(180deg, rgba(255, 255, 255, 0.85), rgba(243, 237, 226, 0.98));
+      border-top: 1px solid rgba(200, 182, 166, 0.55);
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .reveal-up, .treatment-option, .slot-pill {
+        transition: none !important;
+        transform: none !important;
+        opacity: 1 !important;
+      }
+    }
+  </style>
+</head>
+<body class="font-sans antialiased selection:bg-rose-500/15 selection:text-espresso-900 paper-grain">
+
+  <!-- Sticky Architectural Header -->
+  <header id="main-header" class="sticky top-0 z-40 w-full">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-10">
+      <div class="flex items-center justify-between h-[4.5rem] md:h-24">
+
+        <!-- Brand Logo -->
+        <a href="./index.html" class="group flex items-center gap-3 sm:gap-3.5 focus:outline-none rounded-full" aria-label="Jamelia Aesthetics Home">
+          <div class="relative w-11 h-11 md:w-12 md:h-12 rounded-full bg-cream-200 border border-clay-400/70 flex items-center justify-center shadow-sm overflow-hidden transition-transform duration-300 group-hover:scale-105">
+            <span class="font-serif text-xl font-semibold tracking-tight text-espresso-900">JA</span>
+          </div>
+          <div class="flex flex-col">
+            <span class="font-serif text-xl sm:text-2xl tracking-[0.15em] uppercase text-espresso-900 font-medium leading-none">
+              Jamelia
+            </span>
+            <span class="text-[10px] sm:text-[11px] uppercase tracking-[0.34em] text-clay-700 mt-1 font-medium">
+              Aesthetics • Abuja
+            </span>
+          </div>
+        </a>
+
+        <!-- Desktop Navigation -->
+        <nav class="hidden lg:flex items-center gap-6 xl:gap-8 text-[11px] uppercase tracking-[0.16em] text-espresso-800" aria-label="Primary Navigation">
+          <a href="./about.html" class="hover:text-rose-700 transition-colors py-3">Philosophy</a>
+          <a href="./prices.html" class="hover:text-rose-700 transition-colors py-3">Brand Prices</a>
+          <a href="./treatments.html" class="hover:text-rose-700 transition-colors py-3">Treatments</a>
+          <a href="./reviews.html" class="hover:text-rose-700 transition-colors py-3">Reviews</a>
+          <a href="./contact.html" class="hover:text-rose-700 transition-colors py-3">Contact Us</a>
+        </nav>
+
+        <!-- Desktop Action Buttons -->
+        <div class="hidden md:flex items-center gap-2 lg:gap-4">
+          <a href="https://www.instagram.com/jamelia_aesthetics/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1.5 text-xs tracking-[0.06em] text-espresso-800 hover:text-rose-700 px-3 py-2 rounded-full transition-colors">
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="1.6" viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5"></rect><circle cx="12" cy="12" r="4"></circle><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"></circle></svg>
+            <span>@jamelia_aesthetics</span>
+          </a>
+          <a href="./booking.html" aria-current="page" class="inline-flex items-center justify-center px-6 py-3 rounded-full bg-rose-700 text-cream-50 text-[10px] uppercase tracking-[0.2em] font-semibold shadow-sm">
+            Book Ritual
+          </a>
+        </div>
+
+        <!-- Mobile Menu Button -->
+        <button id="mobile-menu-btn" type="button" class="lg:hidden inline-flex items-center justify-center w-11 h-11 rounded-full border border-clay-400/60 bg-cream-50/90 text-espresso-900 hover:bg-cream-200 transition-colors focus:outline-none" aria-expanded="false" aria-controls="mobile-menu-drawer" aria-label="Toggle Navigation Menu">
+          <svg id="menu-icon-open" class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="1.75" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M4 7h16M4 12h16M4 17h12" /></svg>
+          <svg id="menu-icon-close" class="hidden w-5 h-5" fill="none" stroke="currentColor" stroke-width="1.75" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" /></svg>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Slide-Down Drawer -->
+    <div id="mobile-menu-drawer" class="hidden lg:hidden bg-cream-100/98 backdrop-blur-xl border-t border-cream-300/70 border-b border-cream-300 px-5 sm:px-8 pt-3 pb-7 space-y-4 shadow-xl">
+      <nav class="flex flex-col divide-y divide-cream-300/70 text-lg font-serif text-espresso-900" aria-label="Mobile Navigation">
+        <a href="./about.html" class="mobile-nav-link py-3.5 flex justify-between items-center hover:text-rose-700 transition-colors"><span>Our Philosophy</span><span class="text-xs font-sans text-clay-600">01</span></a>
+        <a href="./prices.html" class="mobile-nav-link py-3.5 flex justify-between items-center hover:text-rose-700 transition-colors"><span>Brand Prices</span><span class="text-xs font-sans text-clay-600">02</span></a>
+        <a href="./treatments.html" class="mobile-nav-link py-3.5 flex justify-between items-center hover:text-rose-700 transition-colors"><span>Treatments</span><span class="text-xs font-sans text-clay-600">03</span></a>
+        <a href="./booking.html" class="mobile-nav-link py-3.5 flex justify-between items-center text-rose-700 font-medium"><span>Book Appointment</span><span class="text-xs font-sans text-rose-600">04</span></a>
+        <a href="./reviews.html" class="mobile-nav-link py-3.5 flex justify-between items-center hover:text-rose-700 transition-colors"><span>Client Reflections</span><span class="text-xs font-sans text-clay-600">05</span></a>
+        <a href="./contact.html" class="mobile-nav-link py-3.5 flex justify-between items-center hover:text-rose-700 transition-colors"><span>Contact Us</span><span class="text-xs font-sans text-clay-600">06</span></a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- HERO SECTION -->
+    <section class="relative overflow-hidden pt-12 pb-8 md:pt-16 md:pb-12">
+      <div class="pointer-events-none absolute -top-24 -left-24 w-80 h-80 md:w-[28rem] md:h-[28rem] rounded-full bg-cream-300/60 blur-3xl" aria-hidden="true"></div>
+      <div class="pointer-events-none absolute top-6 -right-24 w-96 h-96 md:w-[30rem] md:h-[30rem] rounded-full bg-rose-100/50 blur-3xl" aria-hidden="true"></div>
+
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-10 relative z-10">
+        <div class="max-w-3xl">
+          <div class="reveal-up inline-flex items-center gap-2.5 px-4 py-1.5 rounded-full bg-cream-50/95 border border-clay-400/50 shadow-sm mb-5">
+            <span class="w-2 h-2 rounded-full bg-rose-600 animate-pulse"></span>
+            <span class="text-[11px] uppercase tracking-[0.24em] text-espresso-900 font-medium">Private Consultation &amp; Ritual Booking • Abuja</span>
+          </div>
+
+          <h1 class="reveal-up delay-100 font-serif text-4xl sm:text-6xl lg:text-[4rem] text-espresso-900 leading-[1.04] tracking-tight font-normal">
+            Reserve Your <span class="italic text-clay-700 font-normal">Aesthetic Ritual</span>
+          </h1>
+
+          <p class="reveal-up delay-200 mt-4 text-base sm:text-lg text-espresso-700/90 font-light leading-relaxed max-w-2xl">
+            Every appointment begins with a personalized facial and skin assessment led by our UK-trained medical professionals. Select your desired treatments below to secure your suite in Abuja.
+          </p>
+        </div>
+
+        <!-- Inline Status Alert Banner (replaces alert()) -->
+        <div id="validation-banner" class="hidden mt-6 p-4 rounded-2xl bg-rose-50 border border-rose-300 text-rose-900 text-sm flex items-center justify-between gap-4" role="alert">
+          <div class="flex items-center gap-3">
+            <span class="w-6 h-6 rounded-full bg-rose-600 text-white text-xs font-bold flex items-center justify-center shrink-0">!</span>
+            <span id="validation-message">Please complete all required fields to generate your reservation pass.</span>
+          </div>
+          <button type="button" onclick="document.getElementById('validation-banner').classList.add('hidden')" class="text-xs uppercase tracking-wider font-semibold text-rose-700 hover:underline">Dismiss</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- MAIN SPLIT-SCREEN BOOKING STUDIO -->
+    <section class="pb-16 md:pb-24">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-10">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-10 items-start">
+
+          <!-- LEFT COLUMN: 3-STEP INTERACTIVE BOOKING BUILDER (7/12) -->
+          <div class="lg:col-span-7 space-y-8">
+
+            <!-- STEP 01: SELECT TREATMENTS & RITUALS -->
+            <div class="reveal-up editorial-surface p-6 sm:p-8">
+              <div class="flex flex-wrap items-baseline justify-between gap-2 pb-4 mb-5 border-b border-clay-400/30">
+                <div>
+                  <span class="block text-[10px] uppercase tracking-[0.26em] text-rose-700 font-semibold mb-1">Step 01 • Curate Suite</span>
+                  <h2 class="font-serif text-2xl sm:text-3xl text-espresso-900">Select Treatments &amp; Rituals</h2>
+                </div>
+                <span id="selected-counter-label" class="text-xs font-medium text-clay-700">1 selected</span>
+              </div>
+
+              <!-- Category Filter Pills -->
+              <div class="flex items-center gap-2 overflow-x-auto no-scrollbar pb-3 mb-4" role="tablist" aria-label="Treatment Categories">
+                <button type="button" data-cat="all" class="booking-cat-btn active px-3.5 py-1.5 rounded-full text-[11px] uppercase tracking-[0.14em] font-medium bg-espresso-900 text-cream-50 whitespace-nowrap transition-all">
+                  All
+                </button>
+                <button type="button" data-cat="consultation" class="booking-cat-btn px-3.5 py-1.5 rounded-full text-[11px] uppercase tracking-[0.14em] font-medium bg-cream-50 text-espresso-800 border border-clay-400/45 hover:border-espresso-900 whitespace-nowrap transition-all">
+                  Consultation
+                </button>
+                <button type="button" data-cat="injectables" class="booking-cat-btn px-3.5 py-1.5 rounded-full text-[11px] uppercase tracking-[0.14em] font-medium bg-cream-50 text-espresso-800 border border-clay-400/45 hover:border-espresso-900 whitespace-nowrap transition-all">
+                  Fillers &amp; Botox
+                </button>
+                <button type="button" data-cat="skin" class="booking-cat-btn px-3.5 py-1.5 rounded-full text-[11px] uppercase tracking-[0.14em] font-medium bg-cream-50 text-espresso-800 border border-clay-400/45 hover:border-espresso-900 whitespace-nowrap transition-all">
+                  Skin &amp; Facials
+                </button>
+                <button type="button" data-cat="lifting" class="booking-cat-btn px-3.5 py-1.5 rounded-full text-[11px] uppercase tracking-[0.14em] font-medium bg-cream-50 text-espresso-800 border border-clay-400/45 hover:border-espresso-900 whitespace-nowrap transition-all">
+                  Lifting &amp; Peels
+                </button>
+                <button type="button" data-cat="body" class="booking-cat-btn px-3.5 py-1.5 rounded-full text-[11px] uppercase tracking-[0.14em] font-medium bg-cream-50 text-espresso-800 border border-clay-400/45 hover:border-espresso-900 whitespace-nowrap transition-all">
+                  Body &amp; IV
+                </button>
+              </div>
+
+              <!-- Quick Search within Step 01 -->
+              <div class="relative mb-4">
+                <svg class="w-4 h-4 text-clay-600 absolute left-3.5 top-1/2 -translate-y-1/2 pointer-events-none" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24">
+                  <circle cx="11" cy="11" r="7"></circle>
+                  <path stroke-linecap="round" d="M20 20l-3.5-3.5"></path>
+                </svg>
+                <input
+                  id="booking-treatment-search"
+                  type="search"
+                  placeholder="Filter treatments (e.g., Lip Filler, Profhilo, Botox, Hydra Facial)..."
+                  aria-label="Filter treatments"
+                  class="editorial-input w-full pl-10 pr-4 py-2.5 rounded-full text-sm text-espresso-900 placeholder:text-clay-600"
+                />
+              </div>
+
+              <!-- Scrollable Multi-Select Treatment Grid -->
+              <div id="treatment-options-grid" class="grid grid-cols-1 sm:grid-cols-2 gap-3 max-h-[26rem] overflow-y-auto pr-1">
+                <!-- Populated by JavaScript for clean state sync -->
+              </div>
+            </div>
+
+            <!-- STEP 02: PRACTITIONER, DATE & TIME SLOT -->
+            <div class="reveal-up delay-100 editorial-surface p-6 sm:p-8">
+              <div class="pb-4 mb-6 border-b border-clay-400/30">
+                <span class="block text-[10px] uppercase tracking-[0.26em] text-rose-700 font-semibold mb-1">Step 02 • Schedule</span>
+                <h2 class="font-serif text-2xl sm:text-3xl text-espresso-900">Practitioner, Date &amp; Time</h2>
+              </div>
+
+              <!-- Practitioner Preference -->
+              <div class="mb-7">
+                <label class="block text-xs uppercase tracking-[0.16em] text-espresso-800 font-semibold mb-3">
+                  Practitioner Preference
+                </label>
+                <div id="practitioner-group" class="grid grid-cols-1 sm:grid-cols-3 gap-2.5">
+                  <button type="button" data-practitioner="Lead Medical Practitioner (UK-Trained)" class="slot-pill active rounded-2xl p-3.5 text-left">
+                    <span class="block text-xs font-semibold">Lead Medical Practitioner</span>
+                    <span class="block text-[11px] opacity-75 mt-0.5">Injectables &amp; Full-Face</span>
+                  </button>
+                  <button type="button" data-practitioner="Senior Aesthetic Nurse" class="slot-pill rounded-2xl p-3.5 text-left">
+                    <span class="block text-xs font-semibold">Senior Aesthetic Nurse</span>
+                    <span class="block text-[11px] opacity-75 mt-0.5">Skin Boosters &amp; IVs</span>
+                  </button>
+                  <button type="button" data-practitioner="First Available Specialist" class="slot-pill rounded-2xl p-3.5 text-left">
+                    <span class="block text-xs font-semibold">First Available Specialist</span>
+                    <span class="block text-[11px] opacity-75 mt-0.5">Earliest Suite Access</span>
+                  </button>
+                </div>
+              </div>
+
+              <!-- Date Selector (14-day quick strip + Calendar input) -->
+              <div class="mb-7">
+                <div class="flex flex-wrap items-center justify-between gap-2 mb-3">
+                  <label for="calendar-date-input" class="text-xs uppercase tracking-[0.16em] text-espresso-800 font-semibold">
+                    Select Appointment Date <span class="text-clay-600 font-normal normal-case tracking-normal">(Mon – Sat, Closed Sundays)</span>
+                  </label>
+                  <input
+                    id="calendar-date-input"
+                    type="date"
+                    class="editorial-input px-3.5 py-1.5 rounded-full text-xs text-espresso-900 font-medium"
+                  />
+                </div>
+                <div id="quick-dates-strip" class="flex items-center gap-2.5 overflow-x-auto no-scrollbar py-1">
+                  <!-- Populated dynamically with next 14 days -->
+                </div>
+                <p id="sunday-notice" class="hidden mt-2 text-xs text-rose-700 font-medium">
+                  Our Abuja clinic is closed on Sundays for private sanctuary maintenance. Please select Monday through Saturday.
+                </p>
+              </div>
+
+              <!-- Time Slot Grid -->
+              <div>
+                <label class="block text-xs uppercase tracking-[0.16em] text-espresso-800 font-semibold mb-3">
+                  Preferred Time Window (WAT)
+                </label>
+                <div class="space-y-3" id="time-slots-container">
+                  <div>
+                    <span class="block text-[10px] uppercase tracking-[0.2em] text-clay-700 mb-2">Morning Suite</span>
+                    <div class="grid grid-cols-2 sm:grid-cols-3 gap-2.5">
+                      <button type="button" data-time="10:00 AM" class="slot-pill active py-2.5 px-3 rounded-full text-xs font-medium text-center">10:00 AM</button>
+                      <button type="button" data-time="11:30 AM" class="slot-pill py-2.5 px-3 rounded-full text-xs font-medium text-center">11:30 AM</button>
+                    </div>
+                  </div>
+                  <div>
+                    <span class="block text-[10px] uppercase tracking-[0.2em] text-clay-700 mb-2">Afternoon Suite</span>
+                    <div class="grid grid-cols-2 sm:grid-cols-3 gap-2.5">
+                      <button type="button" data-time="1:00 PM" class="slot-pill py-2.5 px-3 rounded-full text-xs font-medium text-center">1:00 PM</button>
+                      <button type="button" data-time="2:30 PM" class="slot-pill py-2.5 px-3 rounded-full text-xs font-medium text-center">2:30 PM</button>
+                      <button type="button" data-time="4:00 PM" class="slot-pill py-2.5 px-3 rounded-full text-xs font-medium text-center">4:00 PM</button>
+                    </div>
+                  </div>
+                  <div>
+                    <span class="block text-[10px] uppercase tracking-[0.2em] text-clay-700 mb-2">Late Afternoon</span>
+                    <div class="grid grid-cols-2 sm:grid-cols-3 gap-2.5">
+                      <button type="button" data-time="5:15 PM" class="slot-pill py-2.5 px-3 rounded-full text-xs font-medium text-center">5:15 PM</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- STEP 03: CLIENT DETAILS & MEDICAL PRE-SCREEN -->
+            <form id="booking-form" novalidate class="reveal-up delay-200 editorial-surface p-6 sm:p-8">
+              <div class="pb-4 mb-6 border-b border-clay-400/30">
+                <span class="block text-[10px] uppercase tracking-[0.26em] text-rose-700 font-semibold mb-1">Step 03 • Patient Dossier</span>
+                <h2 class="font-serif text-2xl sm:text-3xl text-espresso-900">Personal Details &amp; Medical Screening</h2>
+              </div>
+
+              <!-- Client Status Toggle -->
+              <div class="mb-5">
+                <span class="block text-xs uppercase tracking-[0.16em] text-espresso-800 font-semibold mb-2.5">Visit History</span>
+                <div class="grid grid-cols-2 gap-2.5 max-w-md" id="client-type-group">
+                  <button type="button" data-client-type="First-Time Guest" class="slot-pill active py-2.5 px-4 rounded-full text-xs font-medium">First-Time Guest</button>
+                  <button type="button" data-client-type="Returning Client" class="slot-pill py-2.5 px-4 rounded-full text-xs font-medium">Returning Client</button>
+                </div>
+              </div>
+
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-4">
+                <div>
+                  <label for="client-name" class="block text-xs font-medium text-espresso-800 mb-1.5">Full Name <span class="text-rose-600">*</span></label>
+                  <input id="client-name" name="clientName" type="text" required placeholder="e.g., Amara Okafor" class="editorial-input w-full px-4 py-3 rounded-2xl text-sm text-espresso-900 placeholder:text-clay-600" />
+                </div>
+                <div>
+                  <label for="client-phone" class="block text-xs font-medium text-espresso-800 mb-1.5">WhatsApp / Phone Number <span class="text-rose-600">*</span></label>
+                  <input id="client-phone" name="clientPhone" type="tel" required placeholder="+234 800 000 0000" class="editorial-input w-full px-4 py-3 rounded-2xl text-sm text-espresso-900 placeholder:text-clay-600" />
+                </div>
+              </div>
+
+              <div class="mb-4">
+                <label for="client-email" class="block text-xs font-medium text-espresso-800 mb-1.5">Email Address <span class="text-rose-600">*</span></label>
+                <input id="client-email" name="clientEmail" type="email" required placeholder="amara@example.com" class="editorial-input w-full px-4 py-3 rounded-2xl text-sm text-espresso-900 placeholder:text-clay-600" />
+              </div>
+
+              <div class="mb-6">
+                <label for="client-notes" class="block text-xs font-medium text-espresso-800 mb-1.5">Aesthetic Goals, Allergies or Previous Treatments (Optional)</label>
+                <textarea id="client-notes" name="clientNotes" rows="3" placeholder="Share any skin concerns, desired aesthetic outcome, or known allergies..." class="editorial-input w-full px-4 py-3 rounded-2xl text-sm text-espresso-900 placeholder:text-clay-600"></textarea>
+              </div>
+
+              <!-- Mandatory Clinical Checkboxes -->
+              <div class="space-y-3 p-4 rounded-2xl bg-cream-50/90 border border-clay-400/35 text-xs text-espresso-800">
+                <label class="flex items-start gap-3 cursor-pointer">
+                  <input id="check-age" type="checkbox" required class="mt-0.5 w-4 h-4 rounded accent-rose-700 shrink-0" />
+                  <span>I confirm that I am <strong>18 years of age or older</strong> and understand that valid identification may be requested at the clinic. <span class="text-rose-600">*</span></span>
+                </label>
+                <label class="flex items-start gap-3 cursor-pointer">
+                  <input id="check-medical" type="checkbox" required class="mt-0.5 w-4 h-4 rounded accent-rose-700 shrink-0" />
+                  <span>I confirm I am <strong>not currently pregnant or breastfeeding</strong>, and I consent to a pre-treatment medical screening by a UK-trained practitioner. <span class="text-rose-600">*</span></span>
+                </label>
+                <label class="flex items-start gap-3 cursor-pointer">
+                  <input id="check-policy" type="checkbox" required class="mt-0.5 w-4 h-4 rounded accent-rose-700 shrink-0" />
+                  <span>I agree to the <strong>48-hour rescheduling policy</strong> and understand that my booking deposit is deducted in full from my treatment cost. <span class="text-rose-600">*</span></span>
+                </label>
+              </div>
+            </form>
+          </div>
+
+          <!-- RIGHT COLUMN: STICKY RITUAL RESERVATION SUMMARY (5/12) -->
+          <aside class="lg:col-span-5 lg:sticky lg:top-28 space-y-6">
+            <div class="reveal-up delay-100 editorial-surface p-6 sm:p-8 shadow-xl">
+              <div class="flex items-center justify-between pb-4 mb-5 border-b border-clay-400/30">
+                <div>
+                  <span class="block text-[10px] uppercase tracking-[0.26em] text-rose-700 font-semibold mb-1">Abuja Sanctuary</span>
+                  <h2 class="font-serif text-2xl sm:text-3xl text-espresso-900">Ritual Reservation Summary</h2>
+                </div>
+                <span class="px-3 py-1 rounded-full bg-rose-50 border border-rose-200 text-[10px] uppercase tracking-[0.16em] text-rose-700 font-semibold">
+                  Live Estimate
+                </span>
+              </div>
+
+              <!-- Selected Treatments List -->
+              <div class="mb-5">
+                <div class="flex items-center justify-between mb-2">
+                  <span class="text-[11px] uppercase tracking-[0.18em] text-clay-700 font-semibold">Selected Rituals</span>
+                  <button type="button" id="clear-treatments-btn" class="text-[11px] text-rose-700 hover:underline font-medium">Clear All</button>
+                </div>
+                <div id="summary-treatments-list" class="divide-y divide-clay-400/20 max-h-52 overflow-y-auto pr-1">
+                  <!-- Populated dynamically -->
+                </div>
+              </div>
+
+              <!-- Appointment Metadata -->
+              <div class="p-4 rounded-2xl bg-cream-50/90 border border-clay-400/30 space-y-2.5 text-xs mb-6">
+                <div class="flex justify-between gap-2">
+                  <span class="text-clay-700">Specialist:</span>
+                  <span id="summary-practitioner" class="font-medium text-espresso-900 text-right">Lead Medical Practitioner (UK-Trained)</span>
+                </div>
+                <div class="flex justify-between gap-2">
+                  <span class="text-clay-700">Date &amp; Time:</span>
+                  <span id="summary-datetime" class="font-medium text-espresso-900 text-right">—</span>
+                </div>
+                <div class="flex justify-between gap-2">
+                  <span class="text-clay-700">Location:</span>
+                  <span class="font-medium text-espresso-900 text-right">Jamelia Aesthetics Suite, Abuja</span>
+                </div>
+              </div>
+
+              <!-- Financial Breakdown -->
+              <div class="space-y-2.5 pt-4 border-t border-clay-400/35 text-sm">
+                <div class="flex justify-between items-center text-espresso-800">
+                  <span>Estimated Treatment Total</span>
+                  <span id="summary-total" class="font-semibold tabular-nums">₦0</span>
+                </div>
+                <div class="flex justify-between items-center text-rose-700 font-medium">
+                  <div>
+                    <span>Required Booking Deposit</span>
+                    <span id="deposit-note" class="block text-[10px] text-clay-700 font-normal">Deducted from total at clinic</span>
+                  </div>
+                  <span id="summary-deposit" class="font-semibold tabular-nums">₦30,000</span>
+                </div>
+                <div class="flex justify-between items-center pt-3 border-t border-dashed border-clay-400/45 text-espresso-900 font-semibold text-base">
+                  <span>Balance Due at Clinic</span>
+                  <span id="summary-balance" class="font-serif text-2xl tabular-nums">₦0</span>
+                </div>
+              </div>
+
+              <!-- Action CTAs -->
+              <div class="mt-7 space-y-3">
+                <button
+                  type="button"
+                  id="confirm-booking-btn"
+                  class="w-full py-4 px-6 rounded-full bg-espresso-900 text-cream-50 text-xs uppercase tracking-[0.2em] font-semibold hover:bg-rose-700 transition-all duration-300 shadow-md hover:shadow-lg"
+                >
+                  Confirm Reservation &amp; Generate Pass
+                </button>
+
+                <button
+                  type="button"
+                  id="whatsapp-concierge-btn"
+                  class="w-full py-3.5 px-6 rounded-full border border-espresso-900/80 bg-cream-50/90 text-espresso-900 text-xs uppercase tracking-[0.18em] font-medium hover:bg-cream-200 transition-colors flex items-center justify-center gap-2"
+                >
+                  <svg class="w-4 h-4 text-emerald-700" fill="currentColor" viewBox="0 0 24 24"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.77-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.502-2.961-2.617-.087-.116-.708-.94-.708-1.793s.448-1.273.607-1.446c.159-.173.346-.217.462-.217l.332.006c.106.005.249-.04.39.298.144.347.491 1.2.534 1.287.043.087.072.188.014.304-.058.116-.087.188-.173.289l-.26.304c-.087.086-.177.18-.076.354.101.174.449.741.964 1.201.662.591 1.221.774 1.394.86s.274.072.376-.043c.101-.116.433-.506.549-.68.116-.173.231-.145.39-.087s1.011.477 1.184.564.289.13.332.202c.045.072.045.419-.1.824z"/></svg>
+                  <span>Book via WhatsApp Concierge</span>
+                </button>
+              </div>
+            </div>
+
+            <!-- Clinical Trust Note -->
+            <div class="rounded-3xl bg-cream-50/85 border border-clay-400/35 p-5 text-xs text-espresso-700 leading-relaxed">
+              <p class="font-semibold text-espresso-900 uppercase tracking-[0.16em] text-[10px] mb-1.5">Booking &amp; Deposit Transparency</p>
+              <p>
+                A ₦30,000 reservation deposit secures your dedicated medical suite and practitioner time in Abuja and is <strong>100% credited</strong> toward your procedure. Consultation-only visits require a ₦20,000 redeemable fee.
+              </p>
+            </div>
+          </aside>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- PRE-APPOINTMENT CARE & CLINIC PROTOCOL -->
+    <section class="py-12 md:py-16 border-t border-clay-400/30 bg-cream-50/50">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-10">
+        <div class="max-w-2xl mb-10">
+          <span class="block text-[10px] uppercase tracking-[0.26em] text-rose-700 font-semibold mb-2">Sanctuary Protocol</span>
+          <h2 class="font-serif text-3xl sm:text-4xl text-espresso-900">Preparing for Your Visit</h2>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <div class="editorial-surface p-6">
+            <span class="font-serif italic text-2xl text-rose-700 block mb-2">01.</span>
+            <h3 class="font-serif text-xl text-espresso-900 mb-2">24 Hours Prior</h3>
+            <p class="text-sm text-espresso-700/90 font-light leading-relaxed">
+              Avoid alcohol, aspirin, ibuprofen, and high-dose vitamin E or fish oil supplements 24–48 hours before injectable treatments to minimize bruising.
+            </p>
+          </div>
+
+          <div class="editorial-surface p-6">
+            <span class="font-serif italic text-2xl text-rose-700 block mb-2">02.</span>
+            <h3 class="font-serif text-xl text-espresso-900 mb-2">Arrive Fresh-Faced</h3>
+            <p class="text-sm text-espresso-700/90 font-light leading-relaxed">
+              Please arrive 10 minutes ahead of your scheduled time with clean, makeup-free skin so our practitioners can perform high-clarity facial mapping.
+            </p>
+          </div>
+
+          <div class="editorial-surface p-6">
+            <span class="font-serif italic text-2xl text-rose-700 block mb-2">03.</span>
+            <h3 class="font-serif text-xl text-espresso-900 mb-2">48-Hour Rescheduling</h3>
+            <p class="text-sm text-espresso-700/90 font-light leading-relaxed">
+              Need to adjust your appointment? Notify our Abuja concierge at least 48 hours in advance to transfer your deposit seamlessly to a new date.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- DIGITAL APPOINTMENT PASS MODAL -->
+  <div id="confirmation-modal" class="hidden fixed inset-0 z-50 bg-espresso-900/65 backdrop-blur-md flex items-center justify-center p-4 overflow-y-auto" role="dialog" aria-modal="true" aria-labelledby="pass-modal-title">
+    <div class="w-full max-w-xl rounded-4xl bg-cream-50 border border-clay-400/60 p-6 sm:p-9 shadow-2xl relative my-8">
+      <button type="button" id="close-pass-btn" class="absolute top-6 right-6 w-10 h-10 rounded-full bg-cream-200 flex items-center justify-center text-espresso-900 hover:bg-cream-300 transition-colors" aria-label="Close Appointment Pass">
+        ✕
+      </button>
+
+      <div class="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-rose-50 border border-rose-200 text-rose-700 text-[10px] uppercase tracking-[0.24em] font-semibold mb-4">
+        <span class="w-1.5 h-1.5 rounded-full bg-rose-600"></span>
+        <span>Reservation Pass Generated</span>
+      </div>
+
+      <h3 id="pass-modal-title" class="font-serif text-3xl sm:text-4xl text-espresso-900 leading-tight">
+        We Await Your Arrival, <span id="pass-client-name" class="italic text-clay-700">Guest</span>
+      </h3>
+      <p class="mt-2 text-sm text-espresso-700 font-light">
+        Your private consultation &amp; treatment dossier has been compiled. Present or share your reference code below with our Abuja concierge to finalize your deposit.
+      </p>
+
+      <!-- Luxury Ticket Card -->
+      <div class="mt-6 rounded-3xl bg-espresso-900 text-cream-50 p-6 relative overflow-hidden">
+        <div class="flex flex-wrap items-center justify-between gap-2 pb-4 mb-4 border-b border-cream-50/15">
+          <div>
+            <span class="block text-[10px] uppercase tracking-[0.26em] text-clay-300">Reference Code</span>
+            <span id="pass-ref-code" class="font-serif text-2xl tracking-[0.12em] text-rose-300 font-semibold">JA-ABV-0000</span>
+          </div>
+          <div class="text-right">
+            <span class="block text-[10px] uppercase tracking-[0.24em] text-clay-300">Location</span>
+            <span class="text-xs font-medium text-cream-50">Jamelia Aesthetics • Abuja</span>
+          </div>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 text-xs mb-4">
+          <div>
+            <span class="block text-clay-300 uppercase tracking-[0.16em] text-[10px]">Date &amp; Time</span>
+            <span id="pass-datetime" class="text-sm font-medium text-cream-50 mt-0.5 block">—</span>
+          </div>
+          <div>
+            <span class="block text-clay-300 uppercase tracking-[0.16em] text-[10px]">Specialist</span>
+            <span id="pass-practitioner" class="text-sm font-medium text-cream-50 mt-0.5 block">—</span>
+          </div>
+        </div>
+
+        <div class="pt-3 border-t border-cream-50/15">
+          <span class="block text-clay-300 uppercase tracking-[0.16em] text-[10px] mb-1.5">Reserved Rituals</span>
+          <p id="pass-rituals-list" class="text-xs text-cream-100 leading-relaxed">—</p>
+        </div>
+
+        <div class="mt-4 pt-3 border-t border-cream-50/15 flex items-center justify-between">
+          <div>
+            <span class="block text-[10px] uppercase tracking-[0.18em] text-clay-300">Est. Total: <strong id="pass-total" class="text-cream-50">₦0</strong></span>
+          </div>
+          <div class="text-right">
+            <span class="text-[10px] uppercase tracking-[0.18em] text-rose-300">Deposit Due: <strong id="pass-deposit" class="text-white">₦30,000</strong></span>
+          </div>
+        </div>
+      </div>
+
+      <div class="mt-6 grid grid-cols-1 sm:grid-cols-2 gap-3">
+        <button type="button" id="copy-pass-btn" class="w-full py-3.5 px-5 rounded-full border border-espresso-900 text-espresso-900 text-xs uppercase tracking-[0.18em] font-medium hover:bg-cream-200 transition-colors">
+          Copy Booking Pass
+        </button>
+        <button type="button" id="send-pass-whatsapp-btn" class="w-full py-3.5 px-5 rounded-full bg-rose-700 text-cream-50 text-xs uppercase tracking-[0.18em] font-semibold hover:bg-rose-600 transition-colors">
+          Send Pass to WhatsApp
+        </button>
+      </div>
+      <p id="pass-copy-feedback" class="hidden mt-3 text-center text-xs text-rose-700 font-medium">
+        Appointment pass copied to your clipboard.
+      </p>
+    </div>
+  </div>
+
+  <!-- LUXURY EDITORIAL FOOTER -->
+  <footer class="pt-14 pb-14">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-10">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 pb-12 border-b border-clay-400/35">
+
+        <!-- Brand Column -->
+        <div class="lg:col-span-2">
+          <div class="flex items-center gap-3 mb-4">
+            <div class="w-10 h-10 rounded-full bg-cream-200 border border-clay-400/60 flex items-center justify-center font-serif font-bold text-espresso-900">JA</div>
+            <div>
+              <span class="font-serif text-xl uppercase tracking-[0.16em] text-espresso-900 block leading-none">Jamelia</span>
+              <span class="text-[10px] uppercase tracking-[0.3em] text-clay-700">Aesthetics • Abuja</span>
+            </div>
+          </div>
+          <p class="text-sm text-espresso-700/90 font-light leading-relaxed max-w-md">
+            Bringing skin authenticity to Abuja. Medical-grade aesthetic enhancements performed by UK-trained professionals with an unwavering commitment to safety and natural beauty.
+          </p>
+        </div>
+
+        <!-- Navigation Links -->
+        <div>
+          <h3 class="text-[11px] uppercase tracking-[0.22em] text-espresso-900 font-semibold mb-4">Menu &amp; Clinic</h3>
+          <ul class="space-y-2.5 text-sm text-espresso-700">
+            <li><a href="./about.html" class="hover:text-rose-700 transition-colors">Our Philosophy</a></li>
+            <li><a href="./prices.html" class="hover:text-rose-700 transition-colors">Brand Prices</a></li>
+            <li><a href="./treatments.html" class="hover:text-rose-700 transition-colors">Treatments</a></li>
+            <li><a href="./reviews.html" class="hover:text-rose-700 transition-colors">Client Reflections</a></li>
+            <li><a href="./booking.html" class="text-rose-700 font-medium">Book Appointment</a></li>
+          </ul>
+        </div>
+
+        <!-- Clinic Hours & Location -->
+        <div>
+          <h3 class="text-[11px] uppercase tracking-[0.22em] text-espresso-900 font-semibold mb-4">Abuja Sanctuary</h3>
+          <ul class="space-y-2.5 text-sm text-espresso-700">
+            <li>Abuja, Federal Capital Territory, Nigeria</li>
+            <li>Mon – Sat: 10:00 AM – 6:30 PM</li>
+            <li>
+              <a href="https://www.instagram.com/jamelia_aesthetics/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1.5 text-rose-700 font-medium hover:underline">
+                <span>Instagram: @jamelia_aesthetics</span>
+              </a>
+            </li>
+            <li><a href="./contact.html" class="hover:text-rose-700 transition-colors">Contact &amp; Directions →</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="pt-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-clay-700">
+        <p>&copy; <span id="current-year"></span> Jamelia Aesthetics Abuja. All rights reserved.</p>
+        <p>Medical consultation required prior to injectable procedures.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Interactive Booking Engine -->
+  <script>
+    // 1. Year & Sticky Header / Mobile Menu
+    document.getElementById('current-year').textContent = new Date().getFullYear();
+
+    const header = document.getElementById('main-header');
+    const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+    const mobileMenuDrawer = document.getElementById('mobile-menu-drawer');
+    const menuIconOpen = document.getElementById('menu-icon-open');
+    const menuIconClose = document.getElementById('menu-icon-close');
+    let lastScrollY = window.scrollY;
+
+    window.addEventListener('scroll', () => {
+      const currentScrollY = window.scrollY;
+      if (currentScrollY > 140 && currentScrollY > lastScrollY && mobileMenuDrawer.classList.contains('hidden')) {
+        header.classList.add('nav-hidden');
+      } else {
+        header.classList.remove('nav-hidden');
+      }
+      lastScrollY = currentScrollY;
+    }, { passive: true });
+
+    mobileMenuBtn.addEventListener('click', () => {
+      const isHidden = mobileMenuDrawer.classList.toggle('hidden');
+      mobileMenuBtn.setAttribute('aria-expanded', String(!isHidden));
+      menuIconOpen.classList.toggle('hidden', !isHidden);
+      menuIconClose.classList.toggle('hidden', isHidden);
+    });
+
+    // 2. Scroll Reveal Observer
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('is-visible');
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.08 });
+    document.querySelectorAll('.reveal-up').forEach((el) => observer.observe(el));
+
+    // 3. Full Treatment Catalog matching prices.html
+    const TREATMENTS = [
+      { id: 'consult', name: 'Medical Consultation Only (Redeemable)', category: 'consultation', price: 20000, note: 'Full facial & skin mapping' },
+      { id: 'lip-filler', name: 'Lip Filler (1ml)', category: 'injectables', price: 150000, note: 'Dermal Fillers' },
+      { id: 'liquid-rhino', name: 'Liquid Rhinoplasty', category: 'injectables', price: 150000, note: 'Dermal Fillers' },
+      { id: 'chin-filler', name: 'Chin Filler', category: 'injectables', price: 150000, note: 'Dermal Fillers' },
+      { id: 'jaw-filler', name: 'Jaw Filler', category: 'injectables', price: 150000, note: 'Dermal Fillers' },
+      { id: 'cheek-filler', name: 'Cheek Filler', category: 'injectables', price: 150000, note: 'Dermal Fillers' },
+      { id: 'undereye-filler', name: 'Under Eye Filler', category: 'injectables', price: 150000, note: 'Dermal Fillers' },
+      { id: 'botox-2', name: 'Anti-Wrinkle (2 Areas)', category: 'injectables', price: 150000, note: 'Frown Lines, Crow\'s Feet' },
+      { id: 'botox-3', name: 'Anti-Wrinkle (3 Areas)', category: 'injectables', price: 180000, note: 'Frown, Crow\'s Feet, Forehead' },
+      { id: 'jaw-slimming', name: 'Jaw Slimming (Botox)', category: 'injectables', price: 150000, note: 'Masseter Refinement' },
+      { id: 'nose-slimming', name: 'Nose Slimming (Botox)', category: 'injectables', price: 150000, note: 'Tip Elevation & Slimming' },
+      { id: 'gummy-smile', name: 'Gummy Smile Correction', category: 'injectables', price: 150000, note: 'Anti-Wrinkle Precision' },
+      { id: 'neck-bands', name: 'Neck Bands (Botox)', category: 'injectables', price: 150000, note: 'Nefertiti Contour' },
+      { id: 'glow-ha-450', name: 'HA Glow Package (₦450k)', category: 'injectables', price: 450000, note: 'Glow Filler Package' },
+      { id: 'glow-sculpt', name: 'Sculpt Filler Package', category: 'injectables', price: 550000, note: 'Multi-Area Harmonisation' },
+      { id: 'glow-ha-550', name: 'HA Deluxe Package (₦550k)', category: 'injectables', price: 550000, note: 'Full-Face Radiance' },
+      { id: 'plla-face', name: 'Poly-L-Lactic Acid — Face', category: 'injectables', price: 450000, note: 'Collagen Biostimulator' },
+      { id: 'plla-neck', name: 'Poly-L-Lactic Acid — Neck', category: 'injectables', price: 450000, note: 'Collagen Biostimulator' },
+      { id: 'profhilo', name: 'Profhilo Skin Booster', category: 'skin', price: 280000, note: 'Bio-Remodelling' },
+      { id: 'seventy-hyal', name: 'Seventy Hyal Skin Booster', category: 'skin', price: 180000, note: 'Deep Hydration' },
+      { id: 'lumi-eyes', name: 'Lumi Eyes Treatment', category: 'skin', price: 150000, note: 'Periorbital Rejuvenation' },
+      { id: 'microneedling', name: 'Microneedling Facial', category: 'skin', price: 100000, note: 'Collagen Induction' },
+      { id: 'hydra-facial', name: 'Hydra Facial', category: 'skin', price: 80000, note: 'Clinical Resurfacing' },
+      { id: 'algae-peel', name: 'Algae Peel', category: 'lifting', price: 50000, note: 'Chemical Peel' },
+      { id: 'bio-peel', name: 'Bio Peel', category: 'lifting', price: 50000, note: 'Chemical Peel' },
+      { id: 'body-peel', name: 'Body Peel (From ₦200k)', category: 'lifting', price: 200000, note: 'Targeted Hyperpigmentation' },
+      { id: 'pdo-jaw', name: 'PDO Threads (Jawline / Cheeks)', category: 'lifting', price: 300000, note: 'PDO Thread Lift' },
+      { id: 'pdo-mono', name: 'Mono Threads', category: 'lifting', price: 300000, note: 'Skin Firming Threads' },
+      { id: 'pdo-midface', name: 'Face Thread Lift (Mid Face)', category: 'lifting', price: 350000, note: 'Non-Surgical Elevation' },
+      { id: 'retratude', name: 'Retratude Pen Rating', category: 'lifting', price: 250000, note: 'Precision Skin Tightening' },
+      { id: 'bbl-200', name: 'Liquid BBL (200mls)', category: 'body', price: 650000, note: 'Body Contouring' },
+      { id: 'bbl-300', name: 'Liquid BBL (300mls)', category: 'body', price: 700000, note: 'Body Contouring' },
+      { id: 'bbl-400', name: 'Liquid BBL (400mls)', category: 'body', price: 750000, note: 'Body Contouring' },
+      { id: 'bbl-500', name: 'Liquid BBL (500mls)', category: 'body', price: 800000, note: 'Body Contouring' },
+      { id: 'lemon-bottle', name: 'Lemon Bottle Fat Dissolving', category: 'body', price: 250000, note: 'From ₦250,000' },
+      { id: 'aqualyx', name: 'Aqualyx / Lipolab', category: 'body', price: 250000, note: 'From ₦250,000' },
+      { id: 'iv-energy', name: 'IV Energizing Drip', category: 'body', price: 85000, note: 'Cellular Wellness' },
+      { id: 'iv-bright', name: 'IV Brightening Booster', category: 'body', price: 225000, note: 'Luminous Infusion' },
+    ];
+
+    // Booking State
+    const state = {
+      selectedIds: new Set(['consult']),
+      activeCategory: 'all',
+      searchQuery: '',
+      practitioner: 'Lead Medical Practitioner (UK-Trained)',
+      selectedDateISO: '',
+      selectedDateFormatted: '',
+      selectedTime: '10:00 AM',
+      clientType: 'First-Time Guest',
+      lastReference: ''
+    };
+
+    // Check URL parameters for pre-selected treatment (e.g., ?treatment=lip-filler)
+    const urlParams = new URLSearchParams(window.location.search);
+    const preselectParam = urlParams.get('treatment');
+    if (preselectParam) {
+      const matched = TREATMENTS.find(t => t.id === preselectParam || t.name.toLowerCase().includes(preselectParam.toLowerCase()));
+      if (matched) {
+        state.selectedIds.clear();
+        state.selectedIds.add(matched.id);
+      }
+    }
+
+    const formatNaira = (num) => '₦' + num.toLocaleString('en-NG');
+
+    // Render Treatment Options Grid
+    const optionsGrid = document.getElementById('treatment-options-grid');
+    function renderTreatmentOptions() {
+      optionsGrid.innerHTML = '';
+      const q = state.searchQuery.toLowerCase();
+
+      const filtered = TREATMENTS.filter(t => {
+        const catMatch = state.activeCategory === 'all' || t.category === state.activeCategory;
+        const textMatch = !q || t.name.toLowerCase().includes(q) || t.note.toLowerCase().includes(q);
+        return catMatch && textMatch;
+      });
+
+      if (filtered.length === 0) {
+        optionsGrid.innerHTML = `<div class="col-span-full text-center py-8 text-xs text-clay-700">No treatments match "${state.searchQuery}".</div>`;
+        return;
+      }
+
+      filtered.forEach(item => {
+        const isSelected = state.selectedIds.has(item.id);
+        const card = document.createElement('button');
+        card.type = 'button';
+        card.className = `treatment-option ${isSelected ? 'selected' : ''} rounded-2xl p-3.5 text-left flex items-start justify-between gap-2.5`;
+        card.innerHTML = `
+          <div>
+            <span class="block text-xs font-semibold text-espresso-900 leading-snug">${item.name}</span>
+            <span class="block text-[10px] uppercase tracking-[0.12em] text-clay-700 mt-0.5">${item.note}</span>
+            <span class="inline-block mt-2 text-xs font-semibold text-rose-700">${formatNaira(item.price)}</span>
+          </div>
+          <span class="w-6 h-6 rounded-full flex items-center justify-center text-xs shrink-0 ${isSelected ? 'bg-rose-700 text-white' : 'bg-cream-200 text-espresso-800'}">
+            ${isSelected ? '✓' : '+'}
+          </span>
+        `;
+        card.addEventListener('click', () => {
+          if (state.selectedIds.has(item.id)) {
+            state.selectedIds.delete(item.id);
+          } else {
+            // If user selects an actual procedure alongside "Consultation Only", remove standalone consult
+            if (item.id !== 'consult' && state.selectedIds.has('consult')) {
+              state.selectedIds.delete('consult');
+            } else if (item.id === 'consult') {
+              state.selectedIds.clear();
+            }
+            state.selectedIds.add(item.id);
+          }
+          renderTreatmentOptions();
+          updateSummary();
+        });
+        optionsGrid.appendChild(card);
+      });
+    }
+
+    // Category Pills & Search Events
+    document.querySelectorAll('.booking-cat-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        document.querySelectorAll('.booking-cat-btn').forEach(b => {
+          b.classList.remove('bg-espresso-900', 'text-cream-50');
+          b.classList.add('bg-cream-50', 'text-espresso-800', 'border', 'border-clay-400/45');
+        });
+        btn.classList.remove('bg-cream-50', 'text-espresso-800', 'border', 'border-clay-400/45');
+        btn.classList.add('bg-espresso-900', 'text-cream-50');
+        state.activeCategory = btn.getAttribute('data-cat');
+        renderTreatmentOptions();
+      });
+    });
+
+    document.getElementById('booking-treatment-search').addEventListener('input', (e) => {
+      state.searchQuery = e.target.value.trim();
+      renderTreatmentOptions();
+    });
+
+    // Practitioner Selection
+    document.querySelectorAll('#practitioner-group button').forEach(btn => {
+      btn.addEventListener('click', () => {
+        document.querySelectorAll('#practitioner-group button').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        state.practitioner = btn.getAttribute('data-practitioner');
+        updateSummary();
+      });
+    });
+
+    // Date Picker Setup (Next 14 Days + Input)
+    const quickDatesStrip = document.getElementById('quick-dates-strip');
+    const calendarInput = document.getElementById('calendar-date-input');
+    const sundayNotice = document.getElementById('sunday-notice');
+
+    function toISODate(dateObj) {
+      const y = dateObj.getFullYear();
+      const m = String(dateObj.getMonth() + 1).padStart(2, '0');
+      const d = String(dateObj.getDate()).padStart(2, '0');
+      return `${y}-${m}-${d}`;
+    }
+
+    function formatHumanDate(dateObj) {
+      return dateObj.toLocaleDateString('en-NG', { weekday: 'short', day: 'numeric', month: 'short', year: 'numeric' });
+    }
+
+    function selectDate(dateObj) {
+      if (dateObj.getDay() === 0) {
+        sundayNotice.classList.remove('hidden');
+        return;
+      }
+      sundayNotice.classList.add('hidden');
+      const iso = toISODate(dateObj);
+      state.selectedDateISO = iso;
+      state.selectedDateFormatted = formatHumanDate(dateObj);
+      calendarInput.value = iso;
+
+      document.querySelectorAll('#quick-dates-strip button').forEach(btn => {
+        btn.classList.toggle('active', btn.getAttribute('data-iso') === iso);
+      });
+      updateSummary();
+    }
+
+    function initDates() {
+      const today = new Date();
+      calendarInput.min = toISODate(today);
+      let firstValidAssigned = false;
+
+      for (let i = 1; i <= 14; i++) {
+        const d = new Date(today);
+        d.setDate(today.getDate() + i);
+        const isSunday = d.getDay() === 0;
+        const iso = toISODate(d);
+
+        const btn = document.createElement('button');
+        btn.type = 'button';
+        btn.disabled = isSunday;
+        btn.setAttribute('data-iso', iso);
+        btn.className = 'slot-pill shrink-0 w-16 py-2.5 px-2 rounded-2xl text-center';
+        btn.innerHTML = `
+          <span class="block text-[10px] uppercase tracking-wider opacity-75">${d.toLocaleDateString('en-US', { weekday: 'short' })}</span>
+          <span class="block font-serif text-lg font-semibold leading-tight my-0.5">${d.getDate()}</span>
+          <span class="block text-[10px] opacity-75">${d.toLocaleDateString('en-US', { month: 'short' })}</span>
+        `;
+        btn.addEventListener('click', () => selectDate(d));
+        quickDatesStrip.appendChild(btn);
+
+        if (!isSunday && !firstValidAssigned) {
+          firstValidAssigned = true;
+          selectDate(d);
+        }
+      }
+    }
+
+    calendarInput.addEventListener('change', (e) => {
+      if (!e.target.value) return;
+      const parts = e.target.value.split('-');
+      const chosen = new Date(Number(parts[0]), Number(parts[1]) - 1, Number(parts[2]));
+      selectDate(chosen);
+    });
+
+    // Time Slot Selection
+    document.querySelectorAll('#time-slots-container button').forEach(btn => {
+      btn.addEventListener('click', () => {
+        document.querySelectorAll('#time-slots-container button').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        state.selectedTime = btn.getAttribute('data-time');
+        updateSummary();
+      });
+    });
+
+    // Client Type Toggle
+    document.querySelectorAll('#client-type-group button').forEach(btn => {
+      btn.addEventListener('click', () => {
+        document.querySelectorAll('#client-type-group button').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        state.clientType = btn.getAttribute('data-client-type');
+      });
+    });
+
+    // Update Summary Card
+    const summaryTreatmentsList = document.getElementById('summary-treatments-list');
+    const summaryTotalEl = document.getElementById('summary-total');
+    const summaryDepositEl = document.getElementById('summary-deposit');
+    const summaryBalanceEl = document.getElementById('summary-balance');
+    const depositNoteEl = document.getElementById('deposit-note');
+
+    function updateSummary() {
+      const chosenItems = TREATMENTS.filter(t => state.selectedIds.has(t.id));
+      document.getElementById('selected-counter-label').textContent = `${chosenItems.length} selected`;
+      document.getElementById('summary-practitioner').textContent = state.practitioner;
+      document.getElementById('summary-datetime').textContent = `${state.selectedDateFormatted} at ${state.selectedTime}`;
+
+      summaryTreatmentsList.innerHTML = '';
+      if (chosenItems.length === 0) {
+        summaryTreatmentsList.innerHTML = `<p class="py-4 text-xs text-clay-700 italic">No ritual selected yet. Choose at least one treatment or consultation.</p>`;
+        summaryTotalEl.textContent = '₦0';
+        summaryDepositEl.textContent = '₦0';
+        summaryBalanceEl.textContent = '₦0';
+        return;
+      }
+
+      let total = 0;
+      chosenItems.forEach(item => {
+        total += item.price;
+        const row = document.createElement('div');
+        row.className = 'py-2.5 flex items-center justify-between gap-2 text-xs';
+        row.innerHTML = `
+          <span class="font-medium text-espresso-900">${item.name}</span>
+          <div class="flex items-center gap-2 shrink-0">
+            <span class="font-semibold text-rose-700 tabular-nums">${formatNaira(item.price)}</span>
+            <button type="button" class="text-clay-600 hover:text-rose-700 px-1" aria-label="Remove ${item.name}">✕</button>
+          </div>
+        `;
+        row.querySelector('button').addEventListener('click', () => {
+          state.selectedIds.delete(item.id);
+          renderTreatmentOptions();
+          updateSummary();
+        });
+        summaryTreatmentsList.appendChild(row);
+      });
+
+      const isConsultOnly = chosenItems.length === 1 && chosenItems[0].id === 'consult';
+      const deposit = isConsultOnly ? 20000 : 30000;
+      const balance = Math.max(0, total - deposit);
+
+      depositNoteEl.textContent = isConsultOnly
+        ? '100% redeemable against any treatment'
+        : 'Deducted from total at clinic';
+
+      summaryTotalEl.textContent = formatNaira(total);
+      summaryDepositEl.textContent = formatNaira(deposit);
+      summaryBalanceEl.textContent = formatNaira(balance);
+    }
+
+    document.getElementById('clear-treatments-btn').addEventListener('click', () => {
+      state.selectedIds.clear();
+      renderTreatmentOptions();
+      updateSummary();
+    });
+
+    // Validation & Confirmation Pass Generation
+    const validationBanner = document.getElementById('validation-banner');
+    const validationMessage = document.getElementById('validation-message');
+
+    function showError(msg) {
+      validationMessage.textContent = msg;
+      validationBanner.classList.remove('hidden');
+      validationBanner.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    }
+
+    function buildSummaryPlaintext(refCode) {
+      const chosenItems = TREATMENTS.filter(t => state.selectedIds.has(t.id));
+      const names = chosenItems.map(i => `• ${i.name} (${formatNaira(i.price)})`).join('\n');
+      const clientName = document.getElementById('client-name').value.trim() || 'Prospective Guest';
+      const clientPhone = document.getElementById('client-phone').value.trim() || 'Not provided';
+      const notes = document.getElementById('client-notes').value.trim();
+
+      return [
+        `JAMELIA AESTHETICS ABUJA — BOOKING REQUEST`,
+        refCode ? `Reference: ${refCode}` : '',
+        `Client: ${clientName} (${state.clientType})`,
+        `Phone: ${clientPhone}`,
+        `Specialist: ${state.practitioner}`,
+        `Date & Time: ${state.selectedDateFormatted} at ${state.selectedTime}`,
+        `Selected Rituals:\n${names}`,
+        `Est. Total: ${summaryTotalEl.textContent} | Deposit: ${summaryDepositEl.textContent}`,
+        notes ? `Notes: ${notes}` : ''
+      ].filter(Boolean).join('\n');
+    }
+
+    document.getElementById('confirm-booking-btn').addEventListener('click', () => {
+      validationBanner.classList.add('hidden');
+      const chosenItems = TREATMENTS.filter(t => state.selectedIds.has(t.id));
+      const nameVal = document.getElementById('client-name').value.trim();
+      const phoneVal = document.getElementById('client-phone').value.trim();
+      const emailVal = document.getElementById('client-email').value.trim();
+      const ageOk = document.getElementById('check-age').checked;
+      const medOk = document.getElementById('check-medical').checked;
+      const polOk = document.getElementById('check-policy').checked;
+
+      if (chosenItems.length === 0) {
+        return showError('Please select at least one aesthetic ritual or consultation in Step 01.');
+      }
+      if (!nameVal || !phoneVal || !emailVal) {
+        return showError('Please enter your full name, WhatsApp phone number, and email address in Step 03.');
+      }
+      if (!ageOk || !medOk || !polOk) {
+        return showError('Please confirm all three clinical screening and policy checkboxes in Step 03.');
+      }
+
+      const randomCode = Math.floor(1000 + Math.random() * 9000);
+      state.lastReference = `JA-ABV-${randomCode}`;
+
+      document.getElementById('pass-client-name').textContent = nameVal.split(' ')[0];
+      document.getElementById('pass-ref-code').textContent = state.lastReference;
+      document.getElementById('pass-datetime').textContent = `${state.selectedDateFormatted} • ${state.selectedTime}`;
+      document.getElementById('pass-practitioner').textContent = state.practitioner;
+      document.getElementById('pass-rituals-list').textContent = chosenItems.map(i => i.name).join('  •  ');
+      document.getElementById('pass-total').textContent = summaryTotalEl.textContent;
+      document.getElementById('pass-deposit').textContent = summaryDepositEl.textContent;
+
+      document.getElementById('confirmation-modal').classList.remove('hidden');
+    });
+
+    // WhatsApp Concierge & Pass Sharing
+    function openWhatsAppWithBooking(refCode = '') {
+      const chosenItems = TREATMENTS.filter(t => state.selectedIds.has(t.id));
+      if (chosenItems.length === 0) {
+        return showError('Please select at least one treatment before messaging our concierge.');
+      }
+      const message = encodeURIComponent(buildSummaryPlaintext(refCode));
+      window.open(`https://wa.me/?text=${message}`, '_blank', 'noopener,noreferrer');
+    }
+
+    document.getElementById('whatsapp-concierge-btn').addEventListener('click', () => openWhatsAppWithBooking());
+    document.getElementById('send-pass-whatsapp-btn').addEventListener('click', () => openWhatsAppWithBooking(state.lastReference));
+
+    // Copy Booking Pass via execCommand
+    document.getElementById('copy-pass-btn').addEventListener('click', () => {
+      const textarea = document.createElement('textarea');
+      textarea.value = buildSummaryPlaintext(state.lastReference);
+      document.body.appendChild(textarea);
+      textarea.select();
+      document.execCommand('copy');
+      document.body.removeChild(textarea);
+
+      const fb = document.getElementById('pass-copy-feedback');
+      fb.classList.remove('hidden');
+      setTimeout(() => fb.classList.add('hidden'), 2600);
+    });
+
+    document.getElementById('close-pass-btn').addEventListener('click', () => {
+      document.getElementById('confirmation-modal').classList.add('hidden');
+    });
+    document.getElementById('confirmation-modal').addEventListener('click', (e) => {
+      if (e.target.id === 'confirmation-modal') {
+        document.getElementById('confirmation-modal').classList.add('hidden');
+      }
+    });
+
+    // Initialize Page
+    initDates();
+    renderTreatmentOptions();
+    updateSummary();
+  </script>
+</body>
+</html>
