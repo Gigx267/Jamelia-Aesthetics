@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html lang="en" class="scroll-smooth">
 <head>
@@ -807,12 +805,16 @@
           <!-- Cards populated cleanly via JavaScript -->
         </div>
 
+        <!-- Full Price List Link -->
+        <div class="mt-12 text-center">
+          <a href="./prices.html" class="inline-flex items-center justify-center gap-2.5 px-7 py-3.5 rounded-full border border-espresso-900/80 bg-cream-50/90 text-espresso-900 text-xs uppercase tracking-[0.2em] font-medium hover:bg-espresso-900 hover:text-cream-50 transition-all duration-300">
+            <span>View Complete Brand Price Menu</span>
+            <span aria-hidden="true">→</span>
+          </a>
+        </div>
+
       </div>
     </section>
-
-    
-
-   
 
   <!-- FOOTER -->
   <footer class="bg-cream-100 border-t border-cream-300 pt-16 pb-28 md:pb-24">
@@ -993,11 +995,12 @@
             badge: "20% Off",
             items: [
               { name: "Lip Filler (1ml)", oldPrice: "₦200,000", price: "₦160,000" },
-              { name: "Chin Filler", oldPrice: "₦200,000", price: "₦160,000" },
               { name: "Liquid Rhinoplasty", oldPrice: "₦220,000", price: "₦176,000" },
+              { name: "Chin Filler", oldPrice: "₦200,000", price: "₦160,000" },
               { name: "Jaw Filler", oldPrice: "₦220,000", price: "₦176,000" },
+              { name: "Tear Trough", oldPrice: "₦250,000", price: "₦200,000" },
               { name: "Cheek Filler", oldPrice: "₦220,000", price: "₦176,000" },
-              { name: "Tear Trough", oldPrice: "₦250,000", price: "₦200,000" }
+              { name: "Smile Line", oldPrice: "₦220,000", price: "₦176,000" }
             ]
           },
           {
@@ -1018,6 +1021,15 @@
               { name: "Face", oldPrice: "₦450,000", price: "₦360,000" },
               { name: "Neck", oldPrice: "₦450,000", price: "₦360,000" }
             ]
+          },
+          {
+            title: "PRP (Platelet-Rich Plasma)",
+            subtitle: "Autologous growth-factor rejuvenation",
+            badge: "20% Off",
+            items: [
+              { name: "Hair Loss (Scalp PRP)", oldPrice: "₦180,000", price: "₦144,000" },
+              { name: "PRP Facial", oldPrice: "₦180,000", price: "₦144,000" }
+            ]
           }
         ],
         antiwrinkle: [
@@ -1026,9 +1038,9 @@
             subtitle: "Smooth fine lines across frown, forehead & crow's feet",
             badge: "20% Off",
             items: [
-              { name: "1 Area (Any 1 Area)", oldPrice: "₦100,000", price: "₦80,000" },
+              { name: "3 Areas (Frown, Forehead & Crow's Feet)", oldPrice: "₦200,000", price: "₦160,000" },
               { name: "2 Areas (Any 2 Areas)", oldPrice: "₦150,000", price: "₦120,000" },
-              { name: "3 Areas (Frown, Forehead & Crow's Feet)", oldPrice: "₦200,000", price: "₦160,000" }
+              { name: "1 Area (Any 1 Area)", oldPrice: "₦100,000", price: "₦80,000" }
             ]
           },
           {
@@ -1036,10 +1048,10 @@
             subtitle: "Refined contouring & tension relief",
             badge: "20% Off",
             items: [
-              { name: "Nose Slimming", oldPrice: "₦150,000", price: "₦120,000" },
               { name: "Jaw Slimming", oldPrice: "₦200,000", price: "₦160,000" },
-              { name: "Neck Bands", oldPrice: "₦200,000", price: "₦160,000" },
-              { name: "TrapTox", oldPrice: "₦300,000", price: "₦240,000" }
+              { name: "Nose Slimming", oldPrice: "₦150,000", price: "₦120,000" },
+              { name: "TrapTox", oldPrice: "₦300,000", price: "₦240,000" },
+              { name: "Neck Bands", oldPrice: "₦200,000", price: "₦160,000" }
             ]
           },
           {
@@ -1058,8 +1070,8 @@
             subtitle: "Deep cellular renewal & hydrating radiance",
             badge: "20% Off",
             items: [
-              { name: "Hydra Facial", oldPrice: "₦80,000", price: "₦64,000" },
-              { name: "Microneedling Facial", oldPrice: "₦100,000", price: "₦80,000" }
+              { name: "Microneedling Facial", oldPrice: "₦100,000", price: "₦80,000" },
+              { name: "Hydra Facial", oldPrice: "₦80,000", price: "₦64,000" }
             ]
           },
           {
@@ -1081,15 +1093,6 @@
               { name: "Plinest Eyes", oldPrice: "₦180,000", price: "₦144,000" },
               { name: "Polynucleotide Face", oldPrice: "₦180,000", price: "₦144,000" }
             ]
-          },
-          {
-            title: "PRP (Platelet-Rich Plasma)",
-            subtitle: "Autologous growth-factor rejuvenation",
-            badge: "20% Off",
-            items: [
-              { name: "Hair Loss (Scalp PRP)", oldPrice: "₦180,000", price: "₦144,000" },
-              { name: "PRP Facial", oldPrice: "₦180,000", price: "₦144,000" }
-            ]
           }
         ],
         body: [
@@ -1098,10 +1101,10 @@
             subtitle: "Non-surgical volume enhancement & hip dip sculpting",
             badge: "20% Off",
             items: [
-              { name: "200mls", oldPrice: "₦700,000", price: "₦560,000" },
-              { name: "300mls", oldPrice: "₦900,000", price: "₦720,000" },
-              { name: "400mls", oldPrice: "₦1,100,000", price: "₦880,000" },
-              { name: "500mls", oldPrice: "₦1,300,000", price: "₦1,040,000" }
+              { name: "200mls", oldPrice: "", price: "₦700,000" },
+              { name: "300mls", oldPrice: "", price: "₦900,000" },
+              { name: "400mls", oldPrice: "", price: "₦1,100,000" },
+              { name: "500mls", oldPrice: "", price: "₦1,300,000" }
             ]
           },
           {
@@ -1120,7 +1123,7 @@
             items: [
               { name: "IV Brightening Drips", oldPrice: "₦225,000", price: "₦180,000" },
               { name: "IV Brightening Booster", oldPrice: "₦225,000", price: "₦180,000" },
-              { name: "Retatrutide Pen 40mg", oldPrice: "₦200,000", price: "₦160,000" }
+              { name: "Retratruide Pen 40mg", oldPrice: "₦200,000", price: "₦160,000" }
             ]
           }
         ],
@@ -1162,7 +1165,7 @@
                     <span class="text-sm sm:text-base text-espresso-900 font-normal">${item.name}</span>
                     <div class="flex items-center gap-3 shrink-0">
                       <div class="text-right">
-                        <span class="block text-xs text-espresso-700/60 line-through">${item.oldPrice}</span>
+                        ${item.oldPrice ? `<span class="block text-xs text-espresso-700/60 line-through">${item.oldPrice}</span>` : ''}
                         <span class="block text-sm sm:text-base font-semibold text-clay-800">${item.price}</span>
                       </div>
                       <a href="#booking"
@@ -1224,24 +1227,28 @@
         dateInput.setAttribute('min', todayStr);
       }
 
-      bookingForm.addEventListener('submit', (e) => {
-        e.preventDefault();
-        const name = document.getElementById('client-name').value.trim();
-        const service = document.getElementById('service-select').value;
-        const date = document.getElementById('preferred-date').value;
-        const time = document.getElementById('preferred-time').value;
+      if (bookingForm) {
+        bookingForm.addEventListener('submit', (e) => {
+          e.preventDefault();
+          const name = document.getElementById('client-name').value.trim();
+          const service = document.getElementById('service-select').value;
+          const date = document.getElementById('preferred-date').value;
+          const time = document.getElementById('preferred-time').value;
 
-        confirmationSummary.textContent = `Thank you, ${name}. We have reserved your request for "${service}" on ${date} at ${time}. Our concierge will reach out shortly to finalize your sanctuary arrival.`;
+          confirmationSummary.textContent = `Thank you, ${name}. We have reserved your request for "${service}" on ${date} at ${time}. Our concierge will reach out shortly to finalize your sanctuary arrival.`;
 
-        bookingForm.classList.add('hidden');
-        confirmationBox.classList.remove('hidden');
-      });
+          bookingForm.classList.add('hidden');
+          confirmationBox.classList.remove('hidden');
+        });
+      }
 
-      bookAnotherBtn.addEventListener('click', () => {
-        bookingForm.reset();
-        confirmationBox.classList.add('hidden');
-        bookingForm.classList.remove('hidden');
-      });
+      if (bookAnotherBtn) {
+        bookAnotherBtn.addEventListener('click', () => {
+          bookingForm.reset();
+          confirmationBox.classList.add('hidden');
+          bookingForm.classList.remove('hidden');
+        });
+      }
 
       // 5. AMBIENT SPA SOUNDSCAPE PLAYER — plays m.mp3 reliably
       const audioEl = document.getElementById('spa-audio');
@@ -1253,7 +1260,9 @@
       const volumeSlider = document.getElementById('audio-volume-slider');
 
       // Ensure the audio starts muted=False but at a gentle volume
-      audioEl.volume = Number(volumeSlider.value) / 100;
+      if (audioEl && volumeSlider) {
+        audioEl.volume = Number(volumeSlider.value) / 100;
+      }
 
       function setPlayingUI(playing) {
         if (playing) {
@@ -1269,356 +1278,50 @@
         }
       }
 
-      audioToggleBtn.addEventListener('click', () => {
-        if (audioEl.paused) {
-          const playPromise = audioEl.play();
-          if (playPromise && typeof playPromise.then === 'function') {
-            playPromise
-              .then(() => setPlayingUI(true))
-              .catch(() => {
-                statusText.textContent = 'Please tap again to allow audio';
-                setPlayingUI(false);
-              });
+      if (audioToggleBtn) {
+        audioToggleBtn.addEventListener('click', () => {
+          if (audioEl.paused) {
+            const playPromise = audioEl.play();
+            if (playPromise && typeof playPromise.then === 'function') {
+              playPromise
+                .then(() => setPlayingUI(true))
+                .catch(() => {
+                  statusText.textContent = 'Please tap again to allow audio';
+                  setPlayingUI(false);
+                });
+            } else {
+              setPlayingUI(true);
+            }
           } else {
-            setPlayingUI(true);
+            audioEl.pause();
+            setPlayingUI(false);
           }
-        } else {
-          audioEl.pause();
-          setPlayingUI(false);
-        }
-      });
+        });
+      }
 
       // Keep UI in sync if playback is interrupted (e.g., tab hidden, error)
-      audioEl.addEventListener('play', () => setPlayingUI(true));
-      audioEl.addEventListener('pause', () => setPlayingUI(false));
-      audioEl.addEventListener('ended', () => setPlayingUI(false));
-      audioEl.addEventListener('error', () => {
-        statusText.textContent = 'Audio file m.mp3 could not be loaded';
-        setPlayingUI(false);
-      });
+      if (audioEl) {
+        audioEl.addEventListener('play', () => setPlayingUI(true));
+        audioEl.addEventListener('pause', () => setPlayingUI(false));
+        audioEl.addEventListener('ended', () => setPlayingUI(false));
+        audioEl.addEventListener('error', () => {
+          statusText.textContent = 'Audio file m.mp3 could not be loaded';
+          setPlayingUI(false);
+        });
 
-      volumeSlider.addEventListener('input', (e) => {
-        audioEl.volume = Number(e.target.value) / 100;
-      });
+        if (volumeSlider) {
+          volumeSlider.addEventListener('input', (e) => {
+            audioEl.volume = Number(e.target.value) / 100;
+          });
+        }
 
-      // Attempt autoplay; browsers may block sound until the visitor interacts.
-      audioEl.play().catch(() => {
-        statusText.textContent = 'Tap play to start the ambient spa soundscape';
-        setPlayingUI(false);
-      });
+        // Attempt autoplay; browsers may block sound until the visitor interacts.
+        audioEl.play().catch(() => {
+          statusText.textContent = 'Tap play to start the ambient spa soundscape';
+          setPlayingUI(false);
+        });
+      }
     });
   </script>
 </body>
 </html>
-
- <!-- 3. CURATED TREATMENTS & INTERACTIVE SERVICES MENU -->
-    <section id="treatments" class="py-16 md:py-24 relative">
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-10">
-
-        <!-- Section Header -->
-        <div class="reveal-up text-center max-w-3xl mx-auto">
-          <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-rose-50/90 border border-rose-200/80 shadow-sm mb-4">
-            <span class="w-1.5 h-1.5 rounded-full bg-rose-600 animate-pulse"></span>
-            <span class="text-[11px] uppercase tracking-[0.22em] text-rose-700 font-semibold">End of Year Promo — 20% Off Selected Rituals</span>
-          </div>
-          <h2 class="font-serif text-3xl sm:text-5xl text-espresso-900 mt-1 font-normal tracking-tight leading-tight">
-            Aesthetic Menu &amp; <span class="italic text-clay-700">Treatments</span>
-          </h2>
-          <p class="mt-3 text-sm sm:text-base text-espresso-700 font-light max-w-2xl mx-auto">
-            Signature UK-trained aesthetics and luxury skin rituals. Select a category below to explore treatments, pricing, and direct booking.
-          </p>
-        </div>
-
-        <!-- Category Filter Tabs -->
-        <div class="reveal-up delay-100 mt-9 flex flex-wrap items-center justify-center gap-2 sm:gap-3" role="tablist" aria-label="Treatment Categories">
-          <button type="button" data-category="fillers" role="tab" aria-selected="true" class="treatment-tab active px-5 sm:px-6 py-3 rounded-full text-[11px] uppercase tracking-[0.16em] font-medium transition-all duration-300 bg-espresso-900 text-cream-50 shadow-sm">
-            Fillers &amp; Collagen
-          </button>
-          <button type="button" data-category="antiwrinkle" role="tab" aria-selected="false" class="treatment-tab px-5 sm:px-6 py-3 rounded-full text-[11px] uppercase tracking-[0.16em] font-medium transition-all duration-300 bg-cream-50 border border-clay-400/45 text-espresso-800 hover:bg-cream-200">
-            Anti-Wrinkle &amp; Threads
-          </button>
-          <button type="button" data-category="skin" role="tab" aria-selected="false" class="treatment-tab px-5 sm:px-6 py-3 rounded-full text-[11px] uppercase tracking-[0.16em] font-medium transition-all duration-300 bg-cream-50 border border-clay-400/45 text-espresso-800 hover:bg-cream-200">
-            Facials, Peels &amp; Boosters
-          </button>
-          <button type="button" data-category="body" role="tab" aria-selected="false" class="treatment-tab px-5 sm:px-6 py-3 rounded-full text-[11px] uppercase tracking-[0.16em] font-medium transition-all duration-300 bg-cream-50 border border-clay-400/45 text-espresso-800 hover:bg-cream-200">
-            Body Sculpting &amp; Wellness
-          </button>
-          <button type="button" data-category="spmu" role="tab" aria-selected="false" class="treatment-tab px-5 sm:px-6 py-3 rounded-full text-[11px] uppercase tracking-[0.16em] font-medium transition-all duration-300 bg-cream-50 border border-clay-400/45 text-espresso-800 hover:bg-cream-200">
-            Semi-Permanent Makeup
-          </button>
-        </div>
-
-        <!-- Dynamic Treatments Grid -->
-        <div id="treatments-grid" class="mt-10 grid grid-cols-1 md:grid-cols-2 gap-5 lg:gap-7">
-          <!-- Cards populated cleanly via JavaScript -->
-        </div>
-
-        <!-- Full Price List Link -->
-        <div class="mt-10 text-center">
-          <a href="./prices.html" class="inline-flex items-center justify-center gap-2.5 px-7 py-3.5 rounded-full border border-espresso-900/80 bg-cream-50/90 text-espresso-900 text-xs uppercase tracking-[0.2em] font-medium hover:bg-espresso-900 hover:text-cream-50 transition-all duration-300">
-            <span>View Complete 12-Category Brand Price Menu</span>
-            <span aria-hidden="true">→</span>
-          </a>
-        </div>
-
-      </div>
-    </section>
-
-    <!-- 4. THE SANCTUARY VISUAL GALLERY & INSTAGRAM FEED PREVIEW -->
-    <section id="sanctuary" class="py-16 md:py-24 bg-cream-200/55 border-y border-cream-300/80">
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-10">
-
-        <div class="reveal-up flex flex-col md:flex-row md:items-end justify-between gap-6 mb-10">
-          <div>
-            <p class="text-[11px] uppercase tracking-[0.28em] text-rose-700 font-semibold">Inside The Studio</p>
-            <h2 class="font-serif text-3xl sm:text-5xl text-espresso-900 mt-2 font-normal">
-              A Soft Cream <span class="italic text-clay-700">Sanctuary</span>
-            </h2>
-          </div>
-          <a href="https://www.instagram.com/jamelia_aesthetics/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2.5 self-start md:self-auto px-6 py-3 rounded-full bg-cream-50 border border-clay-400/60 text-xs uppercase tracking-[0.18em] text-espresso-900 hover:bg-espresso-900 hover:text-cream-50 transition-all duration-300 shadow-sm">
-            <span>Follow @jamelia_aesthetics</span>
-            <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="1.6" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
-            </svg>
-          </a>
-        </div>
-
-        <!-- Editorial Bento / Masonry Visual Grid -->
-        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-12 gap-4 sm:gap-5 lg:gap-6">
-
-          <!-- Large Feature Card -->
-          <article class="reveal-up lg:col-span-6 group relative isolate rounded-[1.75rem] overflow-hidden bg-cream-300 aspect-[4/3] lg:aspect-auto lg:h-[460px] border border-white/70 shadow-lg ring-1 ring-espresso-900/5">
-            <img
-              src=""
-              alt="Serene treatment room inside Jamelia Aesthetics Wuse 2 studio"
-              class="absolute inset-0 w-full h-full object-cover"
-            />
-            <video
-              class="relative z-10 w-full h-full object-cover transition-transform duration-1000 ease-out group-hover:scale-[1.03]"
-              autoplay
-              muted
-              loop
-              playsinline
-              poster=""
-            >
-              <source src="./ft (1).mp4" type="video/mp4" />
-            </video>
-            <div class="absolute inset-0 z-20 bg-gradient-to-t from-espresso-900/55 via-espresso-900/10 to-transparent pointer-events-none"></div>
-            <div class="absolute bottom-5 left-5 right-5 z-30 flex items-center justify-between text-cream-50">
-              <span class="text-xs uppercase tracking-[0.2em] text-cream-100">Private Treatment Suite</span>
-              <span class="px-3 py-1 rounded-full bg-cream-50/15 backdrop-blur-md text-[10px] uppercase tracking-[0.18em]">Wuse 2</span>
-            </div>
-          </article>
-
-          <!-- Center Stacked Cards -->
-          <div class="lg:col-span-3 flex flex-col gap-4 sm:gap-5 lg:gap-6">
-            <article class="reveal-up delay-100 group relative isolate rounded-[1.65rem] overflow-hidden bg-cream-300 h-[218px] border border-white/70 shadow-md ring-1 ring-espresso-900/5">
-              <img
-                src=""
-                alt="Precision dermal filler and lip artistry"
-                class="absolute inset-0 w-full h-full object-cover"
-              />
-              <video
-                class="relative z-10 w-full h-full object-cover transition-transform duration-1000 ease-out group-hover:scale-[1.04]"
-                autoplay
-                muted
-                loop
-                playsinline
-                poster="htcrop&w=700&q=80"
-              >
-                <source src="./hj (1).mp4" type="video/mp4" />
-              </video>
-              <div class="absolute inset-0 z-20 bg-gradient-to-t from-espresso-900/40 to-transparent pointer-events-none"></div>
-              <span class="absolute bottom-3.5 left-4 z-30 text-[10px] uppercase tracking-[0.2em] text-cream-50">Lip &amp; Facial Balance</span>
-            </article>
-
-            <article class="reveal-up delay-200 group relative isolate rounded-[1.65rem] overflow-hidden bg-cream-300 h-[218px] border border-white/70 shadow-md ring-1 ring-espresso-900/5">
-              <img
-                src="httcrop&w=700&q=80"
-                alt="Clinical skin booster and Hydra facial glow ritual"
-                class="absolute inset-0 w-full h-full object-cover"
-              />
-              <video
-                class="relative z-10 w-full h-full object-cover transition-transform duration-1000 ease-out group-hover:scale-[1.04]"
-                autoplay
-                muted
-                loop
-                playsinline
-                poster="htt&fit=crop&w=700&q=80"
-              >
-                <source src="./hj (2).mp4" type="video/mp4" />
-              </video>
-              <div class="absolute inset-0 z-20 bg-gradient-to-t from-espresso-900/40 to-transparent pointer-events-none"></div>
-              <span class="absolute bottom-3.5 left-4 z-30 text-[10px] uppercase tracking-[0.2em] text-cream-50">Skin Boosters &amp; Glow</span>
-            </article>
-          </div>
-
-          <!-- Right Vertical Card -->
-          <article class="reveal-up delay-300 sm:col-span-2 lg:col-span-3 group relative isolate rounded-[1.75rem] overflow-hidden bg-cream-300 h-[340px] lg:h-[460px] border border-white/70 shadow-lg ring-1 ring-espresso-900/5">
-            <img
-              src="ht&w=800&q=80"
-              alt="Holistic body and aesthetic harmony at Jamelia Aesthetics"
-              class="absolute inset-0 w-full h-full object-cover"
-            />
-            <video
-              class="relative z-10 w-full h-full object-cover transition-transform duration-1000 ease-out group-hover:scale-[1.03]"
-              autoplay
-              muted
-              loop
-              playsinline
-              poster="./ft (1).mp4"
-            >
-              <source src="./ft (1).mp4" type="video/mp4" />
-            </video>
-            <div class="absolute inset-0 z-20 bg-gradient-to-t from-espresso-900/60 via-transparent to-transparent pointer-events-none"></div>
-            <div class="absolute bottom-5 left-5 right-5 z-30 text-cream-50">
-              <span class="inline-flex rounded-full border border-white/25 bg-cream-50/15 px-3.5 py-2 text-[10px] uppercase tracking-[0.24em] text-cream-100 backdrop-blur-md">
-                Balance • Enhance
-              </span>
-            </div>
-          </article>
-
-        </div>
-      </div>
-    </section>
-
-    <!-- 5. CLIENT REFLECTIONS & SANCTUARY RESERVATION BANNER -->
-    <section class="py-16 md:py-24">
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-10">
-
-        <div class="flex flex-col sm:flex-row sm:items-end justify-between gap-4 mb-10">
-          <div>
-            <span class="block text-[11px] uppercase tracking-[0.26em] text-rose-700 font-semibold mb-2">Client Reflections</span>
-            <h2 class="font-serif text-3xl sm:text-4xl text-espresso-900">Trusted Across Abuja</h2>
-          </div>
-          <a href="./reviews.html" class="text-xs uppercase tracking-[0.2em] font-semibold text-espresso-900 hover:text-rose-700 transition-colors">
-            Read More Client Stories →
-          </a>
-        </div>
-
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-16">
-          <blockquote class="editorial-surface p-6 sm:p-7 flex flex-col justify-between">
-            <p class="font-serif italic text-xl text-espresso-900 leading-relaxed">
-              “My lip filler and Profhilo session felt so calm and unrushed. The UK medical standards are evident in every detail—nobody can tell I had work done, I just look rested.”
-            </p>
-            <footer class="mt-5 pt-4 border-t border-clay-400/25 flex items-center justify-between text-xs bg-transparent border-t">
-              <span class="font-semibold text-espresso-900">Zainab M. — Maitama</span>
-              <span class="text-rose-700">★★★★★</span>
-            </footer>
-          </blockquote>
-
-          <blockquote class="editorial-surface p-6 sm:p-7 flex flex-col justify-between">
-            <p class="font-serif italic text-xl text-espresso-900 leading-relaxed">
-              “The Hydra Facial paired with a Bio Peel cleared my hyperpigmentation without irritation. Easily the most serene aesthetic sanctuary in Wuse 2.”
-            </p>
-            <footer class="mt-5 pt-4 border-t border-clay-400/25 flex items-center justify-between text-xs bg-transparent border-t">
-              <span class="font-semibold text-espresso-900">Chidinma E. — Wuse 2</span>
-              <span class="text-rose-700">★★★★★</span>
-            </footer>
-          </blockquote>
-
-          <blockquote class="editorial-surface p-6 sm:p-7 flex flex-col justify-between">
-            <p class="font-serif italic text-xl text-espresso-900 leading-relaxed">
-              “From the initial consultation to my anti-wrinkle follow-up, the practitioners listened carefully to my goals. Soft, natural, and deeply confidence-boosting.”
-            </p>
-            <footer class="mt-5 pt-4 border-t border-clay-400/25 flex items-center justify-between text-xs bg-transparent border-t">
-              <span class="font-semibold text-espresso-900">Amina K. — Asokoro</span>
-              <span class="text-rose-700">★★★★★</span>
-            </footer>
-          </blockquote>
-        </div>
-
-        <!-- Final Editorial Booking Callout -->
-        <div class="rounded-4xl bg-espresso-900 text-cream-50 p-8 sm:p-12 lg:p-14 relative overflow-hidden shadow-2xl">
-          <div class="pointer-events-none absolute -right-16 -top-16 w-72 h-72 rounded-full bg-rose-700/25 blur-3xl" aria-hidden="true"></div>
-          <div class="relative z-10 flex flex-col lg:flex-row lg:items-center justify-between gap-8">
-            <div class="max-w-2xl">
-              <span class="inline-block text-[10px] uppercase tracking-[0.28em] text-rose-300 font-semibold mb-3">
-                Private Post-Surgery Accommodation
-              </span>
-              <h2 class="font-serif text-3xl sm:text-5xl text-cream-50 leading-tight font-normal">
-                Reserve Your Private Suite for <span class="italic text-clay-300">Post-Surgery Aftercare</span>
-              </h2>
-              <p class="mt-3 text-sm sm:text-base text-cream-200/90 font-light leading-relaxed">
-                Recover in comfort, privacy and peace after your plastic surgery procedure. Whether you’re travelling to Abuja or need a peaceful place to rest, our accommodation is designed to make your recovery stay easier.
-              </p>
-              <p class="mt-4 text-xs uppercase tracking-[0.18em] text-clay-300 font-semibold">Aftercare support includes</p>
-              <ul class="mt-2 grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-1.5 text-sm text-cream-200/90 font-light">
-                <li>Private post-surgery accommodation</li>
-                <li>Lymphatic drainage massage</li>
-                <li>Faja fitting and support</li>
-                <li>Post-operative care support</li>
-                <li>Wound care assistance</li>
-                <li>Medication support and reminders</li>
-                <li>Housekeeping and comfortable recovery facilities</li>
-              </ul>
-              <p class="mt-4 text-sm text-cream-200/90 font-light">Rest. Recover. In comfort.</p>
-            </div>
-            <div class="flex flex-col sm:flex-row gap-3.5 shrink-0">
-              <a href="./booking.html" class="inline-flex items-center justify-center px-8 py-4 rounded-full bg-rose-700 text-cream-50 text-xs uppercase tracking-[0.2em] font-semibold hover:bg-rose-600 transition-colors shadow-lg">
-                Enquire About Aftercare
-              </a>
-              <a href="./contact.html" class="inline-flex items-center justify-center px-7 py-4 rounded-full border border-cream-50/35 text-cream-50 text-xs uppercase tracking-[0.2em] font-medium hover:bg-cream-50/10 transition-colors">
-                Speak to Concierge
-              </a>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </section>
-  </main>
-
-  <!-- LUXURY EDITORIAL FOOTER -->
-  <footer class="pt-14 pb-14">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-10">
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 pb-12 border-b border-clay-400/35">
-
-        <!-- Brand Column -->
-        <div class="lg:col-span-2">
-          <div class="flex items-center gap-3 mb-4">
-            <img src="./logo.jpg" alt="Jamelia Aesthetics logo" class="w-10 h-10 rounded-full object-contain" />
-            <div>
-              <span class="font-serif text-xl uppercase tracking-[0.16em] text-espresso-900 block leading-none">Jamelia</span>
-              <span class="text-[10px] uppercase tracking-[0.3em] text-clay-700">Aesthetics • Abuja</span>
-            </div>
-          </div>
-          <p class="text-sm text-espresso-700/90 font-light leading-relaxed max-w-md">
-            Bringing skin authenticity to Wuse 2, Abuja. Medical-grade aesthetic enhancements performed by UK-trained professionals with an unwavering commitment to safety and natural beauty.
-          </p>
-        </div>
-
-        <!-- Navigation Links -->
-        <div>
-          <h3 class="text-[11px] uppercase tracking-[0.22em] text-espresso-900 font-semibold mb-4">Menu &amp; Clinic</h3>
-          <ul class="space-y-2.5 text-sm text-espresso-700">
-            <li><a href="./about.html" class="hover:text-rose-700 transition-colors">Our Philosophy</a></li>
-            <li><a href="./prices.html" class="hover:text-rose-700 transition-colors">Brand Prices</a></li>
-            <li><a href="./treatments.html" class="hover:text-rose-700 transition-colors">Treatments</a></li>
-            <li><a href="./reviews.html" class="hover:text-rose-700 transition-colors">Client Reflections</a></li>
-            <li><a href="./booking.html" class="text-rose-700 font-medium">Book Appointment</a></li>
-          </ul>
-        </div>
-
-        <!-- Clinic Hours & Location -->
-        <div>
-          <h3 class="text-[11px] uppercase tracking-[0.22em] text-espresso-900 font-semibold mb-4">Wuse 2 Sanctuary</h3>
-          <ul class="space-y-2.5 text-sm text-espresso-700">
-            <li>Wuse 2, Abuja, FCT, Nigeria</li>
-            <li>Mon – Sat: 10:00 AM – 6:30 PM</li>
-            <li>
-              <a href="https://www.instagram.com/jamelia_aesthetics/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1.5 text-rose-700 font-medium hover:underline">
-                <span>Instagram: @jamelia_aesthetics</span>
-              </a>
-            </li>
-            <li><a href="./contact.html" class="hover:text-rose-700 transition-colors">Contact &amp; Directions →</a></li>
-          </ul>
-        </div>
-      </div>
-
-      <div class="pt-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-clay-700">
-        <p>&copy; <span id="current-year"></span> Jamelia Aesthetics Abuja. All rights reserved.</p>
-        <p>Medical consultation required prior to injectable procedures.</p>
-      </div>
-    </div>
-  </footer>
