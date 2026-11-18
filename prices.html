@@ -69,7 +69,7 @@
           }
         }
       }
-    };
+    }
   </script>
 
   <!-- Bespoke Editorial Styles -->
@@ -343,7 +343,7 @@
           <!-- Category Filter Pills -->
           <div id="category-filters" class="flex items-center gap-2 overflow-x-auto no-scrollbar py-0.5" role="tablist" aria-label="Treatment Categories">
             <button type="button" data-filter="all" class="filter-btn active px-4 py-2 rounded-full text-xs uppercase tracking-[0.14em] font-medium bg-espresso-900 text-cream-50 whitespace-nowrap transition-all">
-              All Rituals (12)
+              All Rituals (14)
             </button>
             <button type="button" data-filter="injectables" class="filter-btn px-4 py-2 rounded-full text-xs uppercase tracking-[0.14em] font-medium bg-cream-50/90 text-espresso-800 border border-clay-400/40 hover:border-espresso-900 whitespace-nowrap transition-all">
               Injectables &amp; Fillers
@@ -385,7 +385,7 @@
         <!-- Helper Hint -->
         <div class="flex flex-wrap items-center justify-between gap-2 mb-6 text-xs text-clay-700">
           <p>Tap <span class="inline-flex items-center px-2 py-0.5 rounded-full bg-cream-200 text-espresso-900 font-medium">+ Add</span> on any treatment to build a custom consultation estimate.</p>
-          <p id="results-count" class="uppercase tracking-[0.16em] font-medium text-espresso-800">Showing all 12 categories</p>
+          <p id="results-count" class="uppercase tracking-[0.16em] font-medium text-espresso-800">Showing all 14 categories</p>
         </div>
 
         <!-- Empty Search State -->
@@ -414,38 +414,44 @@
                 <div class="menu-row" data-search="lip filler 1ml dermal fillers">
                   <span class="text-sm font-medium text-espresso-800">Lip Filler (1ml)</span>
                   <span class="leader-line" aria-hidden="true"></span>
-                  <span class="price-pill">₦150,000</span>
-                  <button type="button" onclick="toggleRitual('Lip Filler (1ml)', 150000, this)" class="add-ritual-btn px-2.5 py-1 rounded-full text-[11px] font-medium border border-clay-400/60 text-espresso-800 hover:bg-espresso-900 hover:text-cream-50 transition-colors shrink-0">+ Add</button>
+                  <span class="price-pill">₦160,000</span>
+                  <button type="button" onclick="toggleRitual('Lip Filler (1ml)', 160000, this)" class="add-ritual-btn px-2.5 py-1 rounded-full text-[11px] font-medium border border-clay-400/60 text-espresso-800 hover:bg-espresso-900 hover:text-cream-50 transition-colors shrink-0">+ Add</button>
                 </div>
                 <div class="menu-row" data-search="liquid rhinoplasty nose dermal fillers">
                   <span class="text-sm font-medium text-espresso-800">Liquid Rhinoplasty</span>
                   <span class="leader-line" aria-hidden="true"></span>
-                  <span class="price-pill">₦150,000</span>
-                  <button type="button" onclick="toggleRitual('Liquid Rhinoplasty', 150000, this)" class="add-ritual-btn px-2.5 py-1 rounded-full text-[11px] font-medium border border-clay-400/60 text-espresso-800 hover:bg-espresso-900 hover:text-cream-50 transition-colors shrink-0">+ Add</button>
+                  <span class="price-pill">₦176,000</span>
+                  <button type="button" onclick="toggleRitual('Liquid Rhinoplasty', 176000, this)" class="add-ritual-btn px-2.5 py-1 rounded-full text-[11px] font-medium border border-clay-400/60 text-espresso-800 hover:bg-espresso-900 hover:text-cream-50 transition-colors shrink-0">+ Add</button>
                 </div>
                 <div class="menu-row" data-search="chin filler dermal fillers">
                   <span class="text-sm font-medium text-espresso-800">Chin Filler</span>
                   <span class="leader-line" aria-hidden="true"></span>
-                  <span class="price-pill">₦150,000</span>
-                  <button type="button" onclick="toggleRitual('Chin Filler', 150000, this)" class="add-ritual-btn px-2.5 py-1 rounded-full text-[11px] font-medium border border-clay-400/60 text-espresso-800 hover:bg-espresso-900 hover:text-cream-50 transition-colors shrink-0">+ Add</button>
+                  <span class="price-pill">₦160,000</span>
+                  <button type="button" onclick="toggleRitual('Chin Filler', 160000, this)" class="add-ritual-btn px-2.5 py-1 rounded-full text-[11px] font-medium border border-clay-400/60 text-espresso-800 hover:bg-espresso-900 hover:text-cream-50 transition-colors shrink-0">+ Add</button>
                 </div>
                 <div class="menu-row" data-search="jaw filler jawline dermal fillers">
                   <span class="text-sm font-medium text-espresso-800">Jaw Filler</span>
                   <span class="leader-line" aria-hidden="true"></span>
-                  <span class="price-pill">₦150,000</span>
-                  <button type="button" onclick="toggleRitual('Jaw Filler', 150000, this)" class="add-ritual-btn px-2.5 py-1 rounded-full text-[11px] font-medium border border-clay-400/60 text-espresso-800 hover:bg-espresso-900 hover:text-cream-50 transition-colors shrink-0">+ Add</button>
+                  <span class="price-pill">₦176,000</span>
+                  <button type="button" onclick="toggleRitual('Jaw Filler', 176000, this)" class="add-ritual-btn px-2.5 py-1 rounded-full text-[11px] font-medium border border-clay-400/60 text-espresso-800 hover:bg-espresso-900 hover:text-cream-50 transition-colors shrink-0">+ Add</button>
+                </div>
+                <div class="menu-row" data-search="tear trough under eye filler dermal fillers">
+                  <span class="text-sm font-medium text-espresso-800">Tear Trough</span>
+                  <span class="leader-line" aria-hidden="true"></span>
+                  <span class="price-pill">₦200,000</span>
+                  <button type="button" onclick="toggleRitual('Tear Trough', 200000, this)" class="add-ritual-btn px-2.5 py-1 rounded-full text-[11px] font-medium border border-clay-400/60 text-espresso-800 hover:bg-espresso-900 hover:text-cream-50 transition-colors shrink-0">+ Add</button>
                 </div>
                 <div class="menu-row" data-search="cheek filler dermal fillers">
                   <span class="text-sm font-medium text-espresso-800">Cheek Filler</span>
                   <span class="leader-line" aria-hidden="true"></span>
-                  <span class="price-pill">₦150,000</span>
-                  <button type="button" onclick="toggleRitual('Cheek Filler', 150000, this)" class="add-ritual-btn px-2.5 py-1 rounded-full text-[11px] font-medium border border-clay-400/60 text-espresso-800 hover:bg-espresso-900 hover:text-cream-50 transition-colors shrink-0">+ Add</button>
+                  <span class="price-pill">₦176,000</span>
+                  <button type="button" onclick="toggleRitual('Cheek Filler', 176000, this)" class="add-ritual-btn px-2.5 py-1 rounded-full text-[11px] font-medium border border-clay-400/60 text-espresso-800 hover:bg-espresso-900 hover:text-cream-50 transition-colors shrink-0">+ Add</button>
                 </div>
-                <div class="menu-row" data-search="under eye filler tear trough dermal fillers">
-                  <span class="text-sm font-medium text-espresso-800">Under Eye Filler</span>
+                <div class="menu-row" data-search="smile line dermal fillers">
+                  <span class="text-sm font-medium text-espresso-800">Smile Line</span>
                   <span class="leader-line" aria-hidden="true"></span>
-                  <span class="price-pill">₦150,000</span>
-                  <button type="button" onclick="toggleRitual('Under Eye Filler', 150000, this)" class="add-ritual-btn px-2.5 py-1 rounded-full text-[11px] font-medium border border-clay-400/60 text-espresso-800 hover:bg-espresso-900 hover:text-cream-50 transition-colors shrink-0">+ Add</button>
+                  <span class="price-pill">₦176,000</span>
+                  <button type="button" onclick="toggleRitual('Smile Line', 176000, this)" class="add-ritual-btn px-2.5 py-1 rounded-full text-[11px] font-medium border border-clay-400/60 text-espresso-800 hover:bg-espresso-900 hover:text-cream-50 transition-colors shrink-0">+ Add</button>
                 </div>
               </div>
             </div>
@@ -462,47 +468,56 @@
                 <span class="font-serif italic text-sm text-clay-600">Precision</span>
               </div>
               <div>
-                <div class="menu-row" data-search="2 areas frown lines crows feet anti wrinkle botox">
-                  <div class="pr-1">
-                    <span class="text-sm font-medium text-espresso-800 block">2 Areas</span>
-                    <span class="text-[11px] text-clay-700 font-light">Frown Lines, Crow's Feet</span>
-                  </div>
-                  <span class="leader-line" aria-hidden="true"></span>
-                  <span class="price-pill">₦150,000</span>
-                  <button type="button" onclick="toggleRitual('Anti-Wrinkle (2 Areas)', 150000, this)" class="add-ritual-btn px-2.5 py-1 rounded-full text-[11px] font-medium border border-clay-400/60 text-espresso-800 hover:bg-espresso-900 hover:text-cream-50 transition-colors shrink-0">+ Add</button>
-                </div>
                 <div class="menu-row" data-search="3 areas frown lines crows feet forehead anti wrinkle botox">
                   <div class="pr-1">
                     <span class="text-sm font-medium text-espresso-800 block">3 Areas</span>
-                    <span class="text-[11px] text-clay-700 font-light">Frown, Crow's Feet &amp; Forehead</span>
+                    <span class="text-[11px] text-clay-700 font-light">Frown, Forehead &amp; Crow's Feet</span>
                   </div>
                   <span class="leader-line" aria-hidden="true"></span>
-                  <span class="price-pill">₦180,000</span>
-                  <button type="button" onclick="toggleRitual('Anti-Wrinkle (3 Areas)', 180000, this)" class="add-ritual-btn px-2.5 py-1 rounded-full text-[11px] font-medium border border-clay-400/60 text-espresso-800 hover:bg-espresso-900 hover:text-cream-50 transition-colors shrink-0">+ Add</button>
+                  <span class="price-pill">₦160,000</span>
+                  <button type="button" onclick="toggleRitual('Anti-Wrinkle (3 Areas)', 160000, this)" class="add-ritual-btn px-2.5 py-1 rounded-full text-[11px] font-medium border border-clay-400/60 text-espresso-800 hover:bg-espresso-900 hover:text-cream-50 transition-colors shrink-0">+ Add</button>
+                </div>
+                <div class="menu-row" data-search="2 areas any two areas anti wrinkle botox">
+                  <div class="pr-1">
+                    <span class="text-sm font-medium text-espresso-800 block">2 Areas</span>
+                    <span class="text-[11px] text-clay-700 font-light">Any 2 Areas</span>
+                  </div>
+                  <span class="leader-line" aria-hidden="true"></span>
+                  <span class="price-pill">₦120,000</span>
+                  <button type="button" onclick="toggleRitual('Anti-Wrinkle (2 Areas)', 120000, this)" class="add-ritual-btn px-2.5 py-1 rounded-full text-[11px] font-medium border border-clay-400/60 text-espresso-800 hover:bg-espresso-900 hover:text-cream-50 transition-colors shrink-0">+ Add</button>
+                </div>
+                <div class="menu-row" data-search="1 area any one area anti wrinkle botox">
+                  <div class="pr-1">
+                    <span class="text-sm font-medium text-espresso-800 block">1 Area</span>
+                    <span class="text-[11px] text-clay-700 font-light">Any 1 Area</span>
+                  </div>
+                  <span class="leader-line" aria-hidden="true"></span>
+                  <span class="price-pill">₦80,000</span>
+                  <button type="button" onclick="toggleRitual('Anti-Wrinkle (1 Area)', 80000, this)" class="add-ritual-btn px-2.5 py-1 rounded-full text-[11px] font-medium border border-clay-400/60 text-espresso-800 hover:bg-espresso-900 hover:text-cream-50 transition-colors shrink-0">+ Add</button>
                 </div>
                 <div class="menu-row" data-search="jaw slimming masseter botox">
                   <span class="text-sm font-medium text-espresso-800">Jaw Slimming</span>
                   <span class="leader-line" aria-hidden="true"></span>
-                  <span class="price-pill">₦150,000</span>
-                  <button type="button" onclick="toggleRitual('Jaw Slimming (Botox)', 150000, this)" class="add-ritual-btn px-2.5 py-1 rounded-full text-[11px] font-medium border border-clay-400/60 text-espresso-800 hover:bg-espresso-900 hover:text-cream-50 transition-colors shrink-0">+ Add</button>
+                  <span class="price-pill">₦160,000</span>
+                  <button type="button" onclick="toggleRitual('Jaw Slimming (Botox)', 160000, this)" class="add-ritual-btn px-2.5 py-1 rounded-full text-[11px] font-medium border border-clay-400/60 text-espresso-800 hover:bg-espresso-900 hover:text-cream-50 transition-colors shrink-0">+ Add</button>
                 </div>
                 <div class="menu-row" data-search="nose slimming botox">
                   <span class="text-sm font-medium text-espresso-800">Nose Slimming</span>
                   <span class="leader-line" aria-hidden="true"></span>
-                  <span class="price-pill">₦150,000</span>
-                  <button type="button" onclick="toggleRitual('Nose Slimming (Botox)', 150000, this)" class="add-ritual-btn px-2.5 py-1 rounded-full text-[11px] font-medium border border-clay-400/60 text-espresso-800 hover:bg-espresso-900 hover:text-cream-50 transition-colors shrink-0">+ Add</button>
+                  <span class="price-pill">₦120,000</span>
+                  <button type="button" onclick="toggleRitual('Nose Slimming (Botox)', 120000, this)" class="add-ritual-btn px-2.5 py-1 rounded-full text-[11px] font-medium border border-clay-400/60 text-espresso-800 hover:bg-espresso-900 hover:text-cream-50 transition-colors shrink-0">+ Add</button>
                 </div>
-                <div class="menu-row" data-search="gummy smile botox">
-                  <span class="text-sm font-medium text-espresso-800">Gummy Smile</span>
+                <div class="menu-row" data-search="traptox trapezius botox">
+                  <span class="text-sm font-medium text-espresso-800">TrapTox</span>
                   <span class="leader-line" aria-hidden="true"></span>
-                  <span class="price-pill">₦150,000</span>
-                  <button type="button" onclick="toggleRitual('Gummy Smile Correction', 150000, this)" class="add-ritual-btn px-2.5 py-1 rounded-full text-[11px] font-medium border border-clay-400/60 text-espresso-800 hover:bg-espresso-900 hover:text-cream-50 transition-colors shrink-0">+ Add</button>
+                  <span class="price-pill">₦240,000</span>
+                  <button type="button" onclick="toggleRitual('TrapTox', 240000, this)" class="add-ritual-btn px-2.5 py-1 rounded-full text-[11px] font-medium border border-clay-400/60 text-espresso-800 hover:bg-espresso-900 hover:text-cream-50 transition-colors shrink-0">+ Add</button>
                 </div>
                 <div class="menu-row" data-search="neck bands nefertiti lift botox">
                   <span class="text-sm font-medium text-espresso-800">Neck Bands</span>
                   <span class="leader-line" aria-hidden="true"></span>
-                  <span class="price-pill">₦150,000</span>
-                  <button type="button" onclick="toggleRitual('Neck Bands (Botox)', 150000, this)" class="add-ritual-btn px-2.5 py-1 rounded-full text-[11px] font-medium border border-clay-400/60 text-espresso-800 hover:bg-espresso-900 hover:text-cream-50 transition-colors shrink-0">+ Add</button>
+                  <span class="price-pill">₦160,000</span>
+                  <button type="button" onclick="toggleRitual('Neck Bands (Botox)', 160000, this)" class="add-ritual-btn px-2.5 py-1 rounded-full text-[11px] font-medium border border-clay-400/60 text-espresso-800 hover:bg-espresso-900 hover:text-cream-50 transition-colors shrink-0">+ Add</button>
                 </div>
               </div>
             </div>
@@ -519,32 +534,32 @@
                 <span class="font-serif italic text-sm text-clay-600">Bespoke</span>
               </div>
               <div>
-                <div class="menu-row" data-search="ha glow filler package">
+                <div class="menu-row" data-search="3ml glow filler package">
                   <div>
-                    <span class="text-sm font-medium text-espresso-800 block">HA Glow Package</span>
+                    <span class="text-sm font-medium text-espresso-800 block">3ML Package</span>
                     <span class="text-[11px] text-clay-700 font-light">Essential Hydration &amp; Contour</span>
                   </div>
                   <span class="leader-line" aria-hidden="true"></span>
-                  <span class="price-pill">₦450,000</span>
-                  <button type="button" onclick="toggleRitual('HA Glow Package (₦450k)', 450000, this)" class="add-ritual-btn px-2.5 py-1 rounded-full text-[11px] font-medium border border-clay-400/60 text-espresso-800 hover:bg-espresso-900 hover:text-cream-50 transition-colors shrink-0">+ Add</button>
+                  <span class="price-pill">₦440,000</span>
+                  <button type="button" onclick="toggleRitual('3ML Glow Package', 440000, this)" class="add-ritual-btn px-2.5 py-1 rounded-full text-[11px] font-medium border border-clay-400/60 text-espresso-800 hover:bg-espresso-900 hover:text-cream-50 transition-colors shrink-0">+ Add</button>
                 </div>
-                <div class="menu-row" data-search="sculpt glow filler package">
+                <div class="menu-row" data-search="4ml glow filler package">
                   <div>
-                    <span class="text-sm font-medium text-espresso-800 block">Sculpt Package</span>
+                    <span class="text-sm font-medium text-espresso-800 block">4ML Package</span>
                     <span class="text-[11px] text-clay-700 font-light">Multi-Area Facial Harmonisation</span>
                   </div>
                   <span class="leader-line" aria-hidden="true"></span>
-                  <span class="price-pill">₦550,000</span>
-                  <button type="button" onclick="toggleRitual('Sculpt Filler Package', 550000, this)" class="add-ritual-btn px-2.5 py-1 rounded-full text-[11px] font-medium border border-clay-400/60 text-espresso-800 hover:bg-espresso-900 hover:text-cream-50 transition-colors shrink-0">+ Add</button>
+                  <span class="price-pill">₦560,000</span>
+                  <button type="button" onclick="toggleRitual('4ML Glow Package', 560000, this)" class="add-ritual-btn px-2.5 py-1 rounded-full text-[11px] font-medium border border-clay-400/60 text-espresso-800 hover:bg-espresso-900 hover:text-cream-50 transition-colors shrink-0">+ Add</button>
                 </div>
-                <div class="menu-row" data-search="ha deluxe glow filler package">
+                <div class="menu-row" data-search="5ml glow filler package">
                   <div>
-                    <span class="text-sm font-medium text-espresso-800 block">HA Deluxe Package</span>
+                    <span class="text-sm font-medium text-espresso-800 block">5ML Package</span>
                     <span class="text-[11px] text-clay-700 font-light">Full-Face Radiance &amp; Volume</span>
                   </div>
                   <span class="leader-line" aria-hidden="true"></span>
-                  <span class="price-pill">₦550,000</span>
-                  <button type="button" onclick="toggleRitual('HA Deluxe Package (₦550k)', 550000, this)" class="add-ritual-btn px-2.5 py-1 rounded-full text-[11px] font-medium border border-clay-400/60 text-espresso-800 hover:bg-espresso-900 hover:text-cream-50 transition-colors shrink-0">+ Add</button>
+                  <span class="price-pill">₦680,000</span>
+                  <button type="button" onclick="toggleRitual('5ML Glow Package', 680000, this)" class="add-ritual-btn px-2.5 py-1 rounded-full text-[11px] font-medium border border-clay-400/60 text-espresso-800 hover:bg-espresso-900 hover:text-cream-50 transition-colors shrink-0">+ Add</button>
                 </div>
               </div>
             </div>
@@ -565,14 +580,14 @@
                 <div class="menu-row" data-search="poly l lactic acid plla face">
                   <span class="text-sm font-medium text-espresso-800">Face</span>
                   <span class="leader-line" aria-hidden="true"></span>
-                  <span class="price-pill">₦450,000</span>
-                  <button type="button" onclick="toggleRitual('PLLA Biostimulator — Face', 450000, this)" class="add-ritual-btn px-2.5 py-1 rounded-full text-[11px] font-medium border border-clay-400/60 text-espresso-800 hover:bg-espresso-900 hover:text-cream-50 transition-colors shrink-0">+ Add</button>
+                  <span class="price-pill">₦360,000</span>
+                  <button type="button" onclick="toggleRitual('PLLA Biostimulator — Face', 360000, this)" class="add-ritual-btn px-2.5 py-1 rounded-full text-[11px] font-medium border border-clay-400/60 text-espresso-800 hover:bg-espresso-900 hover:text-cream-50 transition-colors shrink-0">+ Add</button>
                 </div>
                 <div class="menu-row" data-search="poly l lactic acid plla neck">
                   <span class="text-sm font-medium text-espresso-800">Neck</span>
                   <span class="leader-line" aria-hidden="true"></span>
-                  <span class="price-pill">₦450,000</span>
-                  <button type="button" onclick="toggleRitual('PLLA Biostimulator — Neck', 450000, this)" class="add-ritual-btn px-2.5 py-1 rounded-full text-[11px] font-medium border border-clay-400/60 text-espresso-800 hover:bg-espresso-900 hover:text-cream-50 transition-colors shrink-0">+ Add</button>
+                  <span class="price-pill">₦360,000</span>
+                  <button type="button" onclick="toggleRitual('PLLA Biostimulator — Neck', 360000, this)" class="add-ritual-btn px-2.5 py-1 rounded-full text-[11px] font-medium border border-clay-400/60 text-espresso-800 hover:bg-espresso-900 hover:text-cream-50 transition-colors shrink-0">+ Add</button>
                 </div>
               </div>
             </div>
@@ -580,7 +595,7 @@
           </article>
 
           <!-- 05. SKIN BOOSTERS -->
-          <article class="reveal-up delay-100 editorial-card p-6 sm:p-8 flex flex-col justify-between" data-category="skin">
+          <article class="reveal-up delay-100 editorial-card p-6 sm:p-8 flex flex-col justify-between" data-category="injectables">
             <div>
               <div class="flex items-baseline justify-between gap-3 mb-5 pb-4 border-b border-clay-400/30">
                 <div>
@@ -590,35 +605,63 @@
                 <span class="font-serif italic text-sm text-clay-600">Glass Skin</span>
               </div>
               <div>
-                <div class="menu-row" data-search="profhilo skin booster bio remodelling">
-                  <span class="text-sm font-medium text-espresso-800">Profhilo</span>
-                  <span class="leader-line" aria-hidden="true"></span>
-                  <span class="price-pill">₦280,000</span>
-                  <button type="button" onclick="toggleRitual('Profhilo Skin Booster', 280000, this)" class="add-ritual-btn px-2.5 py-1 rounded-full text-[11px] font-medium border border-clay-400/60 text-espresso-800 hover:bg-espresso-900 hover:text-cream-50 transition-colors shrink-0">+ Add</button>
-                </div>
-                <div class="menu-row" data-search="seventy hyal skin booster">
-                  <span class="text-sm font-medium text-espresso-800">Seventy Hyal</span>
-                  <span class="leader-line" aria-hidden="true"></span>
-                  <span class="price-pill">₦180,000</span>
-                  <button type="button" onclick="toggleRitual('Seventy Hyal Booster', 180000, this)" class="add-ritual-btn px-2.5 py-1 rounded-full text-[11px] font-medium border border-clay-400/60 text-espresso-800 hover:bg-espresso-900 hover:text-cream-50 transition-colors shrink-0">+ Add</button>
-                </div>
                 <div class="menu-row" data-search="lumi eyes under eye skin booster">
                   <span class="text-sm font-medium text-espresso-800">Lumi Eyes</span>
                   <span class="leader-line" aria-hidden="true"></span>
-                  <span class="price-pill">₦150,000</span>
-                  <button type="button" onclick="toggleRitual('Lumi Eyes Treatment', 150000, this)" class="add-ritual-btn px-2.5 py-1 rounded-full text-[11px] font-medium border border-clay-400/60 text-espresso-800 hover:bg-espresso-900 hover:text-cream-50 transition-colors shrink-0">+ Add</button>
+                  <span class="price-pill">₦144,000</span>
+                  <button type="button" onclick="toggleRitual('Lumi Eyes Treatment', 144000, this)" class="add-ritual-btn px-2.5 py-1 rounded-full text-[11px] font-medium border border-clay-400/60 text-espresso-800 hover:bg-espresso-900 hover:text-cream-50 transition-colors shrink-0">+ Add</button>
+                </div>
+                <div class="menu-row" data-search="plinest eyes under eye skin booster">
+                  <span class="text-sm font-medium text-espresso-800">Plinest Eyes</span>
+                  <span class="leader-line" aria-hidden="true"></span>
+                  <span class="price-pill">₦144,000</span>
+                  <button type="button" onclick="toggleRitual('Plinest Eyes', 144000, this)" class="add-ritual-btn px-2.5 py-1 rounded-full text-[11px] font-medium border border-clay-400/60 text-espresso-800 hover:bg-espresso-900 hover:text-cream-50 transition-colors shrink-0">+ Add</button>
+                </div>
+                <div class="menu-row" data-search="polynucleotide face skin booster">
+                  <span class="text-sm font-medium text-espresso-800">Polynucleotide Face</span>
+                  <span class="leader-line" aria-hidden="true"></span>
+                  <span class="price-pill">₦144,000</span>
+                  <button type="button" onclick="toggleRitual('Polynucleotide Face', 144000, this)" class="add-ritual-btn px-2.5 py-1 rounded-full text-[11px] font-medium border border-clay-400/60 text-espresso-800 hover:bg-espresso-900 hover:text-cream-50 transition-colors shrink-0">+ Add</button>
                 </div>
               </div>
             </div>
             <p class="mt-6 pt-3 border-t border-clay-400/20 text-[11px] text-clay-700 italic">Intense sub-dermal hydration for luminous skin elasticity.</p>
           </article>
 
-          <!-- 06. FACIALS -->
-          <article class="reveal-up delay-200 editorial-card p-6 sm:p-8 flex flex-col justify-between" data-category="skin">
+          <!-- 06. PRP -->
+          <article class="reveal-up delay-200 editorial-card p-6 sm:p-8 flex flex-col justify-between" data-category="injectables">
             <div>
               <div class="flex items-baseline justify-between gap-3 mb-5 pb-4 border-b border-clay-400/30">
                 <div>
-                  <span class="block text-[10px] uppercase tracking-[0.26em] text-rose-700 font-semibold mb-1">06 • Dermal Therapy</span>
+                  <span class="block text-[10px] uppercase tracking-[0.26em] text-rose-700 font-semibold mb-1">06 • Regenerative</span>
+                  <h2 class="font-serif text-2xl sm:text-[1.7rem] text-espresso-900 leading-tight">PRP (Platelet-Rich Plasma)</h2>
+                </div>
+                <span class="font-serif italic text-sm text-clay-600">Growth Factors</span>
+              </div>
+              <div>
+                <div class="menu-row" data-search="hair loss scalp prp">
+                  <span class="text-sm font-medium text-espresso-800">Hair Loss (Scalp PRP)</span>
+                  <span class="leader-line" aria-hidden="true"></span>
+                  <span class="price-pill">₦144,000</span>
+                  <button type="button" onclick="toggleRitual('Hair Loss (Scalp PRP)', 144000, this)" class="add-ritual-btn px-2.5 py-1 rounded-full text-[11px] font-medium border border-clay-400/60 text-espresso-800 hover:bg-espresso-900 hover:text-cream-50 transition-colors shrink-0">+ Add</button>
+                </div>
+                <div class="menu-row" data-search="prp facial vampire facial">
+                  <span class="text-sm font-medium text-espresso-800">PRP Facial</span>
+                  <span class="leader-line" aria-hidden="true"></span>
+                  <span class="price-pill">₦144,000</span>
+                  <button type="button" onclick="toggleRitual('PRP Facial', 144000, this)" class="add-ritual-btn px-2.5 py-1 rounded-full text-[11px] font-medium border border-clay-400/60 text-espresso-800 hover:bg-espresso-900 hover:text-cream-50 transition-colors shrink-0">+ Add</button>
+                </div>
+              </div>
+            </div>
+            <p class="mt-6 pt-3 border-t border-clay-400/20 text-[11px] text-clay-700 italic">Autologous growth-factor therapy for skin and hair rejuvenation.</p>
+          </article>
+
+          <!-- 07. FACIALS -->
+          <article class="reveal-up editorial-card p-6 sm:p-8 flex flex-col justify-between" data-category="skin">
+            <div>
+              <div class="flex items-baseline justify-between gap-3 mb-5 pb-4 border-b border-clay-400/30">
+                <div>
+                  <span class="block text-[10px] uppercase tracking-[0.26em] text-rose-700 font-semibold mb-1">07 • Dermal Therapy</span>
                   <h2 class="font-serif text-2xl sm:text-[1.7rem] text-espresso-900 leading-tight">Facials</h2>
                 </div>
                 <span class="font-serif italic text-sm text-clay-600">Clinical</span>
@@ -627,26 +670,26 @@
                 <div class="menu-row" data-search="microneedling facial collagen induction">
                   <span class="text-sm font-medium text-espresso-800">Microneedling Facial</span>
                   <span class="leader-line" aria-hidden="true"></span>
-                  <span class="price-pill">₦100,000</span>
-                  <button type="button" onclick="toggleRitual('Microneedling Facial', 100000, this)" class="add-ritual-btn px-2.5 py-1 rounded-full text-[11px] font-medium border border-clay-400/60 text-espresso-800 hover:bg-espresso-900 hover:text-cream-50 transition-colors shrink-0">+ Add</button>
+                  <span class="price-pill">₦80,000</span>
+                  <button type="button" onclick="toggleRitual('Microneedling Facial', 80000, this)" class="add-ritual-btn px-2.5 py-1 rounded-full text-[11px] font-medium border border-clay-400/60 text-espresso-800 hover:bg-espresso-900 hover:text-cream-50 transition-colors shrink-0">+ Add</button>
                 </div>
                 <div class="menu-row" data-search="hydra facial hydrafacial deep cleanse">
                   <span class="text-sm font-medium text-espresso-800">Hydra Facial</span>
                   <span class="leader-line" aria-hidden="true"></span>
-                  <span class="price-pill">₦80,000</span>
-                  <button type="button" onclick="toggleRitual('Hydra Facial', 80000, this)" class="add-ritual-btn px-2.5 py-1 rounded-full text-[11px] font-medium border border-clay-400/60 text-espresso-800 hover:bg-espresso-900 hover:text-cream-50 transition-colors shrink-0">+ Add</button>
+                  <span class="price-pill">₦64,000</span>
+                  <button type="button" onclick="toggleRitual('Hydra Facial', 64000, this)" class="add-ritual-btn px-2.5 py-1 rounded-full text-[11px] font-medium border border-clay-400/60 text-espresso-800 hover:bg-espresso-900 hover:text-cream-50 transition-colors shrink-0">+ Add</button>
                 </div>
               </div>
             </div>
             <p class="mt-6 pt-3 border-t border-clay-400/20 text-[11px] text-clay-700 italic">Tailored to barrier repair, texture refinement &amp; clarity.</p>
           </article>
 
-          <!-- 07. CHEMICAL PEELS -->
-          <article class="reveal-up editorial-card p-6 sm:p-8 flex flex-col justify-between" data-category="lifting">
+          <!-- 08. CHEMICAL PEELS -->
+          <article class="reveal-up delay-100 editorial-card p-6 sm:p-8 flex flex-col justify-between" data-category="skin">
             <div>
               <div class="flex items-baseline justify-between gap-3 mb-5 pb-4 border-b border-clay-400/30">
                 <div>
-                  <span class="block text-[10px] uppercase tracking-[0.26em] text-rose-700 font-semibold mb-1">07 • Resurfacing</span>
+                  <span class="block text-[10px] uppercase tracking-[0.26em] text-rose-700 font-semibold mb-1">08 • Resurfacing</span>
                   <h2 class="font-serif text-2xl sm:text-[1.7rem] text-espresso-900 leading-tight">Chemical Peels</h2>
                 </div>
                 <span class="font-serif italic text-sm text-clay-600">Renewal</span>
@@ -655,14 +698,14 @@
                 <div class="menu-row" data-search="algae peel chemical peels">
                   <span class="text-sm font-medium text-espresso-800">Algae Peel</span>
                   <span class="leader-line" aria-hidden="true"></span>
-                  <span class="price-pill">₦50,000</span>
-                  <button type="button" onclick="toggleRitual('Algae Peel', 50000, this)" class="add-ritual-btn px-2.5 py-1 rounded-full text-[11px] font-medium border border-clay-400/60 text-espresso-800 hover:bg-espresso-900 hover:text-cream-50 transition-colors shrink-0">+ Add</button>
+                  <span class="price-pill">₦120,000</span>
+                  <button type="button" onclick="toggleRitual('Algae Peel', 120000, this)" class="add-ritual-btn px-2.5 py-1 rounded-full text-[11px] font-medium border border-clay-400/60 text-espresso-800 hover:bg-espresso-900 hover:text-cream-50 transition-colors shrink-0">+ Add</button>
                 </div>
                 <div class="menu-row" data-search="bio peel chemical peels">
                   <span class="text-sm font-medium text-espresso-800">Bio Peel</span>
                   <span class="leader-line" aria-hidden="true"></span>
-                  <span class="price-pill">₦50,000</span>
-                  <button type="button" onclick="toggleRitual('Bio Peel', 50000, this)" class="add-ritual-btn px-2.5 py-1 rounded-full text-[11px] font-medium border border-clay-400/60 text-espresso-800 hover:bg-espresso-900 hover:text-cream-50 transition-colors shrink-0">+ Add</button>
+                  <span class="price-pill">₦120,000</span>
+                  <button type="button" onclick="toggleRitual('Bio Peel', 120000, this)" class="add-ritual-btn px-2.5 py-1 rounded-full text-[11px] font-medium border border-clay-400/60 text-espresso-800 hover:bg-espresso-900 hover:text-cream-50 transition-colors shrink-0">+ Add</button>
                 </div>
                 <div class="menu-row" data-search="body peel hyperpigmentation chemical peels">
                   <span class="text-sm font-medium text-espresso-800">Body Peel</span>
@@ -674,67 +717,94 @@
             </div>
           </article>
 
-          <!-- 08. PDO THREAD LIFT -->
-          <article class="reveal-up delay-100 editorial-card p-6 sm:p-8 flex flex-col justify-between" data-category="lifting">
+          <!-- 09. SEMI-PERMANENT MAKEUP -->
+          <article class="reveal-up delay-200 editorial-card p-6 sm:p-8 flex flex-col justify-between" data-category="skin">
             <div>
               <div class="flex items-baseline justify-between gap-3 mb-5 pb-4 border-b border-clay-400/30">
                 <div>
-                  <span class="block text-[10px] uppercase tracking-[0.26em] text-rose-700 font-semibold mb-1">08 • Non-Surgical Lift</span>
-                  <h2 class="font-serif text-2xl sm:text-[1.7rem] text-espresso-900 leading-tight">PDO Thread Lift</h2>
+                  <span class="block text-[10px] uppercase tracking-[0.26em] text-rose-700 font-semibold mb-1">09 • Effortless Definition</span>
+                  <h2 class="font-serif text-2xl sm:text-[1.7rem] text-espresso-900 leading-tight">Semi-Permanent Makeup</h2>
                 </div>
-                <span class="font-serif italic text-sm text-clay-600">Elevation</span>
+                <span class="font-serif italic text-sm text-clay-600">Micro-Pigmentation</span>
               </div>
               <div>
-                <div class="menu-row" data-search="jawline cheeks nasolabial pdo thread lift">
-                  <span class="text-sm font-medium text-espresso-800">Jawline / Cheeks / Nasolabial</span>
+                <div class="menu-row" data-search="fine line tattoo spmu">
+                  <span class="text-sm font-medium text-espresso-800">Fine Line Tattoo</span>
                   <span class="leader-line" aria-hidden="true"></span>
-                  <span class="price-pill">₦300,000</span>
-                  <button type="button" onclick="toggleRitual('PDO Threads (Jawline/Cheeks)', 300000, this)" class="add-ritual-btn px-2.5 py-1 rounded-full text-[11px] font-medium border border-clay-400/60 text-espresso-800 hover:bg-espresso-900 hover:text-cream-50 transition-colors shrink-0">+ Add</button>
+                  <span class="price-pill">From ₦96,000</span>
+                  <button type="button" onclick="toggleRitual('Fine Line Tattoo (Starting)', 96000, this)" class="add-ritual-btn px-2.5 py-1 rounded-full text-[11px] font-medium border border-clay-400/60 text-espresso-800 hover:bg-espresso-900 hover:text-cream-50 transition-colors shrink-0">+ Add</button>
                 </div>
-                <div class="menu-row" data-search="mono threads pdo thread lift">
-                  <span class="text-sm font-medium text-espresso-800">Mono Threads</span>
+                <div class="menu-row" data-search="semi permanent eyebrows microblading spmu">
+                  <span class="text-sm font-medium text-espresso-800">Semi-Permanent Eyebrows</span>
                   <span class="leader-line" aria-hidden="true"></span>
-                  <span class="price-pill">₦300,000</span>
-                  <button type="button" onclick="toggleRitual('Mono Threads', 300000, this)" class="add-ritual-btn px-2.5 py-1 rounded-full text-[11px] font-medium border border-clay-400/60 text-espresso-800 hover:bg-espresso-900 hover:text-cream-50 transition-colors shrink-0">+ Add</button>
+                  <span class="price-pill">₦144,000</span>
+                  <button type="button" onclick="toggleRitual('Semi-Permanent Eyebrows', 144000, this)" class="add-ritual-btn px-2.5 py-1 rounded-full text-[11px] font-medium border border-clay-400/60 text-espresso-800 hover:bg-espresso-900 hover:text-cream-50 transition-colors shrink-0">+ Add</button>
                 </div>
-                <div class="menu-row" data-search="face thread lift mid face pdo">
-                  <span class="text-sm font-medium text-espresso-800">Face Thread Lift (Mid Face)</span>
+                <div class="menu-row" data-search="lip blush spmu">
+                  <span class="text-sm font-medium text-espresso-800">Lip Blush</span>
                   <span class="leader-line" aria-hidden="true"></span>
-                  <span class="price-pill">₦350,000</span>
-                  <button type="button" onclick="toggleRitual('Mid-Face Thread Lift', 350000, this)" class="add-ritual-btn px-2.5 py-1 rounded-full text-[11px] font-medium border border-clay-400/60 text-espresso-800 hover:bg-espresso-900 hover:text-cream-50 transition-colors shrink-0">+ Add</button>
+                  <span class="price-pill">₦144,000</span>
+                  <button type="button" onclick="toggleRitual('Lip Blush', 144000, this)" class="add-ritual-btn px-2.5 py-1 rounded-full text-[11px] font-medium border border-clay-400/60 text-espresso-800 hover:bg-espresso-900 hover:text-cream-50 transition-colors shrink-0">+ Add</button>
                 </div>
               </div>
             </div>
           </article>
 
-          <!-- 09. RETRATUDE PEN -->
-          <article class="reveal-up delay-200 editorial-card p-6 sm:p-8 flex flex-col justify-between" data-category="lifting">
+          <!-- 10. PDO THREAD LIFT -->
+          <article class="reveal-up editorial-card p-6 sm:p-8 flex flex-col justify-between" data-category="lifting">
             <div>
               <div class="flex items-baseline justify-between gap-3 mb-5 pb-4 border-b border-clay-400/30">
                 <div>
-                  <span class="block text-[10px] uppercase tracking-[0.26em] text-rose-700 font-semibold mb-1">09 • Precision Device</span>
-                  <h2 class="font-serif text-2xl sm:text-[1.7rem] text-espresso-900 leading-tight">Retratude Pen</h2>
+                  <span class="block text-[10px] uppercase tracking-[0.26em] text-rose-700 font-semibold mb-1">10 • Non-Surgical Lift</span>
+                  <h2 class="font-serif text-2xl sm:text-[1.7rem] text-espresso-900 leading-tight">PDO Thread Lift</h2>
+                </div>
+                <span class="font-serif italic text-sm text-clay-600">Elevation</span>
+              </div>
+              <div>
+                <div class="menu-row" data-search="jowls cheeks jawline neck pdo thread lift">
+                  <span class="text-sm font-medium text-espresso-800">Jowls / Cheeks / Jawline / Neck</span>
+                  <span class="leader-line" aria-hidden="true"></span>
+                  <span class="price-pill">₦160,000</span>
+                  <button type="button" onclick="toggleRitual('PDO Threads (Jawline/Cheeks/Neck)', 160000, this)" class="add-ritual-btn px-2.5 py-1 rounded-full text-[11px] font-medium border border-clay-400/60 text-espresso-800 hover:bg-espresso-900 hover:text-cream-50 transition-colors shrink-0">+ Add</button>
+                </div>
+                <div class="menu-row" data-search="mono facial threads pdo thread lift">
+                  <span class="text-sm font-medium text-espresso-800">Mono Facial Threads</span>
+                  <span class="leader-line" aria-hidden="true"></span>
+                  <span class="price-pill">₦160,000</span>
+                  <button type="button" onclick="toggleRitual('Mono Facial Threads', 160000, this)" class="add-ritual-btn px-2.5 py-1 rounded-full text-[11px] font-medium border border-clay-400/60 text-espresso-800 hover:bg-espresso-900 hover:text-cream-50 transition-colors shrink-0">+ Add</button>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- 11. RETRATRUDE PEN -->
+          <article class="reveal-up delay-100 editorial-card p-6 sm:p-8 flex flex-col justify-between" data-category="lifting">
+            <div>
+              <div class="flex items-baseline justify-between gap-3 mb-5 pb-4 border-b border-clay-400/30">
+                <div>
+                  <span class="block text-[10px] uppercase tracking-[0.26em] text-rose-700 font-semibold mb-1">11 • Precision Device</span>
+                  <h2 class="font-serif text-2xl sm:text-[1.7rem] text-espresso-900 leading-tight">Retratruide Pen</h2>
                 </div>
                 <span class="font-serif italic text-sm text-clay-600">Tightening</span>
               </div>
               <div>
-                <div class="menu-row" data-search="retratude pen rating skin tightening">
-                  <span class="text-sm font-medium text-espresso-800">Retratude Pen Rating</span>
+                <div class="menu-row" data-search="retratruide pen 40mg rating skin tightening">
+                  <span class="text-sm font-medium text-espresso-800">Retratruide Pen 40mg</span>
                   <span class="leader-line" aria-hidden="true"></span>
-                  <span class="price-pill">₦250,000</span>
-                  <button type="button" onclick="toggleRitual('Retratude Pen Rating', 250000, this)" class="add-ritual-btn px-2.5 py-1 rounded-full text-[11px] font-medium border border-clay-400/60 text-espresso-800 hover:bg-espresso-900 hover:text-cream-50 transition-colors shrink-0">+ Add</button>
+                  <span class="price-pill">₦160,000</span>
+                  <button type="button" onclick="toggleRitual('Retratruide Pen 40mg', 160000, this)" class="add-ritual-btn px-2.5 py-1 rounded-full text-[11px] font-medium border border-clay-400/60 text-espresso-800 hover:bg-espresso-900 hover:text-cream-50 transition-colors shrink-0">+ Add</button>
                 </div>
               </div>
             </div>
             <p class="mt-6 pt-3 border-t border-clay-400/20 text-[11px] text-clay-700 italic">Targeted micro-rejuvenation for fine lines &amp; skin laxity.</p>
           </article>
 
-          <!-- 10. LIQUID BBL -->
-          <article class="reveal-up editorial-card p-6 sm:p-8 flex flex-col justify-between" data-category="body">
+          <!-- 12. LIQUID BBL -->
+          <article class="reveal-up delay-200 editorial-card p-6 sm:p-8 flex flex-col justify-between" data-category="body">
             <div>
               <div class="flex items-baseline justify-between gap-3 mb-5 pb-4 border-b border-clay-400/30">
                 <div>
-                  <span class="block text-[10px] uppercase tracking-[0.26em] text-rose-700 font-semibold mb-1">10 • Body Sculpting</span>
+                  <span class="block text-[10px] uppercase tracking-[0.26em] text-rose-700 font-semibold mb-1">12 • Body Sculpting</span>
                   <h2 class="font-serif text-2xl sm:text-[1.7rem] text-espresso-900 leading-tight">Liquid BBL</h2>
                 </div>
                 <span class="font-serif italic text-sm text-clay-600">Volume</span>
@@ -743,37 +813,37 @@
                 <div class="menu-row" data-search="200mls liquid bbl body">
                   <span class="text-sm font-medium text-espresso-800">200mls</span>
                   <span class="leader-line" aria-hidden="true"></span>
-                  <span class="price-pill">₦650,000</span>
-                  <button type="button" onclick="toggleRitual('Liquid BBL (200mls)', 650000, this)" class="add-ritual-btn px-2.5 py-1 rounded-full text-[11px] font-medium border border-clay-400/60 text-espresso-800 hover:bg-espresso-900 hover:text-cream-50 transition-colors shrink-0">+ Add</button>
+                  <span class="price-pill">₦700,000</span>
+                  <button type="button" onclick="toggleRitual('Liquid BBL (200mls)', 700000, this)" class="add-ritual-btn px-2.5 py-1 rounded-full text-[11px] font-medium border border-clay-400/60 text-espresso-800 hover:bg-espresso-900 hover:text-cream-50 transition-colors shrink-0">+ Add</button>
                 </div>
                 <div class="menu-row" data-search="300mls liquid bbl body">
                   <span class="text-sm font-medium text-espresso-800">300mls</span>
                   <span class="leader-line" aria-hidden="true"></span>
-                  <span class="price-pill">₦700,000</span>
-                  <button type="button" onclick="toggleRitual('Liquid BBL (300mls)', 700000, this)" class="add-ritual-btn px-2.5 py-1 rounded-full text-[11px] font-medium border border-clay-400/60 text-espresso-800 hover:bg-espresso-900 hover:text-cream-50 transition-colors shrink-0">+ Add</button>
+                  <span class="price-pill">₦900,000</span>
+                  <button type="button" onclick="toggleRitual('Liquid BBL (300mls)', 900000, this)" class="add-ritual-btn px-2.5 py-1 rounded-full text-[11px] font-medium border border-clay-400/60 text-espresso-800 hover:bg-espresso-900 hover:text-cream-50 transition-colors shrink-0">+ Add</button>
                 </div>
                 <div class="menu-row" data-search="400mls liquid bbl body">
                   <span class="text-sm font-medium text-espresso-800">400mls</span>
                   <span class="leader-line" aria-hidden="true"></span>
-                  <span class="price-pill">₦750,000</span>
-                  <button type="button" onclick="toggleRitual('Liquid BBL (400mls)', 750000, this)" class="add-ritual-btn px-2.5 py-1 rounded-full text-[11px] font-medium border border-clay-400/60 text-espresso-800 hover:bg-espresso-900 hover:text-cream-50 transition-colors shrink-0">+ Add</button>
+                  <span class="price-pill">₦1,100,000</span>
+                  <button type="button" onclick="toggleRitual('Liquid BBL (400mls)', 1100000, this)" class="add-ritual-btn px-2.5 py-1 rounded-full text-[11px] font-medium border border-clay-400/60 text-espresso-800 hover:bg-espresso-900 hover:text-cream-50 transition-colors shrink-0">+ Add</button>
                 </div>
                 <div class="menu-row" data-search="500mls liquid bbl body">
                   <span class="text-sm font-medium text-espresso-800">500mls</span>
                   <span class="leader-line" aria-hidden="true"></span>
-                  <span class="price-pill">₦800,000</span>
-                  <button type="button" onclick="toggleRitual('Liquid BBL (500mls)', 800000, this)" class="add-ritual-btn px-2.5 py-1 rounded-full text-[11px] font-medium border border-clay-400/60 text-espresso-800 hover:bg-espresso-900 hover:text-cream-50 transition-colors shrink-0">+ Add</button>
+                  <span class="price-pill">₦1,300,000</span>
+                  <button type="button" onclick="toggleRitual('Liquid BBL (500mls)', 1300000, this)" class="add-ritual-btn px-2.5 py-1 rounded-full text-[11px] font-medium border border-clay-400/60 text-espresso-800 hover:bg-espresso-900 hover:text-cream-50 transition-colors shrink-0">+ Add</button>
                 </div>
               </div>
             </div>
           </article>
 
-          <!-- 11. FAT DISSOLVING -->
-          <article class="reveal-up delay-100 editorial-card p-6 sm:p-8 flex flex-col justify-between" data-category="body">
+          <!-- 13. FAT DISSOLVING -->
+          <article class="reveal-up editorial-card p-6 sm:p-8 flex flex-col justify-between" data-category="body">
             <div>
               <div class="flex items-baseline justify-between gap-3 mb-5 pb-4 border-b border-clay-400/30">
                 <div>
-                  <span class="block text-[10px] uppercase tracking-[0.26em] text-rose-700 font-semibold mb-1">11 • Lipolysis</span>
+                  <span class="block text-[10px] uppercase tracking-[0.26em] text-rose-700 font-semibold mb-1">13 • Lipolysis</span>
                   <h2 class="font-serif text-2xl sm:text-[1.7rem] text-espresso-900 leading-tight">Fat Dissolving</h2>
                 </div>
                 <span class="font-serif italic text-sm text-clay-600">Refinement</span>
@@ -782,42 +852,42 @@
                 <div class="menu-row" data-search="lemon bottle fat dissolving">
                   <span class="text-sm font-medium text-espresso-800">Lemon Bottle</span>
                   <span class="leader-line" aria-hidden="true"></span>
-                  <span class="price-pill">From ₦250,000</span>
-                  <button type="button" onclick="toggleRitual('Lemon Bottle (Starting)', 250000, this)" class="add-ritual-btn px-2.5 py-1 rounded-full text-[11px] font-medium border border-clay-400/60 text-espresso-800 hover:bg-espresso-900 hover:text-cream-50 transition-colors shrink-0">+ Add</button>
+                  <span class="price-pill">From ₦96,000</span>
+                  <button type="button" onclick="toggleRitual('Lemon Bottle (Starting)', 96000, this)" class="add-ritual-btn px-2.5 py-1 rounded-full text-[11px] font-medium border border-clay-400/60 text-espresso-800 hover:bg-espresso-900 hover:text-cream-50 transition-colors shrink-0">+ Add</button>
                 </div>
                 <div class="menu-row" data-search="aqualyx lipolab fat dissolving">
                   <span class="text-sm font-medium text-espresso-800">Aqualyx / Lipolab</span>
                   <span class="leader-line" aria-hidden="true"></span>
-                  <span class="price-pill">From ₦250,000</span>
-                  <button type="button" onclick="toggleRitual('Aqualyx / Lipolab (Starting)', 250000, this)" class="add-ritual-btn px-2.5 py-1 rounded-full text-[11px] font-medium border border-clay-400/60 text-espresso-800 hover:bg-espresso-900 hover:text-cream-50 transition-colors shrink-0">+ Add</button>
+                  <span class="price-pill">From ₦120,000</span>
+                  <button type="button" onclick="toggleRitual('Aqualyx / Lipolab (Starting)', 120000, this)" class="add-ritual-btn px-2.5 py-1 rounded-full text-[11px] font-medium border border-clay-400/60 text-espresso-800 hover:bg-espresso-900 hover:text-cream-50 transition-colors shrink-0">+ Add</button>
                 </div>
               </div>
             </div>
             <p class="mt-6 pt-3 border-t border-clay-400/20 text-[11px] text-clay-700 italic">Targets stubborn submental (double chin) &amp; localized pockets.</p>
           </article>
 
-          <!-- 12. IV DRIPS -->
-          <article class="reveal-up delay-200 editorial-card p-6 sm:p-8 flex flex-col justify-between" data-category="body">
+          <!-- 14. IV DRIPS -->
+          <article class="reveal-up delay-100 editorial-card p-6 sm:p-8 flex flex-col justify-between" data-category="body">
             <div>
               <div class="flex items-baseline justify-between gap-3 mb-5 pb-4 border-b border-clay-400/30">
                 <div>
-                  <span class="block text-[10px] uppercase tracking-[0.26em] text-rose-700 font-semibold mb-1">12 • Cellular Wellness</span>
+                  <span class="block text-[10px] uppercase tracking-[0.26em] text-rose-700 font-semibold mb-1">14 • Cellular Wellness</span>
                   <h2 class="font-serif text-2xl sm:text-[1.7rem] text-espresso-900 leading-tight">IV Drips</h2>
                 </div>
                 <span class="font-serif italic text-sm text-clay-600">Infusion</span>
               </div>
               <div>
-                <div class="menu-row" data-search="iv energizing drip wellness">
-                  <span class="text-sm font-medium text-espresso-800">IV Energizing Drip</span>
+                <div class="menu-row" data-search="iv brightening drips glutathione">
+                  <span class="text-sm font-medium text-espresso-800">IV Brightening Drips</span>
                   <span class="leader-line" aria-hidden="true"></span>
-                  <span class="price-pill">₦85,000</span>
-                  <button type="button" onclick="toggleRitual('IV Energizing Drip', 85000, this)" class="add-ritual-btn px-2.5 py-1 rounded-full text-[11px] font-medium border border-clay-400/60 text-espresso-800 hover:bg-espresso-900 hover:text-cream-50 transition-colors shrink-0">+ Add</button>
+                  <span class="price-pill">₦180,000</span>
+                  <button type="button" onclick="toggleRitual('IV Brightening Drips', 180000, this)" class="add-ritual-btn px-2.5 py-1 rounded-full text-[11px] font-medium border border-clay-400/60 text-espresso-800 hover:bg-espresso-900 hover:text-cream-50 transition-colors shrink-0">+ Add</button>
                 </div>
                 <div class="menu-row" data-search="iv brightening booster glutathione">
                   <span class="text-sm font-medium text-espresso-800">IV Brightening Booster</span>
                   <span class="leader-line" aria-hidden="true"></span>
-                  <span class="price-pill">₦225,000</span>
-                  <button type="button" onclick="toggleRitual('IV Brightening Booster', 225000, this)" class="add-ritual-btn px-2.5 py-1 rounded-full text-[11px] font-medium border border-clay-400/60 text-espresso-800 hover:bg-espresso-900 hover:text-cream-50 transition-colors shrink-0">+ Add</button>
+                  <span class="price-pill">₦180,000</span>
+                  <button type="button" onclick="toggleRitual('IV Brightening Booster', 180000, this)" class="add-ritual-btn px-2.5 py-1 rounded-full text-[11px] font-medium border border-clay-400/60 text-espresso-800 hover:bg-espresso-900 hover:text-cream-50 transition-colors shrink-0">+ Add</button>
                 </div>
               </div>
             </div>
@@ -1051,8 +1121,9 @@
       });
 
       emptyState.classList.toggle('hidden', visibleCards > 0);
-      resultsCount.textContent = visibleCards === 12 && !query
-        ? 'Showing all 12 categories'
+      // Updated logic to check against 14 categories instead of 12
+      resultsCount.textContent = visibleCards === 14 && !query
+        ? 'Showing all 14 categories'
         : `Showing ${visibleCards} ${visibleCards === 1 ? 'category' : 'categories'}`;
     }
 
